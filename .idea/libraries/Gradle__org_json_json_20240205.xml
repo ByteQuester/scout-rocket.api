@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: org.json:json:20240205" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.json" artifactId="json" version="20240205" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.json/json/20240205/c8498148ba08ba5bb25339dfb70c44fb09ed4670/json-20240205.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
