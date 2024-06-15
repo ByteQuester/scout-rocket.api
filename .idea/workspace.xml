@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f12c241e-6f22-4c93-8a96-a0af136880d9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/service/dataAccess/IndexDataAccess.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/service/dataAccess/IndexDataAccess.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/service/services/TickerVolume.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/service/services/TickerVolume.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/service/alphavantage/AlphaVantageModels.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/service/alphavantage/AlphaVantageModels.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/service/alphavantage/AlphaVantageService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/service/alphavantage/AlphaVantageService.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +106,7 @@
       <updated>1718366638725</updated>
       <workItem from="1718366639917" duration="3828000" />
       <workItem from="1718373391648" duration="15000" />
-      <workItem from="1718441064942" duration="6812000" />
+      <workItem from="1718441064942" duration="8414000" />
     </task>
     <servers />
   </component>

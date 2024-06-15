@@ -50,8 +50,19 @@ class AlphaVantageService() {
 
     fun fetchDividends(ticker: String): List<Dividend> {
         val json = fetchJsonFromApi("DIVIDENDS", ticker) ?: return emptyList()
-        val annualReportsJson = json["annualReports"].asJsonArray
+        val annualReportsJson = json.getAsJsonArray("data")
         return annualReportsJson.map { gson.fromJson(it, Dividend::class.java) }
+    }
+
+    private fun convertStringToLong(str: String): Long? {
+        return if (str == "None") {
+            null
+        } else try {
+            str.toLong()
+        } catch (e: NumberFormatException) {
+            logger.warn("Failed to parse value as long: $str")
+            null
+        }
     }
 
     private fun convertStringToDouble(str: String): Double? {
@@ -64,4 +75,5 @@ class AlphaVantageService() {
             null
         }
     }
+
 }
