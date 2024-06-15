@@ -1,5 +1,7 @@
 package service.alphavantage
 
+import com.google.gson.JsonObject
+
 
 data class CompanyOverview(
     val Symbol: String,
@@ -16,7 +18,7 @@ data class CompanyOverview(
     val FiscalYearEnd: String,
     val LatestQuarter: String,
     val MarketCapitalization: Long?,
-    val EBITDA: Double?, //nullable to be able to make use of convertStringToDouble
+    val EBITDA: Double?,
     val PERatio: Double?,
     val PEGRatio: Double?,
     val BookValue: Double?,
@@ -41,14 +43,72 @@ data class CompanyOverview(
     val EVToRevenue: Double?,
     val EVToEBITDA: Double?,
     val Beta: Double?,
-    val _52WeekHigh: Double?, // Underscore prefix for 52WeekHigh
-    val _52WeekLow: Double?,  // Underscore prefix for 52WeekLow
-    val _50DayMovingAverage: Double?, // Underscore prefix for 50DayMovingAverage
-    val _200DayMovingAverage: Double?, // Underscore prefix for 200DayMovingAverage
+    val _52WeekHigh: Double?,
+    val _52WeekLow: Double?,
+    val _50DayMovingAverage: Double?,
+    val _200DayMovingAverage: Double?,
     val SharesOutstanding: Long?,
     val DividendDate: String,
     val ExDividendDate: String
-)
+) {
+    companion object {
+        fun fromJsonObject(json: JsonObject, service: AlphaVantageService): CompanyOverview? {
+            return try {
+                CompanyOverview(
+                    Symbol = json["Symbol"].asString,
+                    AssetType = json["AssetType"].asString,
+                    Name = json["Name"].asString,
+                    Description = json["Description"].asString,
+                    CIK = json["CIK"].asString,
+                    Exchange = json["Exchange"].asString,
+                    Currency = json["Currency"].asString,
+                    Country = json["Country"].asString,
+                    Sector = json["Sector"].asString,
+                    Industry = json["Industry"].asString,
+                    Address = json["Address"].asString,
+                    FiscalYearEnd = json["FiscalYearEnd"].asString,
+                    LatestQuarter = json["LatestQuarter"].asString,
+                    MarketCapitalization = service.safeGetAsLong(json["MarketCapitalization"]),
+                    EBITDA = service.safeGetAsDouble(json["EBITDA"]),
+                    PERatio = service.safeGetAsDouble(json["PERatio"]),
+                    PEGRatio = service.safeGetAsDouble(json["PEGRatio"]),
+                    BookValue = service.safeGetAsDouble(json["BookValue"]),
+                    DividendPerShare = service.safeGetAsDouble(json["DividendPerShare"]),
+                    DividendYield = service.safeGetAsDouble(json["DividendYield"]),
+                    EPS = service.safeGetAsDouble(json["EPS"]),
+                    RevenuePerShareTTM = service.safeGetAsDouble(json["RevenuePerShareTTM"]),
+                    ProfitMargin = service.safeGetAsDouble(json["ProfitMargin"]),
+                    OperatingMarginTTM = service.safeGetAsDouble(json["OperatingMarginTTM"]),
+                    ReturnOnAssetsTTM = service.safeGetAsDouble(json["ReturnOnAssetsTTM"]),
+                    ReturnOnEquityTTM = service.safeGetAsDouble(json["ReturnOnEquityTTM"]),
+                    RevenueTTM = service.safeGetAsLong(json["RevenueTTM"]),
+                    GrossProfitTTM = service.safeGetAsLong(json["GrossProfitTTM"]),
+                    DilutedEPSTTM = service.safeGetAsDouble(json["DilutedEPSTTM"]),
+                    QuarterlyEarningsGrowthYOY = service.safeGetAsDouble(json["QuarterlyEarningsGrowthYOY"]),
+                    QuarterlyRevenueGrowthYOY = service.safeGetAsDouble(json["QuarterlyRevenueGrowthYOY"]),
+                    AnalystTargetPrice = service.safeGetAsDouble(json["AnalystTargetPrice"]),
+                    TrailingPE = service.safeGetAsDouble(json["TrailingPE"]),
+                    ForwardPE = service.safeGetAsDouble(json["ForwardPE"]),
+                    PriceToSalesRatioTTM = service.safeGetAsDouble(json["PriceToSalesRatioTTM"]),
+                    PriceToBookRatio = service.safeGetAsDouble(json["PriceToBookRatio"]),
+                    EVToRevenue = service.safeGetAsDouble(json["EVToRevenue"]),
+                    EVToEBITDA = service.safeGetAsDouble(json["EVToEBITDA"]),
+                    Beta = service.safeGetAsDouble(json["Beta"]),
+                    _52WeekHigh = service.safeGetAsDouble(json["_52WeekHigh"]),
+                    _52WeekLow = service.safeGetAsDouble(json["_52WeekLow"]),
+                    _50DayMovingAverage = service.safeGetAsDouble(json["_50DayMovingAverage"]),
+                    _200DayMovingAverage = service.safeGetAsDouble(json["_200DayMovingAverage"]),
+                    SharesOutstanding = service.safeGetAsLong(json["SharesOutstanding"]),
+                    DividendDate = json["DividendDate"].asString,
+                    ExDividendDate = json["ExDividendDate"].asString
+                )
+            } catch (e: Exception) {
+                service.logger.error("Error parsing company overview data: ${e.message}")
+                null
+            }
+        }
+    }
+}
 
 
 data class IncomeStatement(
@@ -77,8 +137,41 @@ data class IncomeStatement(
     val comprehensiveIncomeNetOfTax: Long?,
     val ebit: Long?,
     val ebitda: Long?,
-    val netIncome: Long?,
-)
+    val netIncome: Long?
+) {
+    companion object {
+        fun fromJsonObject(json: JsonObject, service: AlphaVantageService): IncomeStatement {
+            return IncomeStatement(
+                fiscalDateEnding = json["fiscalDateEnding"].asString,
+                reportedCurrency = json["reportedCurrency"].asString,
+                grossProfit = service.safeGetAsLong(json["grossProfit"]),
+                totalRevenue = service.safeGetAsLong(json["totalRevenue"]),
+                costOfRevenue = service.safeGetAsLong(json["costOfRevenue"]),
+                costofGoodsAndServicesSold = service.safeGetAsLong(json["costofGoodsAndServicesSold"]),
+                operatingIncome = service.safeGetAsLong(json["operatingIncome"]),
+                sellingGeneralAndAdministrative = service.safeGetAsLong(json["sellingGeneralAndAdministrative"]),
+                researchAndDevelopment = service.safeGetAsLong(json["researchAndDevelopment"]),
+                operatingExpenses = service.safeGetAsLong(json["operatingExpenses"]),
+                investmentIncomeNet = json["investmentIncomeNet"].asString,
+                netInterestIncome = service.safeGetAsLong(json["netInterestIncome"]),
+                interestIncome = service.safeGetAsLong(json["interestIncome"]),
+                interestExpense = service.safeGetAsLong(json["interestExpense"]),
+                nonInterestIncome = service.safeGetAsLong(json["nonInterestIncome"]),
+                otherNonOperatingIncome = service.safeGetAsLong(json["otherNonOperatingIncome"]),
+                depreciation = service.safeGetAsLong(json["depreciation"]),
+                depreciationAndAmortization = service.safeGetAsLong(json["depreciationAndAmortization"]),
+                incomeBeforeTax = service.safeGetAsLong(json["incomeBeforeTax"]),
+                incomeTaxExpense = service.safeGetAsLong(json["incomeTaxExpense"]),
+                interestAndDebtExpense = service.safeGetAsLong(json["interestAndDebtExpense"]),
+                netIncomeFromContinuingOperations = service.safeGetAsLong(json["netIncomeFromContinuingOperations"]),
+                comprehensiveIncomeNetOfTax = service.safeGetAsLong(json["comprehensiveIncomeNetOfTax"]),
+                ebit = service.safeGetAsLong(json["ebit"]),
+                ebitda = service.safeGetAsLong(json["ebitda"]),
+                netIncome = service.safeGetAsLong(json["netIncome"])
+            )
+        }
+    }
+}
 
 
 data class BalanceSheet(
@@ -92,7 +185,6 @@ data class BalanceSheet(
     val currentNetReceivables: Long?,
     val totalNonCurrentAssets: Long?,
     val propertyPlantEquipment: Long?,
-    val accumulatedDepreciationAmortizationPPE: String,
     val intangibleAssets: Long?,
     val intangibleAssetsExcludingGoodwill: Long?,
     val goodwill: Long?,
@@ -100,7 +192,6 @@ data class BalanceSheet(
     val longTermInvestments: Long?,
     val shortTermInvestments: Long?,
     val otherCurrentAssets: Long?,
-    val otherNonCurrentAssets: String,
     val totalLiabilities: Long?,
     val totalCurrentLiabilities: Long?,
     val currentAccountsPayable: Long?,
@@ -120,16 +211,73 @@ data class BalanceSheet(
     val retainedEarnings: Long?,
     val commonStock: Long?,
     val commonStockSharesOutstanding: Long?
-)
+) {
+    companion object {
+        fun fromJsonObject(json: JsonObject, service: AlphaVantageService): BalanceSheet {
+            return BalanceSheet(
+                fiscalDateEnding = json["fiscalDateEnding"].asString,
+                reportedCurrency = json["reportedCurrency"].asString,
+                totalAssets = service.safeGetAsLong(json["totalAssets"]),
+                totalCurrentAssets = service.safeGetAsLong(json["totalCurrentAssets"]),
+                cashAndCashEquivalentsAtCarryingValue = service.safeGetAsLong(json["cashAndCashEquivalentsAtCarryingValue"]),
+                cashAndShortTermInvestments = service.safeGetAsLong(json["cashAndShortTermInvestments"]),
+                inventory = service.safeGetAsLong(json["inventory"]),
+                currentNetReceivables = service.safeGetAsLong(json["currentNetReceivables"]),
+                totalNonCurrentAssets = service.safeGetAsLong(json["totalNonCurrentAssets"]),
+                propertyPlantEquipment = service.safeGetAsLong(json["propertyPlantEquipment"]),
+                intangibleAssets = service.safeGetAsLong(json["intangibleAssets"]),
+                intangibleAssetsExcludingGoodwill = service.safeGetAsLong(json["intangibleAssetsExcludingGoodwill"]),
+                goodwill = service.safeGetAsLong(json["goodwill"]),
+                investments = service.safeGetAsLong(json["investments"]),
+                longTermInvestments = service.safeGetAsLong(json["longTermInvestments"]),
+                shortTermInvestments = service.safeGetAsLong(json["shortTermInvestments"]),
+                otherCurrentAssets = service.safeGetAsLong(json["otherCurrentAssets"]),
+                totalLiabilities = service.safeGetAsLong(json["totalLiabilities"]),
+                totalCurrentLiabilities = service.safeGetAsLong(json["totalCurrentLiabilities"]),
+                currentAccountsPayable = service.safeGetAsLong(json["currentAccountsPayable"]),
+                deferredRevenue = service.safeGetAsLong(json["deferredRevenue"]),
+                currentDebt = service.safeGetAsLong(json["currentDebt"]),
+                shortTermDebt = service.safeGetAsLong(json["shortTermDebt"]),
+                totalNonCurrentLiabilities = service.safeGetAsLong(json["totalNonCurrentLiabilities"]),
+                capitalLeaseObligations = service.safeGetAsLong(json["capitalLeaseObligations"]),
+                longTermDebt = service.safeGetAsLong(json["longTermDebt"]),
+                currentLongTermDebt = service.safeGetAsLong(json["currentLongTermDebt"]),
+                longTermDebtNoncurrent = service.safeGetAsLong(json["longTermDebtNoncurrent"]),
+                shortLongTermDebtTotal = service.safeGetAsLong(json["shortLongTermDebtTotal"]),
+                otherCurrentLiabilities = service.safeGetAsLong(json["otherCurrentLiabilities"]),
+                otherNonCurrentLiabilities = service.safeGetAsLong(json["otherNonCurrentLiabilities"]),
+                totalShareholderEquity = service.safeGetAsLong(json["totalShareholderEquity"]),
+                treasuryStock = service.safeGetAsLong(json["treasuryStock"]),
+                retainedEarnings = service.safeGetAsLong(json["retainedEarnings"]),
+                commonStock = service.safeGetAsLong(json["commonStock"]),
+                commonStockSharesOutstanding = service.safeGetAsLong(json["commonStockSharesOutstanding"])
+            )
+        }
+    }
+}
 
 
 data class Dividend(
-    val symbol: String,
     val amount: Double,
-    val paymentDate: String,
-    val declarationDate: String,
-    val recordDate: String,
-    val exDividendDate: String
-)
-
-
+    val payment_date: String,
+    val declaration_date: String,
+    val record_date: String,
+    val ex_dividend_date: String
+) {
+    companion object {
+        fun fromJsonObject(json: JsonObject, service: AlphaVantageService): Dividend? {
+            return try {
+                Dividend(
+                    amount = service.safeGetAsDouble(json["amount"]) ?: 0.0, // Default to 0.0 if amount is null
+                    payment_date = json["payment_date"].asString,
+                    declaration_date = json["declaration_date"].asString,
+                    record_date = json["record_date"].asString,
+                    ex_dividend_date = json["ex_dividend_date"].asString
+                )
+            } catch (e: Exception) {
+                service.logger.error("Error parsing dividend data: ${e.message}")
+                null
+            }
+        }
+    }
+}
