@@ -8,38 +8,45 @@ import service.common.LoggerSetup
 class IndexDataAccess(private var dbConnection: Connection) {
     private val logger = LoggerSetup.logger
 
-    fun storeIndex(data: List<String>, year: Int, filling: String) {
-        val sql = "INSERT INTO `sec_table` (`cik`, `year`, `company`, `report_type`, `url`) VALUES (?, ?, ?, ?, ?)"
+    fun storeIndex(data: List<String>, year: Int, filing: String) {
+        val sqlInsertOrUpdate = """
+        INSERT INTO `sec_table` (`cik`, `year`, `company`, `report_type`, `url`) 
+        VALUES (?, ?, ?, ?, ?)
+        ON DUPLICATE KEY UPDATE
+        `company` = VALUES(`company`), 
+        `report_type` = VALUES(`report_type`), 
+        `url` = VALUES(`url`)
+    """
+
         dbConnection.autoCommit = false
         try {
-            dbConnection.prepareStatement(sql).use { stmt ->
+            dbConnection.prepareStatement(sqlInsertOrUpdate).use { insertStmt ->
                 data.forEach { item ->
-                    if (filling in item) {
+                    if (filing in item) {
                         val values = item.split('|')
-                        //logger.info("values are $values")
-                        //logger.fine("data is $data")
                         try {
-                            stmt.setString(1, values[0])
-                            stmt.setInt(2, year)
-                            stmt.setString(3, values[1])
-                            stmt.setString(4, values[2])
-                            stmt.setString(5, values[4])
-                            stmt.addBatch()
+                            insertStmt.setString(1, values[0])
+                            insertStmt.setInt(2, year)
+                            insertStmt.setString(3, values[1])
+                            insertStmt.setString(4, values[2])
+                            insertStmt.setString(5, values[4])
+                            insertStmt.addBatch()
                         } catch (e: Exception) {
-                            logger.severe("Failed to store index for item: $item {$e}")
+                            logger.severe("Failed to process item: $item, Error: ${e.message}")
                         }
                     }
                 }
-                stmt.executeBatch()
+                insertStmt.executeBatch()
             }
             dbConnection.commit()
         } catch (e: Exception) {
             dbConnection.rollback()
-            logger.severe("Transaction failed and rolled back {$e}")
+            logger.severe("Transaction failed and rolled back: ${e.message}")
         } finally {
             dbConnection.autoCommit = true
         }
     }
+
 
     fun isIndexStored(year: Int): Boolean {
         val sql = "SELECT COUNT(*) FROM sec_table WHERE year = ?"
@@ -77,7 +84,7 @@ class IndexDataAccess(private var dbConnection: Connection) {
         val sql = "SELECT company, url, cik FROM sec_table WHERE year = ?"
         logger.info("Executing SQL: $sql")
 
-         validateConnection().use { conn ->
+         return validateConnection().use { conn ->
             conn.prepareStatement(sql).use { stmt ->
                 stmt.setInt(1, year)
                 stmt.executeQuery().use { rs ->

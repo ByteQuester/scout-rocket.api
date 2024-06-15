@@ -12,7 +12,7 @@ fun fetchTickerPriceVolume(ticker: String) {
     val da = DataAccess()
     val logger = LoggerSetup.logger
     //val logger = LoggerFactory.getLogger("TickerPriceVolumeFetcher") (enable: production only)
-    val apiKey = "YOUR_ALPHA_VANTAGE_API_KEY" // Replace with your actual API key
+    val apiKey = "R8PK4ZKB6HOZDCZ9" // TODO: getenv
     val url = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=$ticker&outputsize=full&apikey=$apiKey"
 
     val maxRetries = 5
