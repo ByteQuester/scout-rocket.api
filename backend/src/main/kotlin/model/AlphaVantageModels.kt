@@ -1,6 +1,7 @@
-package service.alphavantage
+package model
 
 import com.google.gson.JsonObject
+import service.alphavantage.AlphaVantageService
 
 
 data class CompanyOverview(
@@ -94,10 +95,10 @@ data class CompanyOverview(
                     EVToRevenue = service.safeGetAsDouble(json["EVToRevenue"]),
                     EVToEBITDA = service.safeGetAsDouble(json["EVToEBITDA"]),
                     Beta = service.safeGetAsDouble(json["Beta"]),
-                    _52WeekHigh = service.safeGetAsDouble(json["_52WeekHigh"]),
-                    _52WeekLow = service.safeGetAsDouble(json["_52WeekLow"]),
-                    _50DayMovingAverage = service.safeGetAsDouble(json["_50DayMovingAverage"]),
-                    _200DayMovingAverage = service.safeGetAsDouble(json["_200DayMovingAverage"]),
+                    _52WeekHigh = service.safeGetAsDouble(json["52WeekHigh"]),
+                    _52WeekLow = service.safeGetAsDouble(json["52WeekLow"]),
+                    _50DayMovingAverage = service.safeGetAsDouble(json["50DayMovingAverage"]),
+                    _200DayMovingAverage = service.safeGetAsDouble(json["200DayMovingAverage"]),
                     SharesOutstanding = service.safeGetAsLong(json["SharesOutstanding"]),
                     DividendDate = json["DividendDate"].asString,
                     ExDividendDate = json["ExDividendDate"].asString

@@ -1,9 +1,12 @@
 package service.alphavantage
 
-import com.google.gson.Gson
 import com.google.gson.JsonElement
 import com.google.gson.JsonObject
 import com.google.gson.JsonParser
+import model.BalanceSheet
+import model.CompanyOverview
+import model.Dividend
+import model.IncomeStatement
 import java.net.URI
 import org.slf4j.LoggerFactory
 
@@ -11,7 +14,6 @@ import org.slf4j.LoggerFactory
 class AlphaVantageService {
 
     val logger = LoggerFactory.getLogger(AlphaVantageService::class.java)
-    private val gson = Gson()
     private val baseUrl = "https://www.alphavantage.co/query"
     private val apiKey = "R8PK4ZKB6HOZDCZ9" // TODO: System.getenv("API_KEY")
 

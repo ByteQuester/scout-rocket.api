@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f12c241e-6f22-4c93-8a96-a0af136880d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Permanent_Script_Dependencies.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/model/BalanceSheet.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/model/Dividend.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/model/IncomeStatement.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/service/alphavantage/AlphaVantageModels.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/service/alphavantage/AlphaVantageModels.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/service/alphavantage/AlphaVantageModels.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/model/AlphaVantageModels.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/service/alphavantage/AlphaVantageService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/service/alphavantage/AlphaVantageService.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +58,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2hrykvOJImxsynheZm0YRLOXyTk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -89,6 +93,12 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/backend/src/main/kotlin" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/src/main/kotlin/model" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="model" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -109,7 +119,8 @@
       <workItem from="1718366639917" duration="3828000" />
       <workItem from="1718373391648" duration="15000" />
       <workItem from="1718441064942" duration="11147000" />
-      <workItem from="1718457347848" duration="6353000" />
+      <workItem from="1718457347848" duration="8290000" />
+      <workItem from="1718533136281" duration="242000" />
     </task>
     <servers />
   </component>
