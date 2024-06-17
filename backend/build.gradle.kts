@@ -20,7 +20,7 @@ dependencies {
     implementation("ch.qos.logback:logback-classic:1.5.6")
     implementation("org.slf4j:slf4j-simple:2.0.9")
     implementation("org.jsoup:jsoup:1.17.2")
-    implementation("com.squareup.okhttp3:okhttp:4.12")
+    implementation("com.squareup.okhttp3:okhttp:4.9.2")
     implementation("org.json:json:20240205")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1")
     implementation("io.github.mainstringargs.alphavantagescraper:alpha-vantage-scraper:1.5.1")

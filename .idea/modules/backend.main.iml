@@ -48,6 +48,7 @@
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.5.6" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-simple:2.0.9" level="project" />
     <orderEntry type="library" name="Gradle: org.jsoup:jsoup:1.17.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:4.9.2" level="project" />
     <orderEntry type="library" name="Gradle: org.json:json:20240205" level="project" />
     <orderEntry type="library" name="Gradle: io.github.mainstringargs.alphavantagescraper:alpha-vantage-scraper:1.5.1" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.11.0" level="project" />
@@ -59,6 +60,7 @@
     <orderEntry type="library" name="Gradle: io.ktor:ktor-server-core-jvm:2.3.10" level="project" />
     <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java:3.25.1" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.5.6" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:2.8.0" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.1" level="project" />
     <orderEntry type="library" name="Gradle: io.github.mainstringargs:stock-data-spi:1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-cli-jvm:0.3.6" level="project" />
@@ -94,7 +96,6 @@
     <orderEntry type="library" name="Gradle: io.ktor:ktor-http-cio-jvm:2.3.10" level="project" />
     <orderEntry type="library" name="Gradle: io.ktor:ktor-io-jvm:2.3.10" level="project" />
     <orderEntry type="library" name="Gradle: io.ktor:ktor-network-jvm:2.3.10" level="project" />
-    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:4.12" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.google.code.findbugs:jsr305:3.0.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.10" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10" level="project" />

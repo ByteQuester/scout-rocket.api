@@ -84,10 +84,14 @@
       <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.9.10/dd37cb80926cb4ed427b606502e6f6f063d38fb5/kotlin-reflect-1.9.10.jar" />
       <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter/5.8.2/5a817b1e63f1217e5c586090c45e681281f097ad/junit-jupiter-5.8.2.jar" />
       <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.8.2/ddeafe92fc263f895bfb73ffeca7fd56e23c2cce/junit-jupiter-params-5.8.2.jar" />
+      <root url="file://$PROJECT_DIR$/backend/src/main/kotlin/my_module.jar" />
+      <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/4.9.2/5302714ee9320b64cf65ed865e5f65981ef9ba46/okhttp-4.9.2.jar" />
+      <root url="file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/2.8.0/49b64e09d81c0cc84b267edd0c2fd7df5a64c78c/okio-jvm-2.8.0.jar" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="file://$USER_HOME$/Library/Caches/JetBrains/IntelliJIdea2024.1/kotlinNotebook/scout-rocket-api.e601d255/kernels/0.12.0-226/kotlin-jupyter-script-classpath-shadowed-sources-jar/kotlin-jupyter-script-classpath-shadowed-0.12.0-226-sources.jar" />
+      <root url="file://$PROJECT_DIR$/backend/src/main/kotlin/my_module.jar" />
     </SOURCES>
   </library>
 </component>
