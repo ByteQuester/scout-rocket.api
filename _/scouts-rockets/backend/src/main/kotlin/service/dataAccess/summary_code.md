@@ -1,0 +1,62 @@
+### Summary of the `dataAccess` Directory
+
+| Class | Description | Methods                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| --- | - |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `DataAccess` | Facade for accessing various data functionalities | - `tickerPrice` <br> - `tickerFinancials` <br> - `tickerInfo` <br> - `indexDataAccess`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| `TickerFinancials` | Manages storage and retrieval of financial data for tickers in Redis | - `storeTickerFinancials(ticker: String, year: Int, data: Map<String, String>)` <br> - `getTickerFinancials(ticker: String, year: Int)` <br> - `isTickerStored(ticker: String, year: Int)` <br> - `commitTickerData()`                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| `TickerInfo` | Manages storage and retrieval of ticker information (URLs, CIKs) in Redis | - `storeTickerInfo(ticker: String, data: Map<String, String>)` <br> - `getTickerUrl(ticker: String, year: Int)` <br> - `getTickerCik(ticker: String)`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| `TickerPrice` | Manages storage and retrieval of ticker prices and volumes, and manages ticker-CIK mapping. | - `storeTickerPrice(ticker: String, timestamp: Long, value: Double)` <br> - `storeTickerVolume(ticker: String, timestamp: Long, value: Double)` <br> - `isTickerVolumeExists(ticker: String)`<br> - `isTickerPriceExists(ticker: String)`<br> - `getPrices(ticker: String, start: Long, end: Long)`<br> - `getVolumes(ticker: String, start: Long, end: Long)` <br> - `getPrice(ticker: String, date: LocalDate)`<br> - `getVolume(ticker: String, date: LocalDat)` <br> - `getTickerByCik(ticker: String)` <br> - `storeTickerCikMapping(ticker: String, cik: String)` <br> - `isTickerMapped(ticker: String)` <br> - `isTickerListExist()`<br> - `getTickerList()` |
+| `IndexDataAccess` | Manages storage and retrieval of index data (CIK, company, report type, URL) from a relational database. | - `storeIndex(data: List<String>, year: Int, filing: String)`<br> - `isIndexStored(year: Int)` <br>- `getIndexRowByCik(cik: Int, year: Int)`<br> - `getIndexByYear(year: Int)`|
+
+### Interrelation with Other Components
+
+- **Integration with `FinancialDataRetriever`:**
+    - Components within the `dataAccess` directory, such as `TickerFinancials` and `TickerInfo`, are directly integrated with `FinancialDataRetriever` to facilitate the storage and retrieval of financial data and ticker-related information.
+- **Support for `SecGov`:**
+    - `IndexDataAccess` is utilized by `SecGov` to manage the storage and retrieval of index data, enabling the efficient retrieval of financial data for multiple tickers across different years.
+
+## Summary of the subclasses 
+
+### TickerFinancials Detailed Table
+
+| Method | Description | Parameters | Return Value | Error Handling | Notes |
+|---|---|---|---|---|---|
+| `storeTickerFinancials(ticker: String, year: Int, data: Map<String, String>)` | Stores financial data for a specific ticker and year in Redis. | `ticker`: Ticker symbol <br> `year`: Financial year <br> `data`: Map of financial data (e.g., "revenue": "1000000") | None (void) | Logs a warning if a Redis exception occurs. |  |
+| `getTickerFinancials(ticker: String, year: Int)` | Retrieves financial data for a specific ticker and year from Redis. | `ticker`: Ticker symbol <br> `year`: Financial year | `Map<String, String>?`: Map of financial data if found, null otherwise. | Logs a severe error if a Redis exception occurs. |  |
+| `isTickerStored(ticker: String, year: Int)` | Checks if financial data for a specific ticker and year exists in Redis. | `ticker`: Ticker symbol <br> `year`: Financial year | `Boolean`: True if data exists, false otherwise. | Logs a warning if a Redis exception occurs. |  |
+| `commitTickerData()` | Triggers a background save operation in Redis to persist data. | None | `String?`: The status of the save operation if successful, null otherwise. | Logs a warning if a Redis exception occurs. |  |
+
+### TickerInfo Detailed Table
+
+| Method | Description | Parameters | Return Value | Error Handling | Notes |
+|---|---|---|---|---|---|
+| `storeTickerInfo(ticker: String, data: Map<String, String>)` | Stores ticker information (URLs, CIKs) in Redis. | `ticker`: Ticker symbol <br> `data`: Map of ticker information (e.g., "txt_url:2023": "https://...") | None (void) | Logs a warning if a Redis exception occurs. |  |
+| `getTickerUrl(ticker: String, year: Int)` | Retrieves the URL for a specific ticker and year from Redis. | `ticker`: Ticker symbol <br> `year`: Financial year | `String?`: The URL if found, null otherwise. | Logs a warning if a Redis exception occurs. |  |
+| `getTickerCik(ticker: String)` | Retrieves the CIK (Central Index Key) for a ticker from Redis. | `ticker`: Ticker symbol | `String?`: The CIK if found, null otherwise. | Logs a warning if a Redis exception occurs. |  |
+
+### TickerPrice Detailed Table
+
+| Method | Description | Parameters | Return Value | Error Handling | Notes |
+|---|---|---|---|---|---|
+| `storeTickerPrice(ticker: String, timestamp: Long, value: Double)` | Stores a ticker's price at a specific timestamp in Redis. | `ticker`: Ticker symbol <br> `timestamp`: Unix timestamp in seconds <br> `value`: Price value | None (void) | Logs a warning if a Redis exception occurs. |  |
+| `storeTickerVolume(ticker: String, timestamp: Long, value: Double)` | Stores a ticker's trading volume at a specific timestamp in Redis. | `ticker`: Ticker symbol <br> `timestamp`: Unix timestamp in seconds <br> `value`: Volume value | None (void) | Logs a warning if a Redis exception occurs. |  |
+| `isTickerVolumeExists(ticker: String)` | Checks if volume data exists for a ticker. | `ticker`: Ticker symbol | `Boolean`: True if volume data exists, false otherwise. | Logs a warning if a Redis exception occurs. |  |
+| `isTickerPriceExists(ticker: String)` | Checks if price data exists for a ticker. | `ticker`: Ticker symbol | `Boolean`: True if price data exists, false otherwise. | Logs a warning if a Redis exception occurs. |  |
+| `getPrices(ticker: String, start: Long, end: Long)` | Retrieves ticker prices within a given timestamp range. | `ticker`: Ticker symbol <br> `start`: Start timestamp <br> `end`: End timestamp | `List<Pair<Long, Double>>?`: List of timestamp-price pairs if found, null otherwise. | Logs a warning if a Redis exception occurs. |  |
+| `getVolumes(ticker: String, start: Long, end: Long)` | Retrieves ticker volumes within a given timestamp range. | `ticker`: Ticker symbol <br> `start`: Start timestamp <br> `end`: End timestamp | `List<Pair<Long, Double>>?`: List of timestamp-volume pairs if found, null otherwise. | Logs a warning if a Redis exception occurs. |  |
+| `getPrice(ticker: String, date: LocalDate)` | Gets the latest price for a ticker on a specific date, searching one week back. | `ticker`: Ticker symbol <br> `date`: Date to search for price | `Double`: Latest price if found, 0.0 otherwise. |  | Uses `getPrices` internally. |
+| `getVolume(ticker: String, date: LocalDate)` | Gets the latest volume for a ticker on a specific date, searching one week back. | `ticker`: Ticker symbol <br> `date`: Date to search for volume | `Double`: Latest volume if found, 0.0 otherwise. |  | Uses `getVolumes` internally. |
+| `getTickerByCik(ticker: String)` | Gets the ticker symbol associated with a CIK. | `ticker`: Ticker symbol | `String?`: Ticker symbol if found, null otherwise. | Logs a warning if a Redis exception occurs. |  |
+| `storeTickerCikMapping(ticker: String, cik: String)` | Stores the mapping between a ticker and its CIK. | `ticker`: Ticker symbol <br> `cik`: CIK | None (void) | Logs a warning if a Redis exception occurs. |  |
+| `isTickerMapped(ticker: String)` | Checks if a ticker is mapped to a CIK. | `ticker`: Ticker symbol | `Boolean`: True if mapped, false otherwise. | Logs a warning if a Redis exception occurs. |  |
+| `isTickerListExist()` | Checks if a ticker list exists in Redis. | None | `Boolean`: True if the ticker list exists, false otherwise. | Logs a warning if a Redis exception occurs. |  |
+| `getTickerList()` | Retrieves the list of all tickers. | None | `List<String>`: List of ticker symbols. | Logs a warning if a Redis exception occurs. |  |
+
+### IndexDataAccess Detailed Table
+
+| Method | Description | Parameters | Return Value | Error Handling | Notes |
+|---|---|---|---|---|---|
+| `storeIndex(data: List<String>, year: Int, filing: String)` | Stores index data (CIK, company, report type, URL) for a specific year and filing type in a relational database. | `data`: List of strings representing index data (each string is a line from the index file). <br> `year`: Financial year <br> `filing`: Filing type (e.g., "10-K") | None (void) | Uses transactions (commit/rollback) for data integrity. Logs errors if exceptions occur during database operations. |  |
+| `isIndexStored(year: Int)` | Checks if index data for a specific year exists in the database. | `year`: Financial year | `Boolean`: True if index data exists, false otherwise. | Checks if the database connection is valid and reopens it if closed. Logs errors if exceptions occur during database operations. |  |
+| `getIndexRowByCik(cik: Int, year: Int)` | Retrieves the company name and URL for a specific CIK and year from the database. | `cik`: Central Index Key (CIK) of the company <br> `year`: Financial year | `List<String>?`: A list containing the company name and URL if found, null otherwise. | Checks if the database connection is valid and reopens it if closed. Logs errors if exceptions occur during database operations. |  |
+| `getIndexByYear(year: Int)` | Retrieves a list of companies, urls and CIKs from the index for a specific year. | `year`: Financial year | `List<List<String>>`: A list of lists, where each inner list contains a company name, URL and CIK. | Checks if the database connection is valid and reopens it if closed. Logs errors if exceptions occur during database operations. |  |

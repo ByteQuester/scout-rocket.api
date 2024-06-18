@@ -44,15 +44,15 @@ class DataServices {
 
     fun getTickerData(ticker: String, startYear: Int, endYear: Int): Map<String, Any> {
         val data = mutableMapOf<String, Any>()
-            // I assume the following is going to be moved out
-//        if (!dataAccess.tickerPrice.isTickerPriceExists(ticker)) {
-//            fetchTickerPriceVolume(ticker)
-//        }
-//
-//        data["volume"] = mapOf("volume" to "NA")
-//        val startYearDateTime = LocalDate.of(startYear, 1, 1)
-//        val endYearDateTime = LocalDate.of(endYear, 12, 30)
-//        data["price"] = dataAccess.tickerPrice.getPrices(ticker, startYearDateTime, endYearDateTime) ?: emptyList<Pair<LocalDate, Double>>()
+
+        if (!dataAccess.tickerPrice.isTickerPriceExists(ticker)) {
+            fetchTickerPriceVolume(ticker)
+        }
+
+        data["volume"] = mapOf("volume" to "NA")
+        val startYearDateTime = LocalDate.of(startYear, 1, 1)
+        val endYearDateTime = LocalDate.of(endYear, 12, 30)
+        data["price"] = dataAccess.tickerPrice.getPrices(ticker, startYearDateTime, endYearDateTime) ?: emptyList<Pair<LocalDate, Double>>()
 
         for (year in startYear..endYear) {
             fetchTickerFinancialsByYear(year, ticker)
@@ -97,6 +97,4 @@ class DataServices {
         }
         secGov.fetchTickerFinancialsByYear(year, ticker)
     }
-
-
 }

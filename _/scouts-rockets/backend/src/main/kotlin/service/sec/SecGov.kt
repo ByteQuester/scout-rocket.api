@@ -132,56 +132,26 @@ class SecGov {
         }
     }
 
-//    private fun fetchFromIndex(year: Int) {
-//        try {
-//            val idx = dataAccess.indexDataAccess.getIndexByYear(year)
-//            logger.info("Index file for $year is $idx")
-//
-//            for (result in idx) {
-//                val currentTicker = dataAccess.tickerPrice.getTickerByCik(result[2])
-//                if (currentTicker != null) {
-//                    val tickerInfoHash = mapOf("company_name" to result[0], "txt_url:$year" to result[1])
-//                    dataAccess.tickerInfo.storeTickerInfo(currentTicker, tickerInfoHash)
-//                    financialDataRetriever.fetchCompanyData(currentTicker, year)
-//                    logger.info("Ticker InfoHash: $tickerInfoHash")
-//                    logger.info("Current ticker: $currentTicker for result: $result")
-//                } else {
-//                    logger.warning("Could not fetch data for ticker for year $year")
-//                }
-//            }
-//            dataAccess.tickerFinancials.commitTickerData()
-//        } catch (e: Exception) {
-//            logger.severe("Error fetching index by year: ${e.message}")
-//            return
-//        }
-//    }
-
     private fun fetchFromIndex(year: Int) {
         try {
             val idx = dataAccess.indexDataAccess.getIndexByYear(year)
             logger.info("Index file for $year is $idx")
-
             for (result in idx) {
                 val currentTicker = dataAccess.tickerPrice.getTickerByCik(result[2])
                 if (currentTicker != null) {
                     val tickerInfoHash = mapOf("company_name" to result[0], "txt_url:$year" to result[1])
                     dataAccess.tickerInfo.storeTickerInfo(currentTicker, tickerInfoHash)
-
-                    try {
-                        financialDataRetriever.fetchCompanyData(currentTicker, year)
-                        logger.info("Ticker InfoHash: $tickerInfoHash")
-                        logger.info("Current ticker: $currentTicker for result: $result")
-                    } catch (e: Exception) {
-                        logger.severe("Error fetching company data for ticker: $currentTicker in year $year: ${e.message}")
-                    }
+                    financialDataRetriever.fetchCompanyData(currentTicker, year)
+                    logger.info("Ticker InfoHash: $tickerInfoHash")
+                    logger.info("Current ticker: $currentTicker for result: $result")
                 } else {
-                    logger.warning("Could not fetch data for ticker with CIK: ${result[2]} for year $year")
+                    logger.warning("Could not fetch data for ticker for year $year")
                 }
             }
-
             dataAccess.tickerFinancials.commitTickerData()
         } catch (e: Exception) {
             logger.severe("Error fetching index by year: ${e.message}")
+            return
         }
     }
 
@@ -195,7 +165,7 @@ class SecGov {
         while (retries < MAX_RETRIES) {
             try {
                 val url = URL(TICKER_CIK_LIST_URL)
-                //logger.info("URL: $url")
+                logger.info("URL: $url")
                 val connection = url.openConnection() as HttpURLConnection
                 connection.requestMethod = "GET"
                 headers.forEach { (key, value) -> connection.setRequestProperty(key, value) }
@@ -211,7 +181,7 @@ class SecGov {
 
                 val content = connection.inputStream.bufferedReader().readText()
                 val tickerCikListLines = content.split("\n")
-                //logger.info("TickerCikListLines: $tickerCikListLines")
+                logger.info("TickerCikListLines: $tickerCikListLines")
 
                 for (entry in tickerCikListLines) {
                     val parts = entry.trim().split(Regex("\\s+"))
@@ -237,7 +207,3 @@ class SecGov {
         return tickerList
     }
 }
-
-//for (q in 1..2) {
-//    fDR.prepareIndex(year, q)
-//}

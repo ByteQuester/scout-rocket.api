@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.mainstringargs:stock-data-spi:1.1" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.github.mainstringargs" artifactId="stock-data-spi" version="1.1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.mainstringargs/stock-data-spi/1.1/9b1b46c6e46ce2a5e8495691612e702e88b594d9/stock-data-spi-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

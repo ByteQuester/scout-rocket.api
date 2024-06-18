@@ -1,0 +1,32 @@
+version: '3.8'
+services:
+  db:
+    image: mysql:8.0
+    container_name: findb_container
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: mysqlR0cks!
+      MYSQL_DATABASE: findb
+    ports:
+      - "3307:3307"
+    volumes:
+      - ./backend/src/main/kotlin/assets/mysql:/var/lib/mysql   # Updated path
+      - ./backend/src/main/kotlin/assets/mysql/init:/docker-entrypoint-initdb.d/:ro # Updated path
+    networks:
+      - backend
+
+  redis:
+    image: redis:7.0-alpine
+    container_name: findb_redis
+    restart: always
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./backend/src/main/kotlin/assets/redis:/data   # Updated path
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge
