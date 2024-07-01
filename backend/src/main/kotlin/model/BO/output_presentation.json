@@ -1,0 +1,3058 @@
+{
+  "calculationLinkbase": [
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/ConsolidatedStatementsOfOperations",
+        "definition": "1001000 - Statement - Consolidated Statements Of Operations"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:NetIncomeLoss",
+          "label": "Net Income (Loss) Attributable to Parent"
+        },
+        {
+          "balance": "credit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+            "label": "(+1) Income (Loss) from Continuing Operations before Income Taxes, Noncontrolling Interest"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:OperatingIncomeLoss",
+              "label": "(+1) Operating Income (Loss)"
+            },
+            {
+              "weight": "1 ",
+              "balance": "credit"
+            },
+            [
+              "concept",
+              {
+                "name": "us-gaap:GrossProfit",
+                "label": "(+1) Gross Profit"
+              },
+              {
+                "weight": "1 ",
+                "balance": "credit"
+              },
+              [
+                "concept",
+                {
+                  "name": "us-gaap:Revenues",
+                  "label": "(+1) Revenues"
+                },
+                {
+                  "weight": "1 ",
+                  "balance": "credit"
+                }
+              ],
+              [
+                "concept",
+                {
+                  "name": "us-gaap:CostOfRevenue",
+                  "label": "(-1) Cost of Revenue"
+                },
+                {
+                  "weight": "-1 ",
+                  "balance": "debit"
+                }
+              ]
+            ],
+            [
+              "concept",
+              {
+                "name": "ba:IncomeLossfromInvestments",
+                "label": "(+1) Income (Loss) from Investments"
+              },
+              {
+                "weight": "1 ",
+                "balance": "credit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:GeneralAndAdministrativeExpense",
+                "label": "(-1) General and Administrative Expense"
+              },
+              {
+                "weight": "-1 ",
+                "balance": "debit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:ResearchAndDevelopmentExpense",
+                "label": "(-1) Research and Development Expense"
+              },
+              {
+                "weight": "-1 ",
+                "balance": "debit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:GainLossOnDispositionOfAssets",
+                "label": "(+1) Gain (Loss) on Disposition of Property Plant Equipment, Excluding Oil and Gas Property and Timber Property"
+              },
+              {
+                "weight": "1 ",
+                "balance": "credit"
+              }
+            ]
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:OtherNonoperatingIncomeExpense",
+              "label": "(+1) Other Nonoperating Income (Expense)"
+            },
+            {
+              "weight": "1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:InterestAndDebtExpense",
+              "label": "(-1) Interest and Debt Expense"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "debit"
+            }
+          ]
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncomeTaxExpenseBenefit",
+            "label": "(-1) Income Tax Expense (Benefit)"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "debit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/ConsolidatedStatementsOfComprehensiveIncome",
+        "definition": "1002000 - Statement - Consolidated Statements of Comprehensive Income"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParent",
+          "label": "Other Comprehensive Income (Loss), Net of Tax, Portion Attributable to Parent"
+        },
+        {
+          "balance": "credit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentNetOfTax",
+            "label": "(+1) Other Comprehensive Income (Loss), Foreign Currency Transaction and Translation Adjustment, Net of Tax"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:OtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+            "label": "(+1) Other Comprehensive Income (Loss), Securities, Available-for-sale, Adjustment, after Tax"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:OtherComprehensiveIncomeLossDerivativesQualifyingAsHedgesNetOfTax",
+            "label": "(+1) Other Comprehensive Income (Loss), Derivatives Qualifying as Hedges, Net of Tax"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:OtherComprehensiveIncomeUnrealizedGainLossOnDerivativesArisingDuringPeriodNetOfTax",
+              "label": "(+1) Other Comprehensive Income (Loss), Unrealized Gain (Loss) on Derivatives Arising During Period, Net of Tax"
+            },
+            {
+              "weight": "1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:OtherComprehensiveIncomeLossReclassificationAdjustmentFromAOCIOnDerivativesNetOfTax",
+              "label": "(-1) Other Comprehensive Income (Loss), Reclassification Adjustment from AOCI on Derivatives, Net of Tax"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "debit"
+            }
+          ]
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansAdjustmentNetOfTax",
+            "label": "(-1) Other Comprehensive (Income) Loss, Defined Benefit Plan, after Reclassification Adjustment, after Tax"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "debit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansNetUnamortizedGainLossArisingDuringPeriodNetOfTax",
+              "label": "(-1) Other Comprehensive Income (Loss), Defined Benefit Plan, Gain (Loss) Arising During Period, after Tax"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:OtherComprehensiveIncomeLossReclassificationAdjustmentFromAOCIPensionAndOtherPostretirementBenefitPlansForNetGainLossNetOfTax",
+              "label": "(+1) Other Comprehensive Income (Loss), Defined Benefit Plan, Gain (Loss), Reclassification Adjustment from AOCI, after Tax"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "ba:OtherComprehensiveIncomeSettlementsAndCurtailmentsIncludedInNetIncomeNetOfTax",
+              "label": "(-1) Other Comprehensive Income, Settlements and curtailments included in net income, net of tax"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "ba:PensionAndPostretirementBenefitsRelatedToEquityMethodInvestmentsNetOfTax",
+              "label": "(+1) Pension and postretirement benefits related to equity method investments, net of tax"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:OtherComprehensiveIncomeLossAmortizationAdjustmentFromAOCIPensionAndOtherPostretirementBenefitPlansForNetPriorServiceCostCreditNetOfTax",
+              "label": "(-1) Other Comprehensive (Income) Loss, Defined Benefit Plan, Prior Service Cost (Credit), Reclassification Adjustment from AOCI, after Tax"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:OtherComprehensiveIncomeDefinedBenefitPlanNetPriorServiceCostsCreditArisingDuringPeriodNetOfTax",
+              "label": "(+1) Other Comprehensive (Income) Loss, Defined Benefit Plan, Prior Service Cost (Credit), after Tax"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ]
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/ConsolidatedStatementsOfFinancialPosition",
+        "definition": "1003000 - Statement - Consolidated Statements Of Financial Position"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:LiabilitiesAndStockholdersEquity",
+          "label": "Liabilities and Equity"
+        },
+        {
+          "balance": "credit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:LiabilitiesCurrent",
+            "label": "(+1) Liabilities, Current"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:AccountsPayableCurrent",
+              "label": "(+1) Accounts Payable, Current"
+            },
+            {
+              "weight": "1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:AccruedLiabilitiesCurrent",
+              "label": "(+1) Accrued Liabilities, Current"
+            },
+            {
+              "weight": "1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:ContractWithCustomerLiabilityCurrent",
+              "label": "(+1) Contract with Customer, Liability, Current"
+            },
+            {
+              "weight": "1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:DebtCurrent",
+              "label": "(+1) Debt, Current"
+            },
+            {
+              "weight": "1 ",
+              "balance": "credit"
+            }
+          ]
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DeferredTaxLiabilitiesNoncurrent",
+            "label": "(+1) Deferred Tax Liabilities, Net, Noncurrent"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:OtherPostretirementDefinedBenefitPlanLiabilitiesNoncurrent",
+            "label": "(+1) Liability, Other Postretirement Defined Benefit Plan, Noncurrent"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DefinedBenefitPensionPlanLiabilitiesNoncurrent",
+            "label": "(+1) Liability, Defined Benefit Pension Plan, Noncurrent"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:OtherLiabilitiesNoncurrent",
+            "label": "(+1) Other Liabilities, Noncurrent"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+            "label": "(+1) Long-term Debt and Lease Obligation"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+            "label": "(+1) Stockholders' Equity, Including Portion Attributable to Noncontrolling Interest"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:StockholdersEquity",
+              "label": "(+1) Stockholders' Equity Attributable to Parent"
+            },
+            {
+              "weight": "1 ",
+              "balance": "credit"
+            },
+            [
+              "concept",
+              {
+                "name": "us-gaap:CommonStockValue",
+                "label": "(+1) Common Stock, Value, Issued"
+              },
+              {
+                "weight": "1 ",
+                "balance": "credit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:AdditionalPaidInCapital",
+                "label": "(+1) Additional Paid in Capital"
+              },
+              {
+                "weight": "1 ",
+                "balance": "credit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:TreasuryStockValue",
+                "label": "(-1) Treasury Stock, Value"
+              },
+              {
+                "weight": "-1 ",
+                "balance": "debit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:RetainedEarningsAccumulatedDeficit",
+                "label": "(+1) Retained Earnings (Accumulated Deficit)"
+              },
+              {
+                "weight": "1 ",
+                "balance": "credit"
+              }
+            ],
+            [
+              "concept",
+              {
+                "name": "us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+                "label": "(+1) Accumulated Other Comprehensive Income (Loss), Net of Tax"
+              },
+              {
+                "weight": "1 ",
+                "balance": "credit"
+              }
+            ]
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:MinorityInterest",
+              "label": "(+1) Stockholders' Equity Attributable to Noncontrolling Interest"
+            },
+            {
+              "weight": "1 ",
+              "balance": "credit"
+            }
+          ]
+        ]
+      ],
+      [
+        "concept",
+        {
+          "name": "us-gaap:Assets",
+          "label": "Assets"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:AssetsCurrent",
+            "label": "(+1) Assets, Current"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+              "label": "(+1) Cash and Cash Equivalents, at Carrying Value"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:ShortTermInvestments",
+              "label": "(+1) Short-term Investments"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:AccountsReceivableNetCurrent",
+              "label": "(+1) Accounts Receivable, after Allowance for Credit Loss, Current"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:UnbilledContractsReceivable",
+              "label": "(+1) Unbilled Contracts Receivable"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "ba:CustomerFinancingCurrent",
+              "label": "(+1) Customer Financing Current"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:InventoryNetOfAllowancesCustomerAdvancesAndProgressBillings",
+              "label": "(+1) Inventory, Net of Allowances, Customer Advances and Progress Billings"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:OtherAssetsCurrent",
+              "label": "(+1) Other Assets, Current"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ]
+        ],
+        [
+          "concept",
+          {
+            "name": "ba:CustomerFinancingNoncurrent",
+            "label": "(+1) Customer Financing, Noncurrent"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:PropertyPlantAndEquipmentNet",
+            "label": "(+1) Property, Plant and Equipment, Net"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:Goodwill",
+            "label": "(+1) Goodwill"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:IntangibleAssetsNetExcludingGoodwill",
+            "label": "(+1) Intangible Assets, Net (Excluding Goodwill)"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DeferredTaxAssetsNetNoncurrent",
+            "label": "(+1) Deferred Tax Assets, Net of Valuation Allowance, Noncurrent"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:LongTermInvestments",
+            "label": "(+1) Long-term Investments"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:OtherAssetsNoncurrent",
+            "label": "(+1) Other Assets, Noncurrent"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/ConsolidatedStatementsOfCashFlows",
+        "definition": "1004000 - Statement - Consolidated Statements Of Cash Flows"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:CashAndCashEquivalentsPeriodIncreaseDecrease",
+          "label": "Cash and Cash Equivalents, Period Increase (Decrease)"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+            "label": "(+1) Net Cash Provided by (Used in) Operating Activities"
+          },
+          {
+            "weight": "1 "
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:NetIncomeLoss",
+              "label": "(+1) Net Income (Loss) Attributable to Parent"
+            },
+            {
+              "weight": "1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:ShareBasedCompensation",
+              "label": "(+1) Share-based Payment Arrangement, Noncash Expense"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:DepreciationDepletionAndAmortization",
+              "label": "(+1) Depreciation, Depletion and Amortization"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:AssetImpairmentCharges",
+              "label": "(+1) Asset Impairment Charges"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:ProvisionForLoanAndLeaseLosses",
+              "label": "(+1) Provision for Loan and Lease Losses"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:GainLossOnDispositionOfAssets",
+              "label": "(-1) Gain (Loss) on Disposition of Property Plant Equipment, Excluding Oil and Gas Property and Timber Property"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:OtherNoncashIncomeExpense",
+              "label": "(-1) Other Noncash Income (Expense)"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:IncreaseDecreaseInAccountsReceivable",
+              "label": "(-1) Increase (Decrease) in Accounts Receivable"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:IncreaseDecreaseInUnbilledReceivables",
+              "label": "(-1) Increase (Decrease) in Unbilled Receivables"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:IncreaseDecreaseInDeferredRevenueAndCustomerAdvancesAndDeposits",
+              "label": "(+1) Increase (Decrease) in Deferred Revenue and Customer Advances and Deposits"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:IncreaseDecreaseInInventories",
+              "label": "(-1) Increase (Decrease) in Inventories"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:IncreaseDecreaseInOtherCurrentAssets",
+              "label": "(-1) Increase (Decrease) in Other Current Assets"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:IncreaseDecreaseInAccountsPayable",
+              "label": "(+1) Increase (Decrease) in Accounts Payable"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:IncreaseDecreaseInOtherAccruedLiabilities",
+              "label": "(+1) Increase (Decrease) in Other Accrued Liabilities"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:IncreaseDecreaseInIncomeTaxes",
+              "label": "(+1) Increase (Decrease) in Income Taxes"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:IncreaseDecreaseInOtherNoncurrentLiabilities",
+              "label": "(+1) Increase (Decrease) in Other Noncurrent Liabilities"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:IncreaseDecreaseInPensionAndPostretirementObligations",
+              "label": "(+1) Increase (Decrease) in Obligation, Pension and Other Postretirement Benefits"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "ba:IncreaseOrDecreaseinCustomerFinancing1",
+              "label": "(-1) Increase Or (Decrease) in Customer Financing1"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:IncreaseDecreaseInOtherOperatingCapitalNet",
+              "label": "(-1) Increase (Decrease) in Other Operating Assets and Liabilities, Net"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "credit"
+            }
+          ]
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:NetCashProvidedByUsedInInvestingActivities",
+            "label": "(+1) Net Cash Provided by (Used in) Investing Activities"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+              "label": "(-1) Payments to Acquire Property, Plant, and Equipment"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:ProceedsFromSaleOfPropertyPlantAndEquipment",
+              "label": "(+1) Proceeds from Sale of Property, Plant, and Equipment"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired",
+              "label": "(-1) Payments to Acquire Businesses, Net of Cash Acquired"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:ProceedsFromDivestitureOfBusinesses",
+              "label": "(+1) Proceeds from Divestiture of Businesses"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:PaymentsToAcquireInvestments",
+              "label": "(-1) Payments to Acquire Investments"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:ProceedsFromSaleMaturityAndCollectionsOfInvestments",
+              "label": "(+1) Proceeds from Sale, Maturity and Collection of Investments"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:PaymentsToAcquireIntangibleAssets",
+              "label": "(-1) Payments to Acquire Intangible Assets"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:PaymentsForProceedsFromOtherInvestingActivities",
+              "label": "(-1) Payments for (Proceeds from) Other Investing Activities"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "credit"
+            }
+          ]
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:NetCashProvidedByUsedInFinancingActivities",
+            "label": "(+1) Net Cash Provided by (Used in) Financing Activities"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:ProceedsFromIssuanceOfDebt",
+              "label": "(+1) Proceeds from Issuance of Debt"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:RepaymentsOfDebt",
+              "label": "(-1) Repayments of Debt"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:ProceedsFromContributionsFromAffiliates",
+              "label": "(+1) Proceeds from Contributions from Affiliates"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:ProceedsFromStockOptionsExercised",
+              "label": "(+1) Proceeds from Stock Options Exercised"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:PaymentsRelatedToTaxWithholdingForShareBasedCompensation",
+              "label": "(-1) Payment, Tax Withholding, Share-based Payment Arrangement"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:PaymentsForRepurchaseOfCommonStock",
+              "label": "(-1) Payments for Repurchase of Common Stock"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:PaymentsOfDividendsCommonStock",
+              "label": "(-1) Payments of Ordinary Dividends, Common Stock"
+            },
+            {
+              "weight": "-1 ",
+              "balance": "credit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:ProceedsFromPaymentsForOtherFinancingActivities",
+              "label": "(+1) Proceeds from (Payments for) Other Financing Activities"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ]
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+            "label": "(+1) Effect of Exchange Rate on Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/EarningsPerShareScheduleOfWeightedAverageNumberOfSharesOutstandingUsedToComputeEarningsPerShareDetails",
+        "definition": "2408403 - Disclosure - Earnings Per Share (Schedule Of Weighted-Average Number Of Shares Outstanding Used To Compute Earnings Per Share) (Details)"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
+          "label": "Weighted Average Number of Shares Outstanding, Diluted"
+        },
+        {},
+        [
+          "concept",
+          {
+            "name": "ba:DilutedWeightedAverageSharesOutstanding",
+            "label": "(+1) Diluted weighted average shares outstanding"
+          },
+          {
+            "weight": "1 "
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:WeightedAverageNumberOfShareOutstandingBasicAndDiluted",
+              "label": "(+1) Weighted Average Number of Shares Outstanding, Basic and Diluted"
+            },
+            {
+              "weight": "1 "
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:WeightedAverageNumberDilutedSharesOutstandingAdjustment",
+              "label": "(+1) Weighted Average Number Diluted Shares Outstanding Adjustment"
+            },
+            {
+              "weight": "1 "
+            }
+          ]
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncrementalCommonSharesAttributableToParticipatingNonvestedSharesWithNonForfeitableDividendRights",
+            "label": "(-1) Incremental Common Shares Attributable to Participating Nonvested Shares with Non-forfeitable Dividend Rights"
+          },
+          {
+            "weight": "-1 "
+          }
+        ]
+      ],
+      [
+        "concept",
+        {
+          "name": "us-gaap:WeightedAverageNumberOfSharesOutstandingBasic",
+          "label": "Weighted Average Number of Shares Outstanding, Basic"
+        },
+        {},
+        [
+          "concept",
+          {
+            "name": "us-gaap:WeightedAverageNumberOfShareOutstandingBasicAndDiluted",
+            "label": "(+1) Weighted Average Number of Shares Outstanding, Basic and Diluted"
+          },
+          {
+            "weight": "1 "
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncrementalCommonSharesAttributableToParticipatingNonvestedSharesWithNonForfeitableDividendRights",
+            "label": "(-1) Incremental Common Shares Attributable to Participating Nonvested Shares with Non-forfeitable Dividend Rights"
+          },
+          {
+            "weight": "-1 "
+          }
+        ]
+      ],
+      [
+        "concept",
+        {
+          "name": "ba:NetIncomeLossAvailableToCommonStockholdersBasicAndDiluted",
+          "label": "Net Income (Loss) Available to Common Stockholders, Basic and Diluted"
+        },
+        {
+          "balance": "credit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:NetIncomeLoss",
+            "label": "(+1) Net Income (Loss) Attributable to Parent"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:UndistributedEarningsLossAllocatedToParticipatingSecuritiesBasic",
+            "label": "(-1) Undistributed Earnings (Loss) Allocated to Participating Securities, Basic"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "debit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/IncomeTaxesComponentsOfEarningsBeforeIncomeTaxesBetweenDomesticAndForeignJurisdictionsDetails",
+        "definition": "2409403 - Disclosure - Income Taxes (Components of Earnings Before Income Taxes Between Domestic and Foreign Jurisdictions) (Details)"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+          "label": "Income (Loss) from Continuing Operations before Income Taxes, Noncontrolling Interest"
+        },
+        {
+          "balance": "credit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesDomestic",
+            "label": "(+1) Income (Loss) from Continuing Operations before Income Taxes, Domestic"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesForeign",
+            "label": "(+1) Income (Loss) from Continuing Operations before Income Taxes, Foreign"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/IncomeTaxesScheduleOfIncomeTaxExpenseBenefitDetails",
+        "definition": "2409404 - Disclosure - Income Taxes (Schedule Of Income Tax Expense/(Benefit)) (Details)"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:IncomeTaxExpenseBenefit",
+          "label": "Income Tax Expense (Benefit)"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:CurrentIncomeTaxExpenseBenefit",
+            "label": "(+1) Current Income Tax Expense (Benefit)"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:CurrentFederalTaxExpenseBenefit",
+              "label": "(+1) Current Federal Tax Expense (Benefit)"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:CurrentForeignTaxExpenseBenefit",
+              "label": "(+1) Current Foreign Tax Expense (Benefit)"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:CurrentStateAndLocalTaxExpenseBenefit",
+              "label": "(+1) Current State and Local Tax Expense (Benefit)"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ]
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DeferredIncomeTaxExpenseBenefit",
+            "label": "(+1) Deferred Income Tax Expense (Benefit)"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:DeferredFederalIncomeTaxExpenseBenefit",
+              "label": "(+1) Deferred Federal Income Tax Expense (Benefit)"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:DeferredForeignIncomeTaxExpenseBenefit",
+              "label": "(+1) Deferred Foreign Income Tax Expense (Benefit)"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:DeferredStateAndLocalIncomeTaxExpenseBenefit",
+              "label": "(+1) Deferred State and Local Income Tax Expense (Benefit)"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ]
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/IncomeTaxesScheduleOfReconciliationOfUSFederalStatutoryTaxRateToOurEffectiveIncomeTaxRateDetails",
+        "definition": "2409405 - Disclosure - Income Taxes (Schedule Of Reconciliation Of U.S. Federal Statutory Tax Rate To Our Effective Income Tax Rate) (Details)"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:IncomeTaxExpenseBenefit",
+          "label": "Income Tax Expense (Benefit)"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncomeTaxReconciliationIncomeTaxExpenseBenefitAtFederalStatutoryIncomeTaxRate",
+            "label": "(+1) Effective Income Tax Rate Reconciliation at Federal Statutory Income Tax Rate, Amount"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncomeTaxReconciliationTaxCreditsResearch",
+            "label": "(-1) Effective Income Tax Rate Reconciliation, Tax Credit, Research, Amount"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncomeTaxReconciliationNondeductibleExpenseShareBasedCompensationCost",
+            "label": "(+1) Effective Income Tax Rate Reconciliation, Nondeductible Expense, Share-based Payment Arrangement, Amount"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncomeTaxReconciliationOtherAdjustments",
+            "label": "(+1) Effective Income Tax Rate Reconciliation, Other Adjustments, Amount"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncomeTaxReconciliationDeductionsDividends",
+            "label": "(-1) Effective Income Tax Rate Reconciliation, Deduction, Dividends, Amount"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncomeTaxReconciliationForeignIncomeTaxRateDifferential",
+            "label": "(+1) Effective Income Tax Rate Reconciliation, Foreign Income Tax Rate Differential, Amount"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncomeTaxReconciliationStateAndLocalIncomeTaxes",
+            "label": "(+1) Effective Income Tax Rate Reconciliation, State and Local Income Taxes, Amount"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:EffectiveIncomeTaxRateReconciliationTaxCutsAndJobsActOf2017Amount",
+            "label": "(+1) Effective Income Tax Rate Reconciliation, Tax Cuts and Jobs Act, Amount"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncomeTaxReconciliationDeductionsQualifiedProductionActivities",
+            "label": "(-1) Effective Income Tax Rate Reconciliation, Deduction, Qualified Production Activity, Amount"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncomeTaxReconciliationTaxSettlements",
+            "label": "(+1) Effective Income Tax Rate Reconciliation, Tax Settlement, Amount"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:EffectiveIncomeTaxRateReconciliationTaxCutsAndJobsActOf2017TransitionTaxOnAccumulatedForeignEarningsAmount",
+            "label": "(+1) Effective Income Tax Rate Reconciliation, Tax Cuts and Jobs Act, Transition Tax on Accumulated Foreign Earnings, Amount"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ]
+      ],
+      [
+        "concept",
+        {
+          "name": "us-gaap:EffectiveIncomeTaxRateContinuingOperations",
+          "label": "Effective Income Tax Rate Reconciliation, Percent"
+        },
+        {},
+        [
+          "concept",
+          {
+            "name": "us-gaap:IncomeTaxReconciliationIncomeTaxExpenseBenefitAtFederalStatutoryIncomeTaxRate",
+            "label": "(-1) Effective Income Tax Rate Reconciliation at Federal Statutory Income Tax Rate, Amount"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "debit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/IncomeTaxesScheduleOfReconciliationOfUSFederalStatutoryTaxRateToOurEffectiveIncomeTaxRateDetailsCalc2",
+        "definition": "2409405 - Disclosure - Income Taxes (Schedule Of Reconciliation Of U.S. Federal Statutory Tax Rate To Our Effective Income Tax Rate) (Details)"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:EffectiveIncomeTaxRateContinuingOperations",
+          "label": "Effective Income Tax Rate Reconciliation, Percent"
+        },
+        {},
+        [
+          "concept",
+          {
+            "name": "us-gaap:EffectiveIncomeTaxRateReconciliationAtFederalStatutoryIncomeTaxRate",
+            "label": "(+1) Effective Income Tax Rate Reconciliation, at Federal Statutory Income Tax Rate, Percent"
+          },
+          {
+            "weight": "1 "
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:EffectiveIncomeTaxRateReconciliationTaxCreditsResearch",
+            "label": "(+1) Effective Income Tax Rate Reconciliation, Tax Credit, Research, Percent"
+          },
+          {
+            "weight": "1 "
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:EffectiveIncomeTaxRateReconciliationNondeductibleExpenseShareBasedCompensationCost",
+            "label": "(+1) Effective Income Tax Rate Reconciliation, Nondeductible Expense, Share-based Payment Arrangement, Percent"
+          },
+          {
+            "weight": "1 "
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:EffectiveIncomeTaxRateReconciliationOtherAdjustments",
+            "label": "(+1) Effective Income Tax Rate Reconciliation, Other Adjustments, Percent"
+          },
+          {
+            "weight": "1 "
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:EffectiveIncomeTaxRateReconciliationDeductionsDividends",
+            "label": "(+1) Effective Income Tax Rate Reconciliation, Deduction, Dividend, Percent"
+          },
+          {
+            "weight": "1 "
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:EffectiveIncomeTaxRateReconciliationForeignIncomeTaxRateDifferential",
+            "label": "(+1) Effective Income Tax Rate Reconciliation, Foreign Income Tax Rate Differential, Percent"
+          },
+          {
+            "weight": "1 "
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:EffectiveIncomeTaxRateReconciliationStateAndLocalIncomeTaxes",
+            "label": "(+1) Effective Income Tax Rate Reconciliation, State and Local Income Taxes, Percent"
+          },
+          {
+            "weight": "1 "
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:EffectiveIncomeTaxRateReconciliationTaxCutsAndJobsActOf2017Percent",
+            "label": "(+1) Effective Income Tax Rate Reconciliation, Tax Cuts and Jobs Act, Percent"
+          },
+          {
+            "weight": "1 "
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:EffectiveIncomeTaxRateReconciliationTaxSettlements",
+            "label": "(+1) Effective Income Tax Rate Reconciliation, Tax Settlement, Percent"
+          },
+          {
+            "weight": "1 "
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:EffectiveIncomeTaxRateReconciliationTaxCutsAndJobsActOf2017TransitionTaxOnAccumulatedForeignEarningsPercent",
+            "label": "(+1) Effective Income Tax Rate Reconciliation, Tax Cuts and Jobs Act, Transition Tax on Accumulated Foreign Earnings, Percent"
+          },
+          {
+            "weight": "1 "
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:EffectiveIncomeTaxRateReconciliationDeductionsQualifiedProductionActivities",
+            "label": "(+1) Effective Income Tax Rate Reconciliation, Deduction, Qualified Production Activity, Percent"
+          },
+          {
+            "weight": "1 "
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/IncomeTaxesSignificantComponentsOfDeferredTaxAssetsNetOfDeferredTaxLiabilitiesDetails",
+        "definition": "2409406 - Disclosure - Income Taxes (Significant Components Of Deferred Tax Assets Net Of Deferred Tax Liabilities) (Details)"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:DeferredTaxLiabilities",
+          "label": "Deferred Tax Liabilities, Net"
+        },
+        {
+          "balance": "credit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:DeferredTaxLiabilitiesDeferredExpenseCapitalizedInventoryCosts",
+            "label": "(+1) Deferred Tax Liabilities, Inventory"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DeferredTaxAssetsTaxDeferredExpenseCompensationAndBenefitsPensions",
+            "label": "(-1) Deferred Tax Assets, Tax Deferred Expense, Compensation and Benefits, Pensions"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "ba:DeferredTaxAssets737MAXcustomerconsiderations",
+            "label": "(-1) Deferred Tax Assets, 737 MAX customer considerations"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "ba:DeferredTaxLiabilitiesPropertyPlantandEquipmentIntangibleAssetsandGoodwillNetofValuationAllowance",
+            "label": "(+1) Deferred Tax Liabilities, Property, Plant and Equipment, Intangible Assets, and Goodwill, Net of Valuation Allowance"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DeferredTaxAssetsTaxDeferredExpenseCompensationAndBenefitsPostretirementBenefits",
+            "label": "(-1) Deferred Tax Assets, Tax Deferred Expense, Compensation and Benefits, Postretirement Benefits"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DeferredTaxAssetsTaxDeferredExpenseCompensationAndBenefitsOther",
+            "label": "(-1) Deferred Tax Assets, Tax Deferred Expense, Compensation and Benefits, Other"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DeferredTaxAssetsTaxDeferredExpenseReservesAndAccrualsReserves",
+            "label": "(-1) Deferred Tax Assets, Tax Deferred Expense, Reserves and Accruals, Reserves"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DeferredTaxAssetsTaxDeferredExpenseReservesAndAccruals",
+            "label": "(-1) Deferred Tax Assets, Tax Deferred Expense, Reserves and Accruals"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DeferredTaxLiabilitiesFinancingArrangements",
+            "label": "(+1) Deferred Tax Liabilities, Financing Arrangements"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DeferredTaxLiabilitiesOther",
+            "label": "(+1) Deferred Tax Liabilities, Other"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/IncomeTaxesNetDeferredTaxAssetsAndLiabilitiesDetails",
+        "definition": "2409407 - Disclosure - Income Taxes (Net Deferred Tax Assets and Liabilities) (Details)"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:DeferredTaxLiabilities",
+          "label": "Deferred Tax Liabilities, Net"
+        },
+        {
+          "balance": "credit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:DeferredTaxAssetsGross",
+            "label": "(-1) Deferred Tax Assets, Gross"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DeferredIncomeTaxLiabilities",
+            "label": "(+1) Deferred Tax Liabilities, Gross"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DeferredTaxAssetsValuationAllowance",
+            "label": "(+1) Deferred Tax Assets, Valuation Allowance"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/InventoriesInventoryDisclosureTableDetails",
+        "definition": "2411403 - Disclosure - Inventories (Inventory Disclosure Table) (Details)"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:InventoryNetOfAllowancesCustomerAdvancesAndProgressBillings",
+          "label": "Inventory, Net of Allowances, Customer Advances and Progress Billings"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:InventoryForLongTermContractsOrPrograms",
+            "label": "(+1) Inventory for Long-term Contracts or Programs, Gross"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "ba:InventoryCommercialAircraftPrograms",
+            "label": "(+1) Inventory Commercial Aircraft Programs"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:OtherInventory",
+            "label": "(+1) Other Inventory, Gross"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/CustomerFinancingScheduleOfCustomerFinancingDetails",
+        "definition": "2413403 - Disclosure - Customer Financing (Schedule Of Customer Financing) (Details)"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "ba:CustomerFinancingBalance",
+          "label": "Customer Financing Balance"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "ba:GrossCustomerFinancingAssets",
+            "label": "(+1) Gross Customer Financing Assets"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          },
+          [
+            "concept",
+            {
+              "name": "ba:TotalFinancingReceivables",
+              "label": "(+1) Total Financing Receivables"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:PropertySubjectToOrAvailableForOperatingLeaseNet",
+              "label": "(+1) Property Subject to or Available for Operating Lease, Net"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:LeaseIncentiveReceivable",
+              "label": "(+1) Lease Incentive Receivable"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ]
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:FinancingReceivableAllowanceForCreditLosses",
+            "label": "(-1) Financing Receivable, Allowance for Credit Loss"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "credit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/CustomerFinancingComponentsOfInvestmentInSalesTypeOrFinanceLeasesDetails",
+        "definition": "2413404 - Disclosure - Customer Financing (Components Of Investment In Sales-Type Or Finance Leases) (Details)"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:NetInvestmentInDirectFinancingAndSalesTypeLeases",
+          "label": "Net Investment in Direct Financing and Sales Type Leases"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:SalesTypeAndDirectFinancingLeasesLeaseReceivablePaymentsToBeReceived",
+            "label": "(+1) Sales-type and Direct Financing Leases, Lease Receivable, Payments to be Received"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:SalesTypeAndDirectFinancingLeasesLeaseReceivableUndiscountedExcessAmount",
+            "label": "(+1) Sales-type and Direct Financing Leases, Lease Receivable, Undiscounted Excess Amount"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "ba:SalestypeDirectFinancingLeasesResidualValueofLeasedAsset",
+            "label": "(+1) Sales-type, Direct Financing Leases, Residual Value of Leased Asset"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:CapitalLeasesFutureMinimumPaymentsReceivable",
+            "label": "(+1) Capital Leases, Future Minimum Payments Receivable"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:CapitalLeasesNetInvestmentInSalesTypeLeasesUnguaranteedResidualValuesOfLeasedProperty",
+            "label": "(+1) Capital Leases, Net Investment in Sales Type Leases, Unguaranteed Residual Values of Leased Property"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:CapitalLeasesNetInvestmentInSalesTypeLeasesDeferredIncome",
+            "label": "(-1) Capital Leases, Net Investment in Sales Type Leases, Deferred Income"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "credit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/CustomerFinancingFinancingReceivableBalancesEvaluatedForImpairmentDetails",
+        "definition": "2413405 - Disclosure - Customer Financing (Financing Receivable Balances Evaluated For Impairment) (Details)"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "ba:TotalFinancingReceivables",
+          "label": "Total Financing Receivables"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:FinancingReceivableIndividuallyEvaluatedForImpairment",
+            "label": "(+1) Financing Receivable, Individually Evaluated for Impairment"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:FinancingReceivableCollectivelyEvaluatedForImpairment",
+            "label": "(+1) Financing Receivable, Collectively Evaluated for Impairment"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/CustomerFinancingScheduledReceiptsOnCustomerFinancingDetails",
+        "definition": "2413410 - Disclosure - Customer Financing (Scheduled Receipts On Customer Financing) (Details)"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:LessorOperatingLeasePaymentsToBeReceived",
+          "label": "Lessor, Operating Lease, Payments to be Received"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:LessorOperatingLeasePaymentsToBeReceivedNextRollingTwelveMonths",
+            "label": "(+1) Lessor, Operating Lease, Payments to be Received, Next Rolling Twelve Months"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:LessorOperatingLeasePaymentsToBeReceivedRollingYearTwo",
+            "label": "(+1) Lessor, Operating Lease, Payments to be Received, Rolling Year Two"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:LessorOperatingLeasePaymentsToBeReceivedRollingYearThree",
+            "label": "(+1) Lessor, Operating Lease, Payments to be Received, Rolling Year Three"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:LessorOperatingLeasePaymentsToBeReceivedRollingYearFour",
+            "label": "(+1) Lessor, Operating Lease, Payments to be Received, Rolling Year Four"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:LessorOperatingLeasePaymentsToBeReceivedRollingYearFive",
+            "label": "(+1) Lessor, Operating Lease, Payments to be Received, Rolling Year Five"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:LessorOperatingLeasePaymentsToBeReceivedAfterRollingYearFive",
+            "label": "(+1) Lessor, Operating Lease, Payments to be Received, after Rolling Year Five"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ]
+      ],
+      [
+        "concept",
+        {
+          "name": "ba:NotesReceivableFuturePaymentsReceivable",
+          "label": "Notes Receivable, Future Payments Receivable"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "ba:NotesReceivableFuturePaymentsReceivableNextRollingTwelveMonths",
+            "label": "(+1) Notes Receivable, Future Payments Receivable, Next Rolling Twelve Months"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "ba:NotesReceivableFuturePaymentsReceivableDueInRollingYearTwo",
+            "label": "(+1) Notes Receivable, Future Payments Receivable, Due in Rolling Year Two"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "ba:NotesReceivableFuturePaymentsReceivableDueInRollingYearThree",
+            "label": "(+1) Notes Receivable, Future Payments Receivable, Due in Rolling Year Three"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "ba:NotesReceivableFuturePaymentsReceivableDueInRollingYearFour",
+            "label": "(+1) Notes Receivable, Future Payments Receivable, Due in Rolling Year Four"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "ba:NotesReceivableFuturePaymentsReceivableDueInRollingYearFive",
+            "label": "(+1) Notes Receivable, Future Payments Receivable, Due in Rolling Year Five"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "ba:NotesReceivableFuturePaymentsReceivableDueInRollingAfterYearFive",
+            "label": "(+1) Notes Receivable, Future Payments Receivable, Due in Rolling after Year Five"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ]
+      ],
+      [
+        "concept",
+        {
+          "name": "us-gaap:SalesTypeAndDirectFinancingLeasesLeaseReceivable",
+          "label": "Sales-type and Direct Financing Leases, Lease Receivable"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:SalesTypeAndDirectFinancingLeasesLeaseReceivablePaymentsToBeReceived",
+            "label": "(+1) Sales-type and Direct Financing Leases, Lease Receivable, Payments to be Received"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:SalesTypeAndDirectFinancingLeasesLeaseReceivablePaymentsToBeReceivedNextRollingTwelveMonths",
+              "label": "(+1) Sales-type and Direct Financing Leases, Lease Receivable, Payments to be Received, Next Rolling Twelve Months"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:SalesTypeAndDirectFinancingLeasesLeaseReceivableLeasePaymentsToBeReceivedRollingYearTwo",
+              "label": "(+1) Sales-type and Direct Financing Leases, Lease Receivable, Lease Payments to be Received, Rolling Year Two"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:SalesTypeAndDirectFinancingLeasesLeaseReceivableLeasePaymentsToBeReceivedRollingYearThree",
+              "label": "(+1) Sales-type and Direct Financing Leases, Lease Receivable, Lease Payments to be Received, Rolling Year Three"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:SalesTypeAndDirectFinancingLeasesLeaseReceivablePaymentsToBeReceivedRollingYearFour",
+              "label": "(+1) Sales-type and Direct Financing Leases, Lease Receivable, Payments to be Received, Rolling Year Four"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:SalesTypeAndDirectFinancingLeasesLeaseReceivableLeasePaymentsToBeReceivedRollingYearFive",
+              "label": "(+1) Sales-type and Direct Financing Leases, Lease Receivable, Lease Payments to be Received, Rolling Year Five"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:SalesTypeAndDirectFinancingLeasesLeaseReceivableLeasePaymentsToBeReceivedAfterRollingYearFive",
+              "label": "(+1) Sales-type and Direct Financing Leases, Lease Receivable, Lease Payments to be Received, after Rolling Year Five"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ]
+        ],
+        [
+          "concept",
+          {
+            "name": "ba:SalestypeDirectFinancingLeasesResidualValueofLeasedAsset",
+            "label": "(+1) Sales-type, Direct Financing Leases, Residual Value of Leased Asset"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:SalesTypeAndDirectFinancingLeasesLeaseReceivableUndiscountedExcessAmount",
+            "label": "(+1) Sales-type and Direct Financing Leases, Lease Receivable, Undiscounted Excess Amount"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/PropertyPlantAndEquipmentScheduleOfPropertyPlantAndEquipmentDetails",
+        "definition": "2414403 - Disclosure - Property, Plant And Equipment (Schedule Of Property, Plant And Equipment) (Details)"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:PropertyPlantAndEquipmentNet",
+          "label": "Property, Plant and Equipment, Net"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:PropertyPlantAndEquipmentGross",
+            "label": "(+1) Property, Plant and Equipment, Gross"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          },
+          [
+            "concept",
+            {
+              "name": "us-gaap:Land",
+              "label": "(+1) Land"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:BuildingsAndImprovementsGross",
+              "label": "(+1) Buildings and Improvements, Gross"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:MachineryAndEquipmentGross",
+              "label": "(+1) Machinery and Equipment, Gross"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ],
+          [
+            "concept",
+            {
+              "name": "us-gaap:ConstructionInProgressGross",
+              "label": "(+1) Construction in Progress, Gross"
+            },
+            {
+              "weight": "1 ",
+              "balance": "debit"
+            }
+          ]
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment",
+            "label": "(-1) Accumulated Depreciation, Depletion and Amortization, Property, Plant, and Equipment"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "credit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/InvestmentsScheduleOfInvestmentsDetails",
+        "definition": "2415402 - Disclosure - Investments (Schedule Of Investments) (Details)"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:Investments",
+          "label": "Investments"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:EquityMethodInvestments",
+            "label": "(+1) Equity Method Investments"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:OtherShortTermInvestments",
+            "label": "(+1) Other Short-term Investments"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:AvailableForSaleSecurities",
+            "label": "(+1) Available-for-sale Securities"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:OtherInvestments",
+            "label": "(+1) Other Investments"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:RestrictedCashAndCashEquivalents",
+            "label": "(+1) Restricted Cash and Cash Equivalents"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/LiabilitiesCommitmentsAndContingenciesScheduleOfAccruedLiabilitiesDetails",
+        "definition": "2418404 - Disclosure - Liabilities, Commitments And Contingencies (Schedule Of Accrued Liabilities) (Details)"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:AccruedLiabilitiesCurrent",
+          "label": "Accrued Liabilities, Current"
+        },
+        {
+          "balance": "credit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:EmployeeRelatedLiabilitiesCurrent",
+            "label": "(+1) Employee-related Liabilities, Current"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "ba:A737MAXcustomerconcessionsandotherconsiderationsliability",
+            "label": "(+1) 737 MAX customer concessions and other considerations liability"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:AccrualForEnvironmentalLossContingencies",
+            "label": "(+1) Accrual for Environmental Loss Contingencies"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:ProductWarrantyAccrual",
+            "label": "(+1) Standard and Extended Product Warranty Accrual"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:ProvisionForLossOnContracts",
+            "label": "(+1) Provision for Loss on Contracts"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DividendsPayableCurrent",
+            "label": "(+1) Dividends Payable, Current"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:TaxesPayableCurrentAndNoncurrent",
+            "label": "(+1) Taxes Payable"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:OtherAccruedLiabilitiesCurrent",
+            "label": "(+1) Other Accrued Liabilities, Current"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/LiabilitiesCommitmentsAndContingenciesScheduleOfEstimatedPotentialFundingDatesForFinancingCommitmentsDetails",
+        "definition": "2418408 - Disclosure - Liabilities, Commitments And Contingencies (Schedule Of Estimated Potential Funding Dates For Financing Commitments) (Details)"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:OtherCommitment",
+          "label": "Other Commitment"
+        },
+        {
+          "balance": "credit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:OtherCommitmentDueInNextTwelveMonths",
+            "label": "(+1) Other Commitment, Due in Next Twelve Months"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:OtherCommitmentDueInSecondYear",
+            "label": "(+1) Other Commitment, Due in Second Year"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:OtherCommitmentDueInThirdYear",
+            "label": "(+1) Other Commitment, Due in Third Year"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:OtherCommitmentDueInFourthYear",
+            "label": "(+1) Other Commitment, Due in Fourth Year"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:OtherCommitmentDueInFifthYear",
+            "label": "(+1) Other Commitment, Due in Fifth Year"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:OtherCommitmentDueAfterFifthYear",
+            "label": "(+1) Other Commitment, Due after Fifth Year"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/DebtScheduleOfShortTermDebtAndCurrentPortionOfLongTermDebtDetails",
+        "definition": "2420403 - Disclosure - Debt (Schedule Of Short-Term Debt And Current Portion Of Long-Term Debt) (Details)"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:DebtCurrent",
+          "label": "Debt, Current"
+        },
+        {
+          "balance": "credit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:UnsecuredDebtCurrent",
+            "label": "(+1) Unsecured Debt, Current"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:SecuredDebtCurrent",
+            "label": "(+1) Secured Debt, Current"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:CapitalLeaseObligationsCurrent",
+            "label": "(+1) Capital Lease Obligations, Current"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:CommercialPaper",
+            "label": "(+1) Commercial Paper"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:OtherNotesPayableCurrent",
+            "label": "(+1) Other Notes Payable, Current"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/PostretirementPlansComponentsOfNetPeriodicBenefitCostDetails",
+        "definition": "2421403 - Disclosure - Postretirement Plans (Components Of Net Periodic Benefit Cost) (Details)"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:DefinedBenefitPlanNetPeriodicBenefitCost",
+          "label": "Defined Benefit Plan, Net Periodic Benefit Cost (Credit)"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:DefinedBenefitPlanServiceCost",
+            "label": "(+1) Defined Benefit Plan, Service Cost"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DefinedBenefitPlanInterestCost",
+            "label": "(+1) Defined Benefit Plan, Interest Cost"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DefinedBenefitPlanExpectedReturnOnPlanAssets",
+            "label": "(-1) Defined Benefit Plan, Expected Return (Loss) on Plan Assets"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DefinedBenefitPlanAmortizationOfPriorServiceCostCredit",
+            "label": "(+1) Defined Benefit Plan, Amortization of Prior Service Cost (Credit)"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DefinedBenefitPlanAmortizationOfGainsLosses",
+            "label": "(-1) Defined Benefit Plan, Amortization of Gain (Loss)"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DefinedBenefitPlanRecognizedNetGainLossDueToSettlementsAndCurtailments1",
+            "label": "(-1) Defined Benefit Plan, Net Periodic Benefit Cost (Credit), Gain (Loss) Due to Settlement and Curtailment"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "credit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/PostretirementPlansScheduleOfChangesInBenefitObligationPlanAssetsAndFundedStatusOfBothPensionsAndOpbDetails",
+        "definition": "2421404 - Disclosure - Postretirement Plans (Schedule Of Changes In The Benefit Obligation, Plan Assets And Funded Status Of Both Pensions And OPB) (Details)"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:DefinedBenefitPlanAmountsRecognizedInBalanceSheet",
+          "label": "Defined Benefit Plan, Amounts for Asset (Liability) Recognized in Statement of Financial Position"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:DefinedBenefitPlanAssetsForPlanBenefitsNoncurrent",
+            "label": "(+1) Assets for Plan Benefits, Defined Benefit Plan"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:PensionAndOtherPostretirementDefinedBenefitPlansCurrentLiabilities",
+            "label": "(-1) Liability, Defined Benefit Plan, Current"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:OtherPostretirementBenefitsPayableNoncurrent",
+            "label": "(-1) Liability, Other Retirement Benefits, Noncurrent"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DefinedBenefitPensionPlanLiabilitiesNoncurrent",
+            "label": "(-1) Liability, Defined Benefit Pension Plan, Noncurrent"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "credit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/PostretirementPlansScheduleOfAmountsRecognizedInAccumulatedOtherComprehensiveLossDetails",
+        "definition": "2421405 - Disclosure - Postretirement Plans (Schedule Of Amounts Recognized In Accumulated Other Comprehensive Loss) (Details)"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:DefinedBenefitPlanAccumulatedOtherComprehensiveIncomeBeforeTax",
+          "label": "Defined Benefit Plan, Accumulated Other Comprehensive (Income) Loss, before Tax"
+        },
+        {
+          "balance": "debit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:DefinedBenefitPlanAccumulatedOtherComprehensiveIncomeNetGainsLossesBeforeTax",
+            "label": "(-1) Defined Benefit Plan, Accumulated Other Comprehensive Income (Loss), Gain (Loss), before Tax"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:DefinedBenefitPlanAccumulatedOtherComprehensiveIncomeNetPriorServiceCostCreditBeforeTax",
+            "label": "(+1) Defined Benefit Plan, Accumulated Other Comprehensive (Income) Loss, Prior Service Cost (Credit), before Tax"
+          },
+          {
+            "weight": "1 ",
+            "balance": "debit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/ShareholdersEquityAccumulatedOtherComprehensiveIncomeDetails",
+        "definition": "2423404 - Disclosure - Shareholders' Equity (Accumulated other comprehensive income) (Details)"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:OtherComprehensiveIncomeLossNetOfTax",
+          "label": "Other Comprehensive Income (Loss), Net of Tax"
+        },
+        {
+          "balance": "credit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:OtherComprehensiveIncomeLossBeforeReclassificationsNetOfTax",
+            "label": "(+1) Other Comprehensive Income (Loss), before Reclassifications, Net of Tax"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ],
+        [
+          "concept",
+          {
+            "name": "us-gaap:ReclassificationFromAccumulatedOtherComprehensiveIncomeCurrentPeriodNetOfTax",
+            "label": "(-1) Reclassification from Accumulated Other Comprehensive Income, Current Period, Net of Tax"
+          },
+          {
+            "weight": "-1 ",
+            "balance": "debit"
+          }
+        ]
+      ]
+    ],
+    [
+      "linkRole",
+      {
+        "role": "http://www.boeing.com/role/FairValueMeasurementsFairValueAssetsAndLiabilitiesMeasuredOnRecurringBasisDetails",
+        "definition": "2426402 - Disclosure - Fair Value Measurements Fair Value, Assets and Liabilities Measured on Recurring Basis (Details)"
+      },
+      {},
+      [
+        "concept",
+        {
+          "name": "us-gaap:LiabilitiesFairValueDisclosure",
+          "label": "Financial and Nonfinancial Liabilities, Fair Value Disclosure"
+        },
+        {
+          "balance": "credit"
+        },
+        [
+          "concept",
+          {
+            "name": "us-gaap:DerivativeLiabilities",
+            "label": "(+1) Derivative Liability"
+          },
+          {
+            "weight": "1 ",
+            "balance": "credit"
+          }
+        ]
+      ]
+    ]
+  ]
+}

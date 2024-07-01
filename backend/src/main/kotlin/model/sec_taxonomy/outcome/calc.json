@@ -1,0 +1,3889 @@
+{
+  "us-gaap:DirectFinancingLeaseRevenue": {
+    "label": "(+1) us-gaap:DirectFinancingLeaseRevenue",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DirectFinancingLeaseVariableLeaseIncome": {
+    "label": "(+1) us-gaap:DirectFinancingLeaseVariableLeaseIncome",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DirectFinancingLeaseInterestIncome": {
+    "label": "(+1) us-gaap:DirectFinancingLeaseInterestIncome",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:SalesTypeLeaseRevenue": {
+    "label": "(+1) us-gaap:SalesTypeLeaseRevenue",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:SalesTypeLeaseVariableLeaseIncome": {
+    "label": "(+1) us-gaap:SalesTypeLeaseVariableLeaseIncome",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:SalesTypeLeaseInterestIncome": {
+    "label": "(+1) us-gaap:SalesTypeLeaseInterestIncome",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:OperatingLeaseLeaseIncome": {
+    "label": "(+1) us-gaap:OperatingLeaseLeaseIncome",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:SubleaseIncome": {
+    "label": "(+1) us-gaap:SubleaseIncome",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:SaleOfTrustAssetsToPayExpenses": {
+    "label": "(+1) us-gaap:SaleOfTrustAssetsToPayExpenses",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InsuranceCommissionsAndFees": {
+    "label": "(+1) us-gaap:InsuranceCommissionsAndFees",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ContractuallySpecifiedServicingFeesAmount": {
+    "label": "(+1) us-gaap:ContractuallySpecifiedServicingFeesAmount",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:LateFeeIncomeGeneratedByServicingFinancialAssetsAmount": {
+    "label": "(+1) us-gaap:LateFeeIncomeGeneratedByServicingFinancialAssetsAmount",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:AncillaryFeeIncomeGeneratedByServicingFinancialAssetsAmount": {
+    "label": "(+1) us-gaap:AncillaryFeeIncomeGeneratedByServicingFinancialAssetsAmount",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ContractuallySpecifiedServicingFeesLateFeesAndAncillaryFeesEarnedInExchangeForServicingFinancialAssets": {
+    "label": "(+1) us-gaap:ContractuallySpecifiedServicingFeesLateFeesAndAncillaryFeesEarnedInExchangeForServicingFinancialAssets",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:ContractuallySpecifiedServicingFeesAmount",
+      "us-gaap:LateFeeIncomeGeneratedByServicingFinancialAssetsAmount",
+      "us-gaap:AncillaryFeeIncomeGeneratedByServicingFinancialAssetsAmount"
+    ]
+  },
+  "us-gaap:InsuranceAgencyManagementFee": {
+    "label": "(+1) us-gaap:InsuranceAgencyManagementFee",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainLossOnSecuritizationOfFinancialAssets": {
+    "label": "(+1) us-gaap:GainLossOnSecuritizationOfFinancialAssets",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DebtSecuritiesTradingRealizedGainLoss": {
+    "label": "(+1) us-gaap:DebtSecuritiesTradingRealizedGainLoss",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DebtSecuritiesAvailableForSaleRealizedGainLoss": {
+    "label": "(+1) us-gaap:DebtSecuritiesAvailableForSaleRealizedGainLoss",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:HeldtomaturitySecuritiesSoldSecurityRealizedGainLossExcludingOtherThanTemporaryImpairments": {
+    "label": "(+1) us-gaap:HeldtomaturitySecuritiesSoldSecurityRealizedGainLossExcludingOtherThanTemporaryImpairments",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DebtSecuritiesRealizedGainLoss": {
+    "label": "(+1) us-gaap:DebtSecuritiesRealizedGainLoss",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:DebtSecuritiesTradingRealizedGainLoss",
+      "us-gaap:DebtSecuritiesAvailableForSaleRealizedGainLoss",
+      "us-gaap:HeldtomaturitySecuritiesSoldSecurityRealizedGainLossExcludingOtherThanTemporaryImpairments"
+    ]
+  },
+  "us-gaap:EquitySecuritiesFvNiRealizedGainLoss": {
+    "label": "(+1) us-gaap:EquitySecuritiesFvNiRealizedGainLoss",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DebtAndEquitySecuritiesRealizedGainLoss": {
+    "label": "(+1) us-gaap:DebtAndEquitySecuritiesRealizedGainLoss",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:DebtSecuritiesRealizedGainLoss",
+      "us-gaap:EquitySecuritiesFvNiRealizedGainLoss"
+    ]
+  },
+  "us-gaap:GainLossOnSalesOfConsumerLoans": {
+    "label": "(+1) us-gaap:GainLossOnSalesOfConsumerLoans",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainLossOnSaleOfMortgageLoans": {
+    "label": "(+1) us-gaap:GainLossOnSaleOfMortgageLoans",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainLossOnSalesOfLoansNet": {
+    "label": "(+1) us-gaap:GainLossOnSalesOfLoansNet",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:GainLossOnSalesOfConsumerLoans",
+      "us-gaap:GainLossOnSaleOfMortgageLoans"
+    ]
+  },
+  "us-gaap:GainLossOnSalesOfMortgageBackedSecuritiesMBS": {
+    "label": "(+1) us-gaap:GainLossOnSalesOfMortgageBackedSecuritiesMBS",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainLossOnSaleOfInsuranceBlock": {
+    "label": "(+1) us-gaap:GainLossOnSaleOfInsuranceBlock",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainLossOnSaleOfDerivatives": {
+    "label": "(+1) us-gaap:GainLossOnSaleOfDerivatives",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainsLossesOnSalesOfCreditCardPortfolio": {
+    "label": "(+1) us-gaap:GainsLossesOnSalesOfCreditCardPortfolio",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainLossOnDispositionOfOtherFinancialAssets": {
+    "label": "(+1) us-gaap:GainLossOnDispositionOfOtherFinancialAssets",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainsLossesOnSalesOfAssets": {
+    "label": "(+1) us-gaap:GainsLossesOnSalesOfAssets",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:GainLossOnSecuritizationOfFinancialAssets",
+      "us-gaap:DebtAndEquitySecuritiesRealizedGainLoss",
+      "us-gaap:GainLossOnSalesOfLoansNet",
+      "us-gaap:GainLossOnSalesOfMortgageBackedSecuritiesMBS",
+      "us-gaap:GainLossOnSaleOfInsuranceBlock",
+      "us-gaap:GainLossOnSaleOfDerivatives",
+      "us-gaap:GainsLossesOnSalesOfCreditCardPortfolio",
+      "us-gaap:GainLossOnDispositionOfOtherFinancialAssets"
+    ]
+  },
+  "us-gaap:PremiumsEarnedNet": {
+    "label": "(+1) us-gaap:PremiumsEarnedNet",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestAndFeeIncomeLoansHeldForSaleMortgages": {
+    "label": "(+1) us-gaap:InterestAndFeeIncomeLoansHeldForSaleMortgages",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestAndFeeIncomeNonmortgageLoansAndLeasesHeldForSale": {
+    "label": "(+1) us-gaap:InterestAndFeeIncomeNonmortgageLoansAndLeasesHeldForSale",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestAndFeeIncomeOtherLoansHeldForSale": {
+    "label": "(+1) us-gaap:InterestAndFeeIncomeOtherLoansHeldForSale",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestAndFeeIncomeLoansAndLeasesHeldForSale": {
+    "label": "(+1) us-gaap:InterestAndFeeIncomeLoansAndLeasesHeldForSale",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:InterestAndFeeIncomeLoansHeldForSaleMortgages",
+      "us-gaap:InterestAndFeeIncomeNonmortgageLoansAndLeasesHeldForSale",
+      "us-gaap:InterestAndFeeIncomeOtherLoansHeldForSale"
+    ]
+  },
+  "us-gaap:InterestAndFeeIncomeLoansCommercialIndustrialAndAgriculturalLoans": {
+    "label": "(+1) us-gaap:InterestAndFeeIncomeLoansCommercialIndustrialAndAgriculturalLoans",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestAndFeeIncomeLoansCommercialAndResidentialRealEstate": {
+    "label": "(+1) us-gaap:InterestAndFeeIncomeLoansCommercialAndResidentialRealEstate",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestAndFeeIncomeLoansCommercialRealEstate": {
+    "label": "(+1) us-gaap:InterestAndFeeIncomeLoansCommercialRealEstate",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestAndFeeIncomeLoansRealEstateConstruction": {
+    "label": "(+1) us-gaap:InterestAndFeeIncomeLoansRealEstateConstruction",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestAndFeeIncomeLoansTradeFinancing": {
+    "label": "(+1) us-gaap:InterestAndFeeIncomeLoansTradeFinancing",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestAndFeeIncomeLoansLeaseFinancing": {
+    "label": "(+1) us-gaap:InterestAndFeeIncomeLoansLeaseFinancing",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestAndFeeIncomeLoansCommercial": {
+    "label": "(+1) us-gaap:InterestAndFeeIncomeLoansCommercial",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:InterestAndFeeIncomeLoansCommercialIndustrialAndAgriculturalLoans",
+      "us-gaap:InterestAndFeeIncomeLoansCommercialAndResidentialRealEstate",
+      "us-gaap:InterestAndFeeIncomeLoansCommercialRealEstate",
+      "us-gaap:InterestAndFeeIncomeLoansRealEstateConstruction",
+      "us-gaap:InterestAndFeeIncomeLoansTradeFinancing",
+      "us-gaap:InterestAndFeeIncomeLoansLeaseFinancing"
+    ]
+  },
+  "us-gaap:InterestAndFeeIncomeLoansConsumerRealEstate": {
+    "label": "(+1) us-gaap:InterestAndFeeIncomeLoansConsumerRealEstate",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestAndFeeIncomeLoansConsumerHomeEquity": {
+    "label": "(+1) us-gaap:InterestAndFeeIncomeLoansConsumerHomeEquity",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestAndFeeIncomeLoansConsumerInstallmentAutomobilesMarineAndOtherVehicles": {
+    "label": "(+1) us-gaap:InterestAndFeeIncomeLoansConsumerInstallmentAutomobilesMarineAndOtherVehicles",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestAndFeeIncomeLoansConsumerInstallmentCreditCard": {
+    "label": "(+1) us-gaap:InterestAndFeeIncomeLoansConsumerInstallmentCreditCard",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestAndFeeIncomeLoansOtherConsumer": {
+    "label": "(+1) us-gaap:InterestAndFeeIncomeLoansOtherConsumer",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestAndFeeIncomeLoansConsumer": {
+    "label": "(+1) us-gaap:InterestAndFeeIncomeLoansConsumer",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:InterestAndFeeIncomeLoansConsumerRealEstate",
+      "us-gaap:InterestAndFeeIncomeLoansConsumerHomeEquity",
+      "us-gaap:InterestAndFeeIncomeLoansConsumerInstallmentAutomobilesMarineAndOtherVehicles",
+      "us-gaap:InterestAndFeeIncomeLoansConsumerInstallmentCreditCard",
+      "us-gaap:InterestAndFeeIncomeLoansOtherConsumer"
+    ]
+  },
+  "us-gaap:InterestAndFeeIncomeLoansForeign": {
+    "label": "(+1) us-gaap:InterestAndFeeIncomeLoansForeign",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:AmortizationOfDeferredLoanOriginationFeesNet": {
+    "label": "(+1) us-gaap:AmortizationOfDeferredLoanOriginationFeesNet",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestAndFeeIncomeOtherLoans": {
+    "label": "(+1) us-gaap:InterestAndFeeIncomeOtherLoans",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestAndFeeIncomeLoansAndLeasesHeldInPortfolio": {
+    "label": "(+1) us-gaap:InterestAndFeeIncomeLoansAndLeasesHeldInPortfolio",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:InterestAndFeeIncomeLoansCommercial",
+      "us-gaap:InterestAndFeeIncomeLoansConsumer",
+      "us-gaap:InterestAndFeeIncomeLoansForeign",
+      "us-gaap:AmortizationOfDeferredLoanOriginationFeesNet",
+      "us-gaap:InterestAndFeeIncomeOtherLoans"
+    ]
+  },
+  "us-gaap:InterestAndFeeIncomeLoansAndLeases": {
+    "label": "(+1) us-gaap:InterestAndFeeIncomeLoansAndLeases",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:InterestAndFeeIncomeLoansAndLeasesHeldForSale",
+      "us-gaap:InterestAndFeeIncomeLoansAndLeasesHeldInPortfolio"
+    ]
+  },
+  "us-gaap:InterestIncomeAndFeesBankersAcceptancesCertificatesOfDepositAndCommercialPaper": {
+    "label": "(+1) us-gaap:InterestIncomeAndFeesBankersAcceptancesCertificatesOfDepositAndCommercialPaper",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestIncomePurchasedReceivables": {
+    "label": "(+1) us-gaap:InterestIncomePurchasedReceivables",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestIncomeMoneyMarketDeposits": {
+    "label": "(+1) us-gaap:InterestIncomeMoneyMarketDeposits",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestIncomeOtherDomesticDeposits": {
+    "label": "(+1) us-gaap:InterestIncomeOtherDomesticDeposits",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestIncomeDomesticDeposits": {
+    "label": "(+1) us-gaap:InterestIncomeDomesticDeposits",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:InterestIncomeMoneyMarketDeposits",
+      "us-gaap:InterestIncomeOtherDomesticDeposits"
+    ]
+  },
+  "us-gaap:InterestIncomeForeignDeposits": {
+    "label": "(+1) us-gaap:InterestIncomeForeignDeposits",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestIncomeDepositsWithFinancialInstitutions": {
+    "label": "(+1) us-gaap:InterestIncomeDepositsWithFinancialInstitutions",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:InterestIncomeDomesticDeposits",
+      "us-gaap:InterestIncomeForeignDeposits"
+    ]
+  },
+  "us-gaap:InterestIncomeFederalFundsSold": {
+    "label": "(+1) us-gaap:InterestIncomeFederalFundsSold",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestIncomeSecuritiesPurchasedUnderAgreementsToResell": {
+    "label": "(+1) us-gaap:InterestIncomeSecuritiesPurchasedUnderAgreementsToResell",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestIncomeFederalFundsSoldAndSecuritiesPurchasedUnderAgreementsToResell": {
+    "label": "(+1) us-gaap:InterestIncomeFederalFundsSoldAndSecuritiesPurchasedUnderAgreementsToResell",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:InterestIncomeFederalFundsSold",
+      "us-gaap:InterestIncomeSecuritiesPurchasedUnderAgreementsToResell"
+    ]
+  },
+  "us-gaap:InterestIncomeSecuritiesTaxable": {
+    "label": "(+1) us-gaap:InterestIncomeSecuritiesTaxable",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestIncomeSecuritiesTaxExempt": {
+    "label": "(+1) us-gaap:InterestIncomeSecuritiesTaxExempt",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestIncomeSecuritiesTaxAdvantaged": {
+    "label": "(+1) us-gaap:InterestIncomeSecuritiesTaxAdvantaged",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestIncomeOperating": {
+    "label": "(+1) us-gaap:InterestIncomeOperating",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:InterestIncomeSecuritiesTaxable",
+      "us-gaap:InterestIncomeSecuritiesTaxExempt",
+      "us-gaap:InterestIncomeSecuritiesTaxAdvantaged"
+    ]
+  },
+  "us-gaap:DividendIncomeSecuritiesOperatingTaxable": {
+    "label": "(+1) us-gaap:DividendIncomeSecuritiesOperatingTaxable",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DividendIncomeSecuritiesOperatingTaxExempt": {
+    "label": "(+1) us-gaap:DividendIncomeSecuritiesOperatingTaxExempt",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DividendIncomeSecuritiesOperatingTaxAdvantaged": {
+    "label": "(+1) us-gaap:DividendIncomeSecuritiesOperatingTaxAdvantaged",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DividendIncomeOperating": {
+    "label": "(+1) us-gaap:DividendIncomeOperating",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:DividendIncomeSecuritiesOperatingTaxable",
+      "us-gaap:DividendIncomeSecuritiesOperatingTaxExempt",
+      "us-gaap:DividendIncomeSecuritiesOperatingTaxAdvantaged"
+    ]
+  },
+  "us-gaap:OtherInterestAndDividendIncome": {
+    "label": "(+1) us-gaap:OtherInterestAndDividendIncome",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InsuranceInvestmentIncome": {
+    "label": "(+1) us-gaap:InsuranceInvestmentIncome",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:NetInvestmentIncome": {
+    "label": "(+1) us-gaap:NetInvestmentIncome",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:InterestAndFeeIncomeLoansAndLeases",
+      "us-gaap:InterestIncomeAndFeesBankersAcceptancesCertificatesOfDepositAndCommercialPaper",
+      "us-gaap:InterestIncomePurchasedReceivables",
+      "us-gaap:InterestIncomeDepositsWithFinancialInstitutions",
+      "us-gaap:InterestIncomeFederalFundsSoldAndSecuritiesPurchasedUnderAgreementsToResell",
+      "us-gaap:InterestIncomeOperating",
+      "us-gaap:DividendIncomeOperating",
+      "us-gaap:OtherInterestAndDividendIncome",
+      "us-gaap:InsuranceInvestmentIncome"
+    ]
+  },
+  "us-gaap:RealizedInvestmentGainsLosses": {
+    "label": "(+1) us-gaap:RealizedInvestmentGainsLosses",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:BrokerageCommissionsRevenue": {
+    "label": "(+1) us-gaap:BrokerageCommissionsRevenue",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InvestmentBankingRevenue": {
+    "label": "(+1) us-gaap:InvestmentBankingRevenue",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:UnderwritingIncomeLoss": {
+    "label": "(+1) us-gaap:UnderwritingIncomeLoss",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:TradingActivityGain": {
+    "label": "(+1) us-gaap:TradingActivityGain",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:TradingActivityLoss": {
+    "label": "(-1) us-gaap:TradingActivityLoss",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:TradingGainsLosses": {
+    "label": "(+1) us-gaap:TradingGainsLosses",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:TradingActivityGain",
+      "us-gaap:TradingActivityLoss"
+    ]
+  },
+  "us-gaap:PrincipalInvestmentGainsLosses": {
+    "label": "(+1) us-gaap:PrincipalInvestmentGainsLosses",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:PrincipalTransactionsRevenue": {
+    "label": "(+1) us-gaap:PrincipalTransactionsRevenue",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:TradingGainsLosses",
+      "us-gaap:PrincipalInvestmentGainsLosses"
+    ]
+  },
+  "us-gaap:MarketDataRevenue": {
+    "label": "(+1) us-gaap:MarketDataRevenue",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:RevenuesExcludingInterestAndDividends": {
+    "label": "(+1) us-gaap:RevenuesExcludingInterestAndDividends",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:BrokerageCommissionsRevenue",
+      "us-gaap:InvestmentBankingRevenue",
+      "us-gaap:UnderwritingIncomeLoss",
+      "us-gaap:PrincipalTransactionsRevenue",
+      "us-gaap:MarketDataRevenue"
+    ]
+  },
+  "us-gaap:OtherOperatingIncome": {
+    "label": "(+1) us-gaap:OtherOperatingIncome",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:FeeIncome": {
+    "label": "(+1) us-gaap:FeeIncome",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:OtherIncome": {
+    "label": "(+1) us-gaap:OtherIncome",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:Revenues": {
+    "label": "(+1) us-gaap:Revenues",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:DirectFinancingLeaseRevenue",
+      "us-gaap:DirectFinancingLeaseVariableLeaseIncome",
+      "us-gaap:DirectFinancingLeaseInterestIncome",
+      "us-gaap:SalesTypeLeaseRevenue",
+      "us-gaap:SalesTypeLeaseVariableLeaseIncome",
+      "us-gaap:SalesTypeLeaseInterestIncome",
+      "us-gaap:OperatingLeaseLeaseIncome",
+      "us-gaap:SubleaseIncome",
+      "us-gaap:SaleOfTrustAssetsToPayExpenses",
+      "us-gaap:InsuranceCommissionsAndFees",
+      "us-gaap:ContractuallySpecifiedServicingFeesLateFeesAndAncillaryFeesEarnedInExchangeForServicingFinancialAssets",
+      "us-gaap:InsuranceAgencyManagementFee",
+      "us-gaap:GainsLossesOnSalesOfAssets",
+      "us-gaap:PremiumsEarnedNet",
+      "us-gaap:NetInvestmentIncome",
+      "us-gaap:RealizedInvestmentGainsLosses",
+      "us-gaap:RevenuesExcludingInterestAndDividends",
+      "us-gaap:OtherOperatingIncome",
+      "us-gaap:FeeIncome",
+      "us-gaap:OtherIncome"
+    ]
+  },
+  "us-gaap:CostDirectMaterial": {
+    "label": "(+1) us-gaap:CostDirectMaterial",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:CostOfGoodsSoldSalesTypeLease": {
+    "label": "(+1) us-gaap:CostOfGoodsSoldSalesTypeLease",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:CostOfGoodsSoldDirectFinancingLease": {
+    "label": "(+1) us-gaap:CostOfGoodsSoldDirectFinancingLease",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DirectCostsOfLeasedAndRentedPropertyOrEquipment": {
+    "label": "(+1) us-gaap:DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:CostDirectLabor": {
+    "label": "(+1) us-gaap:CostDirectLabor",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:CostOfGoodsAndServicesSoldOverhead": {
+    "label": "(+1) us-gaap:CostOfGoodsAndServicesSoldOverhead",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:CostMaintenance": {
+    "label": "(+1) us-gaap:CostMaintenance",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DirectTaxesAndLicensesCosts": {
+    "label": "(+1) us-gaap:DirectTaxesAndLicensesCosts",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:CostOfTrustAssetsSoldToPayExpenses": {
+    "label": "(+1) us-gaap:CostOfTrustAssetsSoldToPayExpenses",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:CostOfPropertyRepairsAndMaintenance": {
+    "label": "(+1) us-gaap:CostOfPropertyRepairsAndMaintenance",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:CostOfOtherPropertyOperatingExpense": {
+    "label": "(+1) us-gaap:CostOfOtherPropertyOperatingExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:WaterProductionCosts": {
+    "label": "(+1) us-gaap:WaterProductionCosts",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:CostOfPurchasedWater": {
+    "label": "(+1) us-gaap:CostOfPurchasedWater",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:RecoveryOfDirectCosts": {
+    "label": "(-1) us-gaap:RecoveryOfDirectCosts",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:ManufacturingCosts": {
+    "label": "(+1) us-gaap:ManufacturingCosts",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DirectOperatingMaintenanceSuppliesCosts": {
+    "label": "(+1) us-gaap:DirectOperatingMaintenanceSuppliesCosts",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:OperatingInsuranceAndClaimsCostsProduction": {
+    "label": "(+1) us-gaap:OperatingInsuranceAndClaimsCostsProduction",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:FuelCosts": {
+    "label": "(+1) us-gaap:FuelCosts",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DirectOperatingCommunicationsCosts": {
+    "label": "(+1) us-gaap:DirectOperatingCommunicationsCosts",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DirectCommunicationsAndUtilitiesCosts": {
+    "label": "(+1) us-gaap:DirectCommunicationsAndUtilitiesCosts",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:DirectOperatingCommunicationsCosts"
+    ]
+  },
+  "us-gaap:AircraftRental": {
+    "label": "(+1) us-gaap:AircraftRental",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:LandingFeesAndOtherRentals": {
+    "label": "(+1) us-gaap:LandingFeesAndOtherRentals",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:AircraftRentalAndLandingFees": {
+    "label": "(+1) us-gaap:AircraftRentalAndLandingFees",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:AircraftRental",
+      "us-gaap:LandingFeesAndOtherRentals"
+    ]
+  },
+  "us-gaap:DirectOperatingCosts": {
+    "label": "(+1) us-gaap:DirectOperatingCosts",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:WaterProductionCosts",
+      "us-gaap:CostOfPurchasedWater",
+      "us-gaap:RecoveryOfDirectCosts",
+      "us-gaap:ManufacturingCosts",
+      "us-gaap:DirectOperatingMaintenanceSuppliesCosts",
+      "us-gaap:OperatingInsuranceAndClaimsCostsProduction",
+      "us-gaap:FuelCosts",
+      "us-gaap:DirectCommunicationsAndUtilitiesCosts",
+      "us-gaap:AircraftRentalAndLandingFees"
+    ]
+  },
+  "us-gaap:LossOnContracts": {
+    "label": "(+1) us-gaap:LossOnContracts",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:AffiliateCosts": {
+    "label": "(+1) us-gaap:AffiliateCosts",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InventoryFirmPurchaseCommitmentLoss": {
+    "label": "(+1) us-gaap:InventoryFirmPurchaseCommitmentLoss",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ExciseAndSalesTaxes": {
+    "label": "(+1) us-gaap:ExciseAndSalesTaxes",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InventoryWriteDown": {
+    "label": "(+1) us-gaap:InventoryWriteDown",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ProductionRelatedImpairmentsOrCharges": {
+    "label": "(+1) us-gaap:ProductionRelatedImpairmentsOrCharges",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:InventoryWriteDown"
+    ]
+  },
+  "us-gaap:CostOfGoodsAndServiceExcludingDepreciationDepletionAndAmortization": {
+    "label": "(+1) us-gaap:CostOfGoodsAndServiceExcludingDepreciationDepletionAndAmortization",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:CostDirectMaterial",
+      "us-gaap:CostOfGoodsSoldSalesTypeLease",
+      "us-gaap:CostOfGoodsSoldDirectFinancingLease",
+      "us-gaap:DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+      "us-gaap:CostDirectLabor",
+      "us-gaap:CostOfGoodsAndServicesSoldOverhead",
+      "us-gaap:CostMaintenance",
+      "us-gaap:DirectTaxesAndLicensesCosts",
+      "us-gaap:CostOfTrustAssetsSoldToPayExpenses",
+      "us-gaap:CostOfPropertyRepairsAndMaintenance",
+      "us-gaap:CostOfOtherPropertyOperatingExpense",
+      "us-gaap:DirectOperatingCosts",
+      "us-gaap:LossOnContracts",
+      "us-gaap:AffiliateCosts",
+      "us-gaap:InventoryFirmPurchaseCommitmentLoss",
+      "us-gaap:ExciseAndSalesTaxes",
+      "us-gaap:ProductionRelatedImpairmentsOrCharges"
+    ]
+  },
+  "us-gaap:CostOfGoodsAndServicesSoldDepreciation": {
+    "label": "(+1) us-gaap:CostOfGoodsAndServicesSoldDepreciation",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:CostOfGoodsAndServicesSoldAmortization": {
+    "label": "(+1) us-gaap:CostOfGoodsAndServicesSoldAmortization",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:CostOfGoodsAndServicesSoldDepreciationAndAmortization": {
+    "label": "(+1) us-gaap:CostOfGoodsAndServicesSoldDepreciationAndAmortization",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:CostOfGoodsAndServicesSoldDepreciation",
+      "us-gaap:CostOfGoodsAndServicesSoldAmortization"
+    ]
+  },
+  "us-gaap:CostDepletion": {
+    "label": "(+1) us-gaap:CostDepletion",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:CostDepreciationAmortizationAndDepletion": {
+    "label": "(+1) us-gaap:CostDepreciationAmortizationAndDepletion",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:CostOfGoodsAndServicesSoldDepreciationAndAmortization",
+      "us-gaap:CostDepletion"
+    ]
+  },
+  "us-gaap:CostOfGoodsAndServicesSold": {
+    "label": "(+1) us-gaap:CostOfGoodsAndServicesSold",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:CostOfGoodsAndServiceExcludingDepreciationDepletionAndAmortization",
+      "us-gaap:CostDepreciationAmortizationAndDepletion"
+    ]
+  },
+  "us-gaap:FinancingInterestExpense": {
+    "label": "(+1) us-gaap:FinancingInterestExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ProvisionForOtherCreditLosses": {
+    "label": "(+1) us-gaap:ProvisionForOtherCreditLosses",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ProvisionForOtherLosses": {
+    "label": "(+1) us-gaap:ProvisionForOtherLosses",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ProvisionForLoanLossesExpensed": {
+    "label": "(+1) us-gaap:ProvisionForLoanLossesExpensed",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:NetInvestmentInLeaseCreditLossExpenseReversal": {
+    "label": "(+1) us-gaap:NetInvestmentInLeaseCreditLossExpenseReversal",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ProvisionForLoanLeaseAndOtherLosses": {
+    "label": "(+1) us-gaap:ProvisionForLoanLeaseAndOtherLosses",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:ProvisionForOtherCreditLosses",
+      "us-gaap:ProvisionForOtherLosses",
+      "us-gaap:ProvisionForLoanLossesExpensed",
+      "us-gaap:NetInvestmentInLeaseCreditLossExpenseReversal"
+    ]
+  },
+  "us-gaap:PolicyholderBenefitsAndClaimsIncurredGross": {
+    "label": "(+1) us-gaap:PolicyholderBenefitsAndClaimsIncurredGross",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ReinsuranceEffectOnClaimsAndBenefitsIncurredAmountAssumed": {
+    "label": "(-1) us-gaap:ReinsuranceEffectOnClaimsAndBenefitsIncurredAmountAssumed",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:ReinsuranceEffectOnClaimsAndBenefitsIncurredAmountCeded": {
+    "label": "(+1) us-gaap:ReinsuranceEffectOnClaimsAndBenefitsIncurredAmountCeded",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ReinsuranceCostsAndRecoveriesNet": {
+    "label": "(-1) us-gaap:ReinsuranceCostsAndRecoveriesNet",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": [
+      "us-gaap:ReinsuranceEffectOnClaimsAndBenefitsIncurredAmountAssumed",
+      "us-gaap:ReinsuranceEffectOnClaimsAndBenefitsIncurredAmountCeded"
+    ]
+  },
+  "us-gaap:PolicyholderBenefitsAndClaimsIncurredNet": {
+    "label": "(+1) us-gaap:PolicyholderBenefitsAndClaimsIncurredNet",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:PolicyholderBenefitsAndClaimsIncurredGross",
+      "us-gaap:ReinsuranceCostsAndRecoveriesNet"
+    ]
+  },
+  "us-gaap:LiabilityForFuturePolicyBenefitsPeriodExpense": {
+    "label": "(+1) us-gaap:LiabilityForFuturePolicyBenefitsPeriodExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestCreditedToPolicyholdersAccountBalances": {
+    "label": "(+1) us-gaap:InterestCreditedToPolicyholdersAccountBalances",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:PolicyholderDividends": {
+    "label": "(+1) us-gaap:PolicyholderDividends",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DeferredSalesInducementsAmortizationExpense": {
+    "label": "(+1) us-gaap:DeferredSalesInducementsAmortizationExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:PresentValueOfFutureInsuranceProfitsAmortizationExpense1": {
+    "label": "(+1) us-gaap:PresentValueOfFutureInsuranceProfitsAmortizationExpense1",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:AmortizationOfMortgageServicingRightsMSRs": {
+    "label": "(+1) us-gaap:AmortizationOfMortgageServicingRightsMSRs",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DeferredPolicyAcquisitionCostAmortizationExpense": {
+    "label": "(+1) us-gaap:DeferredPolicyAcquisitionCostAmortizationExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:AmortizationOfValueOfBusinessAcquiredVOBA": {
+    "label": "(+1) us-gaap:AmortizationOfValueOfBusinessAcquiredVOBA",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:OtherCostOfOperatingRevenue": {
+    "label": "(+1) us-gaap:OtherCostOfOperatingRevenue",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:MerchantMarineOperatingDifferentialSubsidy": {
+    "label": "(-1) us-gaap:MerchantMarineOperatingDifferentialSubsidy",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:CostOfRevenue": {
+    "label": "(-1) us-gaap:CostOfRevenue",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": [
+      "us-gaap:CostOfGoodsAndServicesSold",
+      "us-gaap:FinancingInterestExpense",
+      "us-gaap:ProvisionForLoanLeaseAndOtherLosses",
+      "us-gaap:PolicyholderBenefitsAndClaimsIncurredNet",
+      "us-gaap:LiabilityForFuturePolicyBenefitsPeriodExpense",
+      "us-gaap:InterestCreditedToPolicyholdersAccountBalances",
+      "us-gaap:PolicyholderDividends",
+      "us-gaap:DeferredSalesInducementsAmortizationExpense",
+      "us-gaap:PresentValueOfFutureInsuranceProfitsAmortizationExpense1",
+      "us-gaap:AmortizationOfMortgageServicingRightsMSRs",
+      "us-gaap:DeferredPolicyAcquisitionCostAmortizationExpense",
+      "us-gaap:AmortizationOfValueOfBusinessAcquiredVOBA",
+      "us-gaap:OtherCostOfOperatingRevenue",
+      "us-gaap:MerchantMarineOperatingDifferentialSubsidy"
+    ]
+  },
+  "us-gaap:GrossProfit": {
+    "label": "(+1) us-gaap:GrossProfit",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:Revenues",
+      "us-gaap:CostOfRevenue"
+    ]
+  },
+  "us-gaap:ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost": {
+    "label": "(+1) us-gaap:ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ResearchAndDevelopmentExpenseSoftwareExcludingAcquiredInProcessCost": {
+    "label": "(+1) us-gaap:ResearchAndDevelopmentExpenseSoftwareExcludingAcquiredInProcessCost",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ResearchAndDevelopmentAssetAcquiredOtherThanThroughBusinessCombinationWrittenOff": {
+    "label": "(+1) us-gaap:ResearchAndDevelopmentAssetAcquiredOtherThanThroughBusinessCombinationWrittenOff",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ResearchAndDevelopmentExpense": {
+    "label": "(+1) us-gaap:ResearchAndDevelopmentExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost",
+      "us-gaap:ResearchAndDevelopmentExpenseSoftwareExcludingAcquiredInProcessCost",
+      "us-gaap:ResearchAndDevelopmentAssetAcquiredOtherThanThroughBusinessCombinationWrittenOff"
+    ]
+  },
+  "us-gaap:DepreciationNonproduction": {
+    "label": "(+1) us-gaap:DepreciationNonproduction",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DepletionOfOilAndGasProperties": {
+    "label": "(+1) us-gaap:DepletionOfOilAndGasProperties",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:AmortizationOfAcquisitionCosts": {
+    "label": "(+1) us-gaap:AmortizationOfAcquisitionCosts",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:AmortizationOfIntangibleAssets": {
+    "label": "(+1) us-gaap:AmortizationOfIntangibleAssets",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:AmortizationOfDeferredSalesCommissions": {
+    "label": "(+1) us-gaap:AmortizationOfDeferredSalesCommissions",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:AmortizationOfRegulatoryAsset": {
+    "label": "(+1) us-gaap:AmortizationOfRegulatoryAsset",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:FinanceLeaseRightOfUseAssetAmortization": {
+    "label": "(+1) us-gaap:FinanceLeaseRightOfUseAssetAmortization",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:AmortizationOfPowerContractsEmissionCredits": {
+    "label": "(+1) us-gaap:AmortizationOfPowerContractsEmissionCredits",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:AmortizationOfNuclearFuelLease": {
+    "label": "(+1) us-gaap:AmortizationOfNuclearFuelLease",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:AmortizationOfAdvanceRoyalty": {
+    "label": "(+1) us-gaap:AmortizationOfAdvanceRoyalty",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:AmortizationOfDeferredPropertyTaxes": {
+    "label": "(+1) us-gaap:AmortizationOfDeferredPropertyTaxes",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:AmortizationOfRateDeferral": {
+    "label": "(+1) us-gaap:AmortizationOfRateDeferral",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:AmortizationOfDeferredHedgeGains": {
+    "label": "(+1) us-gaap:AmortizationOfDeferredHedgeGains",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:AmortizationAndDepreciationOfDecontaminatingAndDecommissioningAssets": {
+    "label": "(+1) us-gaap:AmortizationAndDepreciationOfDecontaminatingAndDecommissioningAssets",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:OtherAmortizationOfDeferredCharges": {
+    "label": "(+1) us-gaap:OtherAmortizationOfDeferredCharges",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:AmortizationOfDeferredCharges": {
+    "label": "(+1) us-gaap:AmortizationOfDeferredCharges",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:AmortizationOfAcquisitionCosts",
+      "us-gaap:AmortizationOfIntangibleAssets",
+      "us-gaap:AmortizationOfDeferredSalesCommissions",
+      "us-gaap:AmortizationOfRegulatoryAsset",
+      "us-gaap:FinanceLeaseRightOfUseAssetAmortization",
+      "us-gaap:AmortizationOfPowerContractsEmissionCredits",
+      "us-gaap:AmortizationOfNuclearFuelLease",
+      "us-gaap:AmortizationOfAdvanceRoyalty",
+      "us-gaap:AmortizationOfDeferredPropertyTaxes",
+      "us-gaap:AmortizationOfRateDeferral",
+      "us-gaap:AmortizationOfDeferredHedgeGains",
+      "us-gaap:AmortizationAndDepreciationOfDecontaminatingAndDecommissioningAssets",
+      "us-gaap:OtherAmortizationOfDeferredCharges"
+    ]
+  },
+  "us-gaap:OtherDepreciationAndAmortization": {
+    "label": "(+1) us-gaap:OtherDepreciationAndAmortization",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DepreciationAndAmortization": {
+    "label": "(+1) us-gaap:DepreciationAndAmortization",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:DepreciationNonproduction",
+      "us-gaap:DepletionOfOilAndGasProperties",
+      "us-gaap:AmortizationOfDeferredCharges",
+      "us-gaap:OtherDepreciationAndAmortization"
+    ]
+  },
+  "us-gaap:ExplorationExpense": {
+    "label": "(+1) us-gaap:ExplorationExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:CarryingCostsPropertyAndExplorationRights": {
+    "label": "(+1) us-gaap:CarryingCostsPropertyAndExplorationRights",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:RecapitalizationCosts": {
+    "label": "(+1) us-gaap:RecapitalizationCosts",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:BusinessExitCosts1": {
+    "label": "(+1) us-gaap:BusinessExitCosts1",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:SeveranceCosts1": {
+    "label": "(+1) us-gaap:SeveranceCosts1",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:OtherRestructuringCosts": {
+    "label": "(+1) us-gaap:OtherRestructuringCosts",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:RestructuringCharges": {
+    "label": "(+1) us-gaap:RestructuringCharges",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:BusinessExitCosts1",
+      "us-gaap:SeveranceCosts1",
+      "us-gaap:OtherRestructuringCosts"
+    ]
+  },
+  "us-gaap:BusinessCombinationAcquisitionRelatedCosts": {
+    "label": "(+1) us-gaap:BusinessCombinationAcquisitionRelatedCosts",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DefinedBenefitPlanRecognizedNetGainLossDueToSettlements1": {
+    "label": "(-1) us-gaap:DefinedBenefitPlanRecognizedNetGainLossDueToSettlements1",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:InventoryRecallExpense": {
+    "label": "(+1) us-gaap:InventoryRecallExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainOnBusinessInterruptionInsuranceRecovery": {
+    "label": "(-1) us-gaap:GainOnBusinessInterruptionInsuranceRecovery",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:EnvironmentalRemediationExpense": {
+    "label": "(+1) us-gaap:EnvironmentalRemediationExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:EnvironmentalCostsRecognizedRecoveryCreditedToExpense": {
+    "label": "(-1) us-gaap:EnvironmentalCostsRecognizedRecoveryCreditedToExpense",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:EnvironmentalRemediationExpenseAfterRecovery": {
+    "label": "(+1) us-gaap:EnvironmentalRemediationExpenseAfterRecovery",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:EnvironmentalRemediationExpense",
+      "us-gaap:EnvironmentalCostsRecognizedRecoveryCreditedToExpense"
+    ]
+  },
+  "us-gaap:GoodwillImpairmentLoss": {
+    "label": "(+1) us-gaap:GoodwillImpairmentLoss",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ImpairmentOfIntangibleAssetsFinitelived": {
+    "label": "(+1) us-gaap:ImpairmentOfIntangibleAssetsFinitelived",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ImpairmentOfIntangibleAssetsIndefinitelivedExcludingGoodwill": {
+    "label": "(+1) us-gaap:ImpairmentOfIntangibleAssetsIndefinitelivedExcludingGoodwill",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ImpairmentOfIntangibleAssetsExcludingGoodwill": {
+    "label": "(+1) us-gaap:ImpairmentOfIntangibleAssetsExcludingGoodwill",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:ImpairmentOfIntangibleAssetsFinitelived",
+      "us-gaap:ImpairmentOfIntangibleAssetsIndefinitelivedExcludingGoodwill"
+    ]
+  },
+  "us-gaap:FinanceLeaseImpairmentLoss": {
+    "label": "(+1) us-gaap:FinanceLeaseImpairmentLoss",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:OperatingLeaseImpairmentLoss": {
+    "label": "(+1) us-gaap:OperatingLeaseImpairmentLoss",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GoodwillAndIntangibleAssetImpairment": {
+    "label": "(+1) us-gaap:GoodwillAndIntangibleAssetImpairment",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:GoodwillImpairmentLoss",
+      "us-gaap:ImpairmentOfIntangibleAssetsExcludingGoodwill",
+      "us-gaap:FinanceLeaseImpairmentLoss",
+      "us-gaap:OperatingLeaseImpairmentLoss"
+    ]
+  },
+  "us-gaap:EquityMethodInvestmentOtherThanTemporaryImpairment": {
+    "label": "(+1) us-gaap:EquityMethodInvestmentOtherThanTemporaryImpairment",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ImpairmentLossesRelatedToRealEstatePartnerships": {
+    "label": "(+1) us-gaap:ImpairmentLossesRelatedToRealEstatePartnerships",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:SalesTypeLeaseImpairmentLoss": {
+    "label": "(+1) us-gaap:SalesTypeLeaseImpairmentLoss",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DirectFinancingLeaseImpairmentLoss": {
+    "label": "(+1) us-gaap:DirectFinancingLeaseImpairmentLoss",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ImpairmentOfLeasehold": {
+    "label": "(+1) us-gaap:ImpairmentOfLeasehold",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ImpairmentOfLongLivedAssetsToBeDisposedOf": {
+    "label": "(+1) us-gaap:ImpairmentOfLongLivedAssetsToBeDisposedOf",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ImpairmentLessorAssetUnderOperatingLease": {
+    "label": "(+1) us-gaap:ImpairmentLessorAssetUnderOperatingLease",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ImpairmentExcludingLessorAssetUnderOperatingLease": {
+    "label": "(+1) us-gaap:ImpairmentExcludingLessorAssetUnderOperatingLease",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ImpairmentOfLongLivedAssetsHeldForUse": {
+    "label": "(+1) us-gaap:ImpairmentOfLongLivedAssetsHeldForUse",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:ImpairmentLessorAssetUnderOperatingLease",
+      "us-gaap:ImpairmentExcludingLessorAssetUnderOperatingLease"
+    ]
+  },
+  "us-gaap:ImpairmentOfOngoingProject": {
+    "label": "(+1) us-gaap:ImpairmentOfOngoingProject",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ImpairmentOfRealEstate": {
+    "label": "(+1) us-gaap:ImpairmentOfRealEstate",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ExplorationAbandonmentAndImpairmentExpense": {
+    "label": "(+1) us-gaap:ExplorationAbandonmentAndImpairmentExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ImpairmentOfOilAndGasProperties": {
+    "label": "(+1) us-gaap:ImpairmentOfOilAndGasProperties",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DisposalGroupNotDiscontinuedOperationLossGainOnWriteDown": {
+    "label": "(+1) us-gaap:DisposalGroupNotDiscontinuedOperationLossGainOnWriteDown",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:TangibleAssetImpairmentCharges": {
+    "label": "(+1) us-gaap:TangibleAssetImpairmentCharges",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:ImpairmentOfLongLivedAssetsToBeDisposedOf",
+      "us-gaap:ImpairmentOfLongLivedAssetsHeldForUse",
+      "us-gaap:ImpairmentOfOngoingProject",
+      "us-gaap:ImpairmentOfRealEstate",
+      "us-gaap:ExplorationAbandonmentAndImpairmentExpense",
+      "us-gaap:ImpairmentOfOilAndGasProperties",
+      "us-gaap:DisposalGroupNotDiscontinuedOperationLossGainOnWriteDown"
+    ]
+  },
+  "us-gaap:AffordableHousingProjectInvestmentWriteDownAmount": {
+    "label": "(+1) us-gaap:AffordableHousingProjectInvestmentWriteDownAmount",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:AssetImpairmentCharges": {
+    "label": "(+1) us-gaap:AssetImpairmentCharges",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:GoodwillAndIntangibleAssetImpairment",
+      "us-gaap:EquityMethodInvestmentOtherThanTemporaryImpairment",
+      "us-gaap:ImpairmentLossesRelatedToRealEstatePartnerships",
+      "us-gaap:SalesTypeLeaseImpairmentLoss",
+      "us-gaap:DirectFinancingLeaseImpairmentLoss",
+      "us-gaap:ImpairmentOfLeasehold",
+      "us-gaap:TangibleAssetImpairmentCharges",
+      "us-gaap:AffordableHousingProjectInvestmentWriteDownAmount"
+    ]
+  },
+  "us-gaap:RestructuringSettlementAndImpairmentProvisions": {
+    "label": "(+1) us-gaap:RestructuringSettlementAndImpairmentProvisions",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:RestructuringCharges",
+      "us-gaap:BusinessCombinationAcquisitionRelatedCosts",
+      "us-gaap:DefinedBenefitPlanRecognizedNetGainLossDueToSettlements1",
+      "us-gaap:InventoryRecallExpense",
+      "us-gaap:GainOnBusinessInterruptionInsuranceRecovery",
+      "us-gaap:EnvironmentalRemediationExpenseAfterRecovery",
+      "us-gaap:AssetImpairmentCharges"
+    ]
+  },
+  "us-gaap:CustodyFees": {
+    "label": "(+1) us-gaap:CustodyFees",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:TrusteeFees": {
+    "label": "(+1) us-gaap:TrusteeFees",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:SponsorFees": {
+    "label": "(+1) us-gaap:SponsorFees",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:RoyaltyExpense": {
+    "label": "(+1) us-gaap:RoyaltyExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:AssetRetirementObligationAccretionExpense": {
+    "label": "(+1) us-gaap:AssetRetirementObligationAccretionExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:AccretionExpense": {
+    "label": "(+1) us-gaap:AccretionExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:AccretionExpenseIncludingAssetRetirementObligations": {
+    "label": "(+1) us-gaap:AccretionExpenseIncludingAssetRetirementObligations",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:AssetRetirementObligationAccretionExpense",
+      "us-gaap:AccretionExpense"
+    ]
+  },
+  "us-gaap:LoanPortfolioExpense": {
+    "label": "(+1) us-gaap:LoanPortfolioExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:PreOpeningCosts": {
+    "label": "(+1) us-gaap:PreOpeningCosts",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:LitigationSettlementGain": {
+    "label": "(+1) us-gaap:LitigationSettlementGain",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:LitigationSettlementLoss": {
+    "label": "(-1) us-gaap:LitigationSettlementLoss",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:LitigationSettlementInterest": {
+    "label": "(-1) us-gaap:LitigationSettlementInterest",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:LegalFees": {
+    "label": "(+1) us-gaap:LegalFees",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:LitigationSettlementExpense": {
+    "label": "(-1) us-gaap:LitigationSettlementExpense",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": [
+      "us-gaap:LegalFees"
+    ]
+  },
+  "us-gaap:GainLossRelatedToLitigationSettlement": {
+    "label": "(-1) us-gaap:GainLossRelatedToLitigationSettlement",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": [
+      "us-gaap:LitigationSettlementGain",
+      "us-gaap:LitigationSettlementLoss",
+      "us-gaap:LitigationSettlementInterest",
+      "us-gaap:LitigationSettlementExpense"
+    ]
+  },
+  "us-gaap:MalpracticeLossContingencyClaimsIncurredInPeriod": {
+    "label": "(+1) us-gaap:MalpracticeLossContingencyClaimsIncurredInPeriod",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:MalpracticeLossContingencyReturnOfPremiums": {
+    "label": "(-1) us-gaap:MalpracticeLossContingencyReturnOfPremiums",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:MalpracticeLossContingencyInsuranceRecoveries": {
+    "label": "(-1) us-gaap:MalpracticeLossContingencyInsuranceRecoveries",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:MalpracticeLossContingencyClaimsIncurredInPriorPeriods": {
+    "label": "(+1) us-gaap:MalpracticeLossContingencyClaimsIncurredInPriorPeriods",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:MalpracticeLossContingencyClaimsIncurredNet": {
+    "label": "(+1) us-gaap:MalpracticeLossContingencyClaimsIncurredNet",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:MalpracticeLossContingencyClaimsIncurredInPeriod",
+      "us-gaap:MalpracticeLossContingencyReturnOfPremiums",
+      "us-gaap:MalpracticeLossContingencyInsuranceRecoveries",
+      "us-gaap:MalpracticeLossContingencyClaimsIncurredInPriorPeriods"
+    ]
+  },
+  "us-gaap:InsuranceRecoveries": {
+    "label": "(-1) us-gaap:InsuranceRecoveries",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:OtherCostAndExpenseOperating": {
+    "label": "(+1) us-gaap:OtherCostAndExpenseOperating",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:BusinessCombinationIntegrationRelatedCosts": {
+    "label": "(+1) us-gaap:BusinessCombinationIntegrationRelatedCosts",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:UnsolicitedTenderOfferCosts": {
+    "label": "(+1) us-gaap:UnsolicitedTenderOfferCosts",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ProfessionalAndContractServicesExpense": {
+    "label": "(+1) us-gaap:ProfessionalAndContractServicesExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:OperatingCostsAndExpenses": {
+    "label": "(+1) us-gaap:OperatingCostsAndExpenses",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:ResearchAndDevelopmentExpense",
+      "us-gaap:DepreciationAndAmortization",
+      "us-gaap:ExplorationExpense",
+      "us-gaap:CarryingCostsPropertyAndExplorationRights",
+      "us-gaap:RecapitalizationCosts",
+      "us-gaap:RestructuringSettlementAndImpairmentProvisions",
+      "us-gaap:CustodyFees",
+      "us-gaap:TrusteeFees",
+      "us-gaap:SponsorFees",
+      "us-gaap:RoyaltyExpense",
+      "us-gaap:AccretionExpenseIncludingAssetRetirementObligations",
+      "us-gaap:LoanPortfolioExpense",
+      "us-gaap:PreOpeningCosts",
+      "us-gaap:GainLossRelatedToLitigationSettlement",
+      "us-gaap:MalpracticeLossContingencyClaimsIncurredNet",
+      "us-gaap:InsuranceRecoveries",
+      "us-gaap:OtherCostAndExpenseOperating",
+      "us-gaap:BusinessCombinationIntegrationRelatedCosts",
+      "us-gaap:UnsolicitedTenderOfferCosts",
+      "us-gaap:ProfessionalAndContractServicesExpense"
+    ]
+  },
+  "us-gaap:SellingExpense": {
+    "label": "(+1) us-gaap:SellingExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:SalesCommissionsAndFees": {
+    "label": "(+1) us-gaap:SalesCommissionsAndFees",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:MarketingExpense": {
+    "label": "(+1) us-gaap:MarketingExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:AdvertisingExpense": {
+    "label": "(+1) us-gaap:AdvertisingExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:MarketingAndAdvertisingExpense": {
+    "label": "(+1) us-gaap:MarketingAndAdvertisingExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:MarketingExpense",
+      "us-gaap:AdvertisingExpense"
+    ]
+  },
+  "us-gaap:CostsOfFranchisorOwnedOutlets": {
+    "label": "(+1) us-gaap:CostsOfFranchisorOwnedOutlets",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:CostsOfFranchisedOutlets": {
+    "label": "(+1) us-gaap:CostsOfFranchisedOutlets",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:FranchisorCosts": {
+    "label": "(+1) us-gaap:FranchisorCosts",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:CostsOfFranchisorOwnedOutlets",
+      "us-gaap:CostsOfFranchisedOutlets"
+    ]
+  },
+  "us-gaap:ProductWarrantyExpense": {
+    "label": "(+1) us-gaap:ProductWarrantyExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:OtherSellingAndMarketingExpense": {
+    "label": "(+1) us-gaap:OtherSellingAndMarketingExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:SellingAndMarketingExpense": {
+    "label": "(+1) us-gaap:SellingAndMarketingExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:SellingExpense",
+      "us-gaap:SalesCommissionsAndFees",
+      "us-gaap:MarketingAndAdvertisingExpense",
+      "us-gaap:FranchisorCosts",
+      "us-gaap:ProductWarrantyExpense",
+      "us-gaap:OtherSellingAndMarketingExpense"
+    ]
+  },
+  "us-gaap:AllocatedShareBasedCompensationExpense": {
+    "label": "(+1) us-gaap:AllocatedShareBasedCompensationExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:SalariesAndWages": {
+    "label": "(+1) us-gaap:SalariesAndWages",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:OfficersCompensation": {
+    "label": "(+1) us-gaap:OfficersCompensation",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:SalariesWagesAndOfficersCompensation": {
+    "label": "(+1) us-gaap:SalariesWagesAndOfficersCompensation",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:SalariesAndWages",
+      "us-gaap:OfficersCompensation"
+    ]
+  },
+  "us-gaap:OtherLaborRelatedExpenses": {
+    "label": "(+1) us-gaap:OtherLaborRelatedExpenses",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ProfessionalFees": {
+    "label": "(+1) us-gaap:ProfessionalFees",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:BusinessDevelopment": {
+    "label": "(+1) us-gaap:BusinessDevelopment",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GeneralInsuranceExpense": {
+    "label": "(+1) us-gaap:GeneralInsuranceExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:RealEstateInsurance": {
+    "label": "(+1) us-gaap:RealEstateInsurance",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:Communication": {
+    "label": "(+1) us-gaap:Communication",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InformationTechnologyAndDataProcessing": {
+    "label": "(+1) us-gaap:InformationTechnologyAndDataProcessing",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:CommunicationsAndInformationTechnology": {
+    "label": "(+1) us-gaap:CommunicationsAndInformationTechnology",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:Communication",
+      "us-gaap:InformationTechnologyAndDataProcessing"
+    ]
+  },
+  "us-gaap:OccupancyNet": {
+    "label": "(+1) us-gaap:OccupancyNet",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:CommunicationsInformationTechnologyAndOccupancy": {
+    "label": "(+1) us-gaap:CommunicationsInformationTechnologyAndOccupancy",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:CommunicationsAndInformationTechnology",
+      "us-gaap:OccupancyNet"
+    ]
+  },
+  "us-gaap:OperatingLeaseExpense": {
+    "label": "(+1) us-gaap:OperatingLeaseExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:TravelAndEntertainmentExpense": {
+    "label": "(+1) us-gaap:TravelAndEntertainmentExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:SuppliesExpense": {
+    "label": "(+1) us-gaap:SuppliesExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:PostageExpense": {
+    "label": "(+1) us-gaap:PostageExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:SuppliesAndPostageExpense": {
+    "label": "(+1) us-gaap:SuppliesAndPostageExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:SuppliesExpense",
+      "us-gaap:PostageExpense"
+    ]
+  },
+  "us-gaap:InsuranceTax": {
+    "label": "(+1) us-gaap:InsuranceTax",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:RealEstateTaxExpense": {
+    "label": "(+1) us-gaap:RealEstateTaxExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ProductionTaxExpense": {
+    "label": "(+1) us-gaap:ProductionTaxExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:PumpTaxes": {
+    "label": "(+1) us-gaap:PumpTaxes",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:TaxesOther": {
+    "label": "(+1) us-gaap:TaxesOther",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:TaxesExcludingIncomeAndExciseTaxes": {
+    "label": "(+1) us-gaap:TaxesExcludingIncomeAndExciseTaxes",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:RealEstateTaxExpense",
+      "us-gaap:ProductionTaxExpense",
+      "us-gaap:PumpTaxes",
+      "us-gaap:TaxesOther"
+    ]
+  },
+  "us-gaap:OtherGeneralAndAdministrativeExpense": {
+    "label": "(+1) us-gaap:OtherGeneralAndAdministrativeExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:LossContingencyLossInPeriod": {
+    "label": "(+1) us-gaap:LossContingencyLossInPeriod",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GeneralAndAdministrativeExpense": {
+    "label": "(+1) us-gaap:GeneralAndAdministrativeExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:AllocatedShareBasedCompensationExpense",
+      "us-gaap:SalariesWagesAndOfficersCompensation",
+      "us-gaap:OtherLaborRelatedExpenses",
+      "us-gaap:ProfessionalFees",
+      "us-gaap:BusinessDevelopment",
+      "us-gaap:GeneralInsuranceExpense",
+      "us-gaap:RealEstateInsurance",
+      "us-gaap:CommunicationsInformationTechnologyAndOccupancy",
+      "us-gaap:OperatingLeaseExpense",
+      "us-gaap:TravelAndEntertainmentExpense",
+      "us-gaap:SuppliesAndPostageExpense",
+      "us-gaap:InsuranceTax",
+      "us-gaap:TaxesExcludingIncomeAndExciseTaxes",
+      "us-gaap:OtherGeneralAndAdministrativeExpense",
+      "us-gaap:LossContingencyLossInPeriod"
+    ]
+  },
+  "us-gaap:OtherSellingGeneralAndAdministrativeExpense": {
+    "label": "(+1) us-gaap:OtherSellingGeneralAndAdministrativeExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:SellingGeneralAndAdministrativeExpense": {
+    "label": "(+1) us-gaap:SellingGeneralAndAdministrativeExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:SellingAndMarketingExpense",
+      "us-gaap:GeneralAndAdministrativeExpense",
+      "us-gaap:OtherSellingGeneralAndAdministrativeExpense"
+    ]
+  },
+  "us-gaap:ProvisionForDoubtfulAccounts": {
+    "label": "(+1) us-gaap:ProvisionForDoubtfulAccounts",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:OtherGeneralExpense": {
+    "label": "(+1) us-gaap:OtherGeneralExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainLossOnSaleOfProvedProperty": {
+    "label": "(+1) us-gaap:GainLossOnSaleOfProvedProperty",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainLossOnSaleOfUnprovedProperty": {
+    "label": "(+1) us-gaap:GainLossOnSaleOfUnprovedProperty",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainLossOnSaleOfOilAndGasProperty": {
+    "label": "(+1) us-gaap:GainLossOnSaleOfOilAndGasProperty",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:GainLossOnSaleOfProvedProperty",
+      "us-gaap:GainLossOnSaleOfUnprovedProperty"
+    ]
+  },
+  "us-gaap:GainLossOnSaleOfTimberProperty": {
+    "label": "(+1) us-gaap:GainLossOnSaleOfTimberProperty",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainLossOnSaleOfProperty": {
+    "label": "(+1) us-gaap:GainLossOnSaleOfProperty",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:GainLossOnSaleOfOilAndGasProperty",
+      "us-gaap:GainLossOnSaleOfTimberProperty"
+    ]
+  },
+  "us-gaap:GainLossOnDispositionOfAssets": {
+    "label": "(+1) us-gaap:GainLossOnDispositionOfAssets",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainLossOnSaleOfPropertyPlantEquipment": {
+    "label": "(+1) us-gaap:GainLossOnSaleOfPropertyPlantEquipment",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:GainLossOnSaleOfProperty",
+      "us-gaap:GainLossOnDispositionOfAssets"
+    ]
+  },
+  "us-gaap:GainLossOnSaleOfBusiness": {
+    "label": "(+1) us-gaap:GainLossOnSaleOfBusiness",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:SaleAndLeasebackTransactionGainLossNet": {
+    "label": "(+1) us-gaap:SaleAndLeasebackTransactionGainLossNet",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainLossOnDispositionOfIntangibleAssets": {
+    "label": "(+1) us-gaap:GainLossOnDispositionOfIntangibleAssets",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainLossOnTerminationOfLease": {
+    "label": "(+1) us-gaap:GainLossOnTerminationOfLease",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainLossOnSaleOfOtherAssets": {
+    "label": "(+1) us-gaap:GainLossOnSaleOfOtherAssets",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainLossOnDispositionOfAssets1": {
+    "label": "(-1) us-gaap:GainLossOnDispositionOfAssets1",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": [
+      "us-gaap:GainLossOnSaleOfPropertyPlantEquipment",
+      "us-gaap:GainLossOnSaleOfBusiness",
+      "us-gaap:SaleAndLeasebackTransactionGainLossNet",
+      "us-gaap:GainLossOnDispositionOfIntangibleAssets",
+      "us-gaap:GainLossOnTerminationOfLease",
+      "us-gaap:GainLossOnSaleOfOtherAssets"
+    ]
+  },
+  "us-gaap:SalesTypeLeaseSellingProfitLoss": {
+    "label": "(-1) us-gaap:SalesTypeLeaseSellingProfitLoss",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:DirectFinancingLeaseSellingLoss": {
+    "label": "(+1) us-gaap:DirectFinancingLeaseSellingLoss",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:OtherUnderwritingExpense": {
+    "label": "(+1) us-gaap:OtherUnderwritingExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DemutualizationCostAndExpense": {
+    "label": "(+1) us-gaap:DemutualizationCostAndExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InsuranceCommissions": {
+    "label": "(+1) us-gaap:InsuranceCommissions",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:FloorBrokerage": {
+    "label": "(+1) us-gaap:FloorBrokerage",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ExchangeFees": {
+    "label": "(+1) us-gaap:ExchangeFees",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:OrderFlowFees": {
+    "label": "(+1) us-gaap:OrderFlowFees",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ClearanceFees": {
+    "label": "(+1) us-gaap:ClearanceFees",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:FloorBrokerageExchangeAndClearanceFees": {
+    "label": "(+1) us-gaap:FloorBrokerageExchangeAndClearanceFees",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:FloorBrokerage",
+      "us-gaap:ExchangeFees",
+      "us-gaap:OrderFlowFees",
+      "us-gaap:ClearanceFees"
+    ]
+  },
+  "us-gaap:AdministrativeFeesExpense": {
+    "label": "(+1) us-gaap:AdministrativeFeesExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:IncentiveFeeExpense": {
+    "label": "(+1) us-gaap:IncentiveFeeExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ManagementFeeExpense": {
+    "label": "(+1) us-gaap:ManagementFeeExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GovernmentAssistanceOperatingExpense": {
+    "label": "(-1) us-gaap:GovernmentAssistanceOperatingExpense",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:OperatingExpenses": {
+    "label": "(-1) us-gaap:OperatingExpenses",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": [
+      "us-gaap:OperatingCostsAndExpenses",
+      "us-gaap:SellingGeneralAndAdministrativeExpense",
+      "us-gaap:ProvisionForDoubtfulAccounts",
+      "us-gaap:OtherGeneralExpense",
+      "us-gaap:GainLossOnDispositionOfAssets1",
+      "us-gaap:SalesTypeLeaseSellingProfitLoss",
+      "us-gaap:DirectFinancingLeaseSellingLoss",
+      "us-gaap:OtherUnderwritingExpense",
+      "us-gaap:DemutualizationCostAndExpense",
+      "us-gaap:InsuranceCommissions",
+      "us-gaap:FloorBrokerageExchangeAndClearanceFees",
+      "us-gaap:AdministrativeFeesExpense",
+      "us-gaap:IncentiveFeeExpense",
+      "us-gaap:ManagementFeeExpense",
+      "us-gaap:GovernmentAssistanceOperatingExpense"
+    ]
+  },
+  "us-gaap:GovernmentAssistanceOperatingIncome": {
+    "label": "(+1) us-gaap:GovernmentAssistanceOperatingIncome",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:NoninterestIncomeOtherOperatingIncome": {
+    "label": "(+1) us-gaap:NoninterestIncomeOtherOperatingIncome",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:OtherExpenses": {
+    "label": "(-1) us-gaap:OtherExpenses",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:OtherNonrecurringIncome": {
+    "label": "(-1) us-gaap:OtherNonrecurringIncome",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:OtherNonrecurringExpense": {
+    "label": "(+1) us-gaap:OtherNonrecurringExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:OtherNonrecurringIncomeExpense": {
+    "label": "(-1) us-gaap:OtherNonrecurringIncomeExpense",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": [
+      "us-gaap:OtherNonrecurringIncome",
+      "us-gaap:OtherNonrecurringExpense"
+    ]
+  },
+  "us-gaap:PhaseInPlanAmountOfCapitalizedCostsRecovered": {
+    "label": "(+1) us-gaap:PhaseInPlanAmountOfCapitalizedCostsRecovered",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:OtherOperatingIncomeExpenseNet": {
+    "label": "(+1) us-gaap:OtherOperatingIncomeExpenseNet",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:NoninterestIncomeOtherOperatingIncome",
+      "us-gaap:OtherExpenses",
+      "us-gaap:OtherNonrecurringIncomeExpense",
+      "us-gaap:PhaseInPlanAmountOfCapitalizedCostsRecovered"
+    ]
+  },
+  "us-gaap:OperatingIncomeLoss": {
+    "label": "(+1) us-gaap:OperatingIncomeLoss",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:GrossProfit",
+      "us-gaap:OperatingExpenses",
+      "us-gaap:GovernmentAssistanceOperatingIncome",
+      "us-gaap:OtherOperatingIncomeExpenseNet"
+    ]
+  },
+  "us-gaap:GainLossOnInvestments": {
+    "label": "(+1) us-gaap:GainLossOnInvestments",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:VentureCapitalGainsLossesNet": {
+    "label": "(+1) us-gaap:VentureCapitalGainsLossesNet",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DisposalGroupNotDiscontinuedOperationGainLossOnDisposal": {
+    "label": "(+1) us-gaap:DisposalGroupNotDiscontinuedOperationGainLossOnDisposal",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:EquityMethodInvestmentRealizedGainLossOnDisposal": {
+    "label": "(+1) us-gaap:EquityMethodInvestmentRealizedGainLossOnDisposal",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainOrLossOnSaleOfStockInSubsidiary": {
+    "label": "(+1) us-gaap:GainOrLossOnSaleOfStockInSubsidiary",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee": {
+    "label": "(+1) us-gaap:GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:EquityMethodInvestmentRealizedGainLossOnDisposal",
+      "us-gaap:GainOrLossOnSaleOfStockInSubsidiary"
+    ]
+  },
+  "us-gaap:DeconsolidationGainOrLossAmount": {
+    "label": "(+1) us-gaap:DeconsolidationGainOrLossAmount",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainOrLossOnSaleOfPreviouslyUnissuedStockBySubsidiary": {
+    "label": "(+1) us-gaap:GainOrLossOnSaleOfPreviouslyUnissuedStockBySubsidiary",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainOrLossOnSaleOfPreviouslyUnissuedStockByEquityInvestee": {
+    "label": "(+1) us-gaap:GainOrLossOnSaleOfPreviouslyUnissuedStockByEquityInvestee",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainLossOnSaleOfPreviouslyUnissuedStockBySubsidiaryOrEquityInvesteeNonoperatingIncome": {
+    "label": "(+1) us-gaap:GainLossOnSaleOfPreviouslyUnissuedStockBySubsidiaryOrEquityInvesteeNonoperatingIncome",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:GainOrLossOnSaleOfPreviouslyUnissuedStockBySubsidiary",
+      "us-gaap:GainOrLossOnSaleOfPreviouslyUnissuedStockByEquityInvestee"
+    ]
+  },
+  "us-gaap:GainLossOnSaleOfInterestInProjects": {
+    "label": "(+1) us-gaap:GainLossOnSaleOfInterestInProjects",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainLossFromPriceRiskManagementActivity": {
+    "label": "(+1) us-gaap:GainLossFromPriceRiskManagementActivity",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainLossOnOilAndGasHedgingActivity": {
+    "label": "(+1) us-gaap:GainLossOnOilAndGasHedgingActivity",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainLossOnInterestRateDerivativeInstrumentsNotDesignatedAsHedgingInstruments": {
+    "label": "(+1) us-gaap:GainLossOnInterestRateDerivativeInstrumentsNotDesignatedAsHedgingInstruments",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainLossOnDerivativeInstrumentsHeldForTradingPurposesNet": {
+    "label": "(+1) us-gaap:GainLossOnDerivativeInstrumentsHeldForTradingPurposesNet",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DerivativeInstrumentsNotDesignatedAsHedgingInstrumentsGainLossNet": {
+    "label": "(+1) us-gaap:DerivativeInstrumentsNotDesignatedAsHedgingInstrumentsGainLossNet",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:GainLossOnInterestRateDerivativeInstrumentsNotDesignatedAsHedgingInstruments",
+      "us-gaap:GainLossOnDerivativeInstrumentsHeldForTradingPurposesNet"
+    ]
+  },
+  "us-gaap:GainLossOnDerivativeInstrumentsNetPretax": {
+    "label": "(+1) us-gaap:GainLossOnDerivativeInstrumentsNetPretax",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:GainLossFromPriceRiskManagementActivity",
+      "us-gaap:GainLossOnOilAndGasHedgingActivity",
+      "us-gaap:DerivativeInstrumentsNotDesignatedAsHedgingInstrumentsGainLossNet"
+    ]
+  },
+  "us-gaap:BusinessCombinationBargainPurchaseGainRecognizedAmount": {
+    "label": "(+1) us-gaap:BusinessCombinationBargainPurchaseGainRecognizedAmount",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:OtherNonoperatingGainsLosses": {
+    "label": "(+1) us-gaap:OtherNonoperatingGainsLosses",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:NonoperatingGainsLosses": {
+    "label": "(+1) us-gaap:NonoperatingGainsLosses",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:GainLossOnInvestments",
+      "us-gaap:VentureCapitalGainsLossesNet",
+      "us-gaap:DisposalGroupNotDiscontinuedOperationGainLossOnDisposal",
+      "us-gaap:GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee",
+      "us-gaap:DeconsolidationGainOrLossAmount",
+      "us-gaap:GainLossOnSaleOfPreviouslyUnissuedStockBySubsidiaryOrEquityInvesteeNonoperatingIncome",
+      "us-gaap:GainLossOnSaleOfInterestInProjects",
+      "us-gaap:GainLossOnDerivativeInstrumentsNetPretax",
+      "us-gaap:BusinessCombinationBargainPurchaseGainRecognizedAmount",
+      "us-gaap:OtherNonoperatingGainsLosses"
+    ]
+  },
+  "us-gaap:RoyaltyIncomeNonoperating": {
+    "label": "(+1) us-gaap:RoyaltyIncomeNonoperating",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:RentalIncomeNonoperating": {
+    "label": "(+1) us-gaap:RentalIncomeNonoperating",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DevelopmentProfitsNonoperating": {
+    "label": "(+1) us-gaap:DevelopmentProfitsNonoperating",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:RecoveryStrandedCosts": {
+    "label": "(-1) us-gaap:RecoveryStrandedCosts",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:LeveragedLeasesIncomeStatementIncomeFromLeveragedLeases": {
+    "label": "(+1) us-gaap:LeveragedLeasesIncomeStatementIncomeFromLeveragedLeases",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:LeveragedLeasesIncomeStatementIncomeTaxExpenseOnLeveragedLeases": {
+    "label": "(-1) us-gaap:LeveragedLeasesIncomeStatementIncomeTaxExpenseOnLeveragedLeases",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:LeveragedLeasesIncomeStatementInvestmentTaxCreditRecognizedOnLeveragedLeases": {
+    "label": "(+1) us-gaap:LeveragedLeasesIncomeStatementInvestmentTaxCreditRecognizedOnLeveragedLeases",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:LeveragedLeasesIncomeStatementNetIncomeFromLeveragedLeases": {
+    "label": "(+1) us-gaap:LeveragedLeasesIncomeStatementNetIncomeFromLeveragedLeases",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:LeveragedLeasesIncomeStatementIncomeFromLeveragedLeases",
+      "us-gaap:LeveragedLeasesIncomeStatementIncomeTaxExpenseOnLeveragedLeases",
+      "us-gaap:LeveragedLeasesIncomeStatementInvestmentTaxCreditRecognizedOnLeveragedLeases"
+    ]
+  },
+  "us-gaap:InterestIncomeHedgeBasisAdjustmentPortfolioLayerMethod": {
+    "label": "(+1) us-gaap:InterestIncomeHedgeBasisAdjustmentPortfolioLayerMethod",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InvestmentIncomeInterest": {
+    "label": "(+1) us-gaap:InvestmentIncomeInterest",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:InterestIncomeHedgeBasisAdjustmentPortfolioLayerMethod"
+    ]
+  },
+  "us-gaap:InvestmentIncomeDividend": {
+    "label": "(+1) us-gaap:InvestmentIncomeDividend",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InvestmentIncomeInterestAndDividend": {
+    "label": "(+1) us-gaap:InvestmentIncomeInterestAndDividend",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:InvestmentIncomeInterest",
+      "us-gaap:InvestmentIncomeDividend"
+    ]
+  },
+  "us-gaap:InvestmentIncomeAmortizationOfDiscount": {
+    "label": "(+1) us-gaap:InvestmentIncomeAmortizationOfDiscount",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InvestmentIncomeAmortizationOfPremium": {
+    "label": "(-1) us-gaap:InvestmentIncomeAmortizationOfPremium",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:InvestmentIncomeNetAmortizationOfDiscountAndPremium": {
+    "label": "(+1) us-gaap:InvestmentIncomeNetAmortizationOfDiscountAndPremium",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:InvestmentIncomeAmortizationOfDiscount",
+      "us-gaap:InvestmentIncomeAmortizationOfPremium"
+    ]
+  },
+  "us-gaap:InvestmentIncomeInvestmentExpense": {
+    "label": "(-1) us-gaap:InvestmentIncomeInvestmentExpense",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:InvestmentIncomeNet": {
+    "label": "(+1) us-gaap:InvestmentIncomeNet",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:InvestmentIncomeInterestAndDividend",
+      "us-gaap:InvestmentIncomeNetAmortizationOfDiscountAndPremium",
+      "us-gaap:InvestmentIncomeInvestmentExpense"
+    ]
+  },
+  "us-gaap:InvestmentIncomeNonoperating": {
+    "label": "(+1) us-gaap:InvestmentIncomeNonoperating",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:NonoperatingGainsLosses",
+      "us-gaap:RoyaltyIncomeNonoperating",
+      "us-gaap:RentalIncomeNonoperating",
+      "us-gaap:DevelopmentProfitsNonoperating",
+      "us-gaap:RecoveryStrandedCosts",
+      "us-gaap:LeveragedLeasesIncomeStatementNetIncomeFromLeveragedLeases",
+      "us-gaap:InvestmentIncomeNet"
+    ]
+  },
+  "us-gaap:GainLossOnContractTermination": {
+    "label": "(+1) us-gaap:GainLossOnContractTermination",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainLossOnCondemnation": {
+    "label": "(+1) us-gaap:GainLossOnCondemnation",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:LossFromCatastrophes": {
+    "label": "(-1) us-gaap:LossFromCatastrophes",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:PublicUtilitiesAllowanceForFundsUsedDuringConstructionAdditions": {
+    "label": "(+1) us-gaap:PublicUtilitiesAllowanceForFundsUsedDuringConstructionAdditions",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ForeignCurrencyTransactionGainLossRealized": {
+    "label": "(+1) us-gaap:ForeignCurrencyTransactionGainLossRealized",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ForeignCurrencyTransactionGainLossUnrealized": {
+    "label": "(+1) us-gaap:ForeignCurrencyTransactionGainLossUnrealized",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ForeignCurrencyTransactionGainLossBeforeTax": {
+    "label": "(+1) us-gaap:ForeignCurrencyTransactionGainLossBeforeTax",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:ForeignCurrencyTransactionGainLossRealized",
+      "us-gaap:ForeignCurrencyTransactionGainLossUnrealized"
+    ]
+  },
+  "us-gaap:SalesTypeLeaseInitialDirectCostExpenseCommencement": {
+    "label": "(-1) us-gaap:SalesTypeLeaseInitialDirectCostExpenseCommencement",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:OperatingLeaseInitialDirectCostExpenseOverTerm": {
+    "label": "(-1) us-gaap:OperatingLeaseInitialDirectCostExpenseOverTerm",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainLossOnSaleOfLeasedAssetsNetOperatingLeases": {
+    "label": "(+1) us-gaap:GainLossOnSaleOfLeasedAssetsNetOperatingLeases",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainsLossesOnSalesOfOtherRealEstate": {
+    "label": "(+1) us-gaap:GainsLossesOnSalesOfOtherRealEstate",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:BankOwnedLifeInsuranceIncome": {
+    "label": "(+1) us-gaap:BankOwnedLifeInsuranceIncome",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:RealEstateInvestmentPartnershipRevenue": {
+    "label": "(+1) us-gaap:RealEstateInvestmentPartnershipRevenue",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ConversionGainsAndLossesOnForeignInvestments": {
+    "label": "(+1) us-gaap:ConversionGainsAndLossesOnForeignInvestments",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ProfitLossFromRealEstateOperations": {
+    "label": "(+1) us-gaap:ProfitLossFromRealEstateOperations",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:MortgageServicingRightsMSRImpairmentRecovery": {
+    "label": "(-1) us-gaap:MortgageServicingRightsMSRImpairmentRecovery",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:DebtInstrumentConvertibleBeneficialConversionFeature": {
+    "label": "(+1) us-gaap:DebtInstrumentConvertibleBeneficialConversionFeature",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:PublicUtilitiesAllowanceForFundsUsedDuringConstructionCapitalizedCostOfEquity": {
+    "label": "(+1) us-gaap:PublicUtilitiesAllowanceForFundsUsedDuringConstructionCapitalizedCostOfEquity",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:NetPeriodicDefinedBenefitsExpenseReversalOfExpenseExcludingServiceCostComponent": {
+    "label": "(-1) us-gaap:NetPeriodicDefinedBenefitsExpenseReversalOfExpenseExcludingServiceCostComponent",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:GovernmentAssistanceNonoperatingIncome": {
+    "label": "(+1) us-gaap:GovernmentAssistanceNonoperatingIncome",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GovernmentAssistanceNonoperatingExpense": {
+    "label": "(+1) us-gaap:GovernmentAssistanceNonoperatingExpense",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:OtherNonoperatingAssetRelatedIncome": {
+    "label": "(+1) us-gaap:OtherNonoperatingAssetRelatedIncome",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:OtherNonoperatingIncome": {
+    "label": "(+1) us-gaap:OtherNonoperatingIncome",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:OtherNonoperatingAssetRelatedIncome"
+    ]
+  },
+  "us-gaap:OtherNonoperatingExpense": {
+    "label": "(-1) us-gaap:OtherNonoperatingExpense",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:OtherNonoperatingIncomeExpense": {
+    "label": "(+1) us-gaap:OtherNonoperatingIncomeExpense",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:OtherNonoperatingIncome",
+      "us-gaap:OtherNonoperatingExpense"
+    ]
+  },
+  "us-gaap:DiscontinuedApplicationOfSpecializedAccountingForRegulatedOperations": {
+    "label": "(-1) us-gaap:DiscontinuedApplicationOfSpecializedAccountingForRegulatedOperations",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:UnusualOrInfrequentItemGainGross": {
+    "label": "(-1) us-gaap:UnusualOrInfrequentItemGainGross",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:UnusualOrInfrequentItemInsuranceProceeds": {
+    "label": "(-1) us-gaap:UnusualOrInfrequentItemInsuranceProceeds",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:UnusualOrInfrequentItemLossGross": {
+    "label": "(+1) us-gaap:UnusualOrInfrequentItemLossGross",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:UnusualOrInfrequentItemNetOfInsuranceProceeds": {
+    "label": "(+1) us-gaap:UnusualOrInfrequentItemNetOfInsuranceProceeds",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:UnusualOrInfrequentItemInsuranceProceeds",
+      "us-gaap:UnusualOrInfrequentItemLossGross"
+    ]
+  },
+  "us-gaap:UnusualOrInfrequentItemNetGainLoss": {
+    "label": "(-1) us-gaap:UnusualOrInfrequentItemNetGainLoss",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": [
+      "us-gaap:DiscontinuedApplicationOfSpecializedAccountingForRegulatedOperations",
+      "us-gaap:UnusualOrInfrequentItemGainGross",
+      "us-gaap:UnusualOrInfrequentItemNetOfInsuranceProceeds"
+    ]
+  },
+  "us-gaap:NonoperatingIncomeExpense": {
+    "label": "(+1) us-gaap:NonoperatingIncomeExpense",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:InvestmentIncomeNonoperating",
+      "us-gaap:GainLossOnContractTermination",
+      "us-gaap:GainLossOnCondemnation",
+      "us-gaap:LossFromCatastrophes",
+      "us-gaap:PublicUtilitiesAllowanceForFundsUsedDuringConstructionAdditions",
+      "us-gaap:ForeignCurrencyTransactionGainLossBeforeTax",
+      "us-gaap:SalesTypeLeaseInitialDirectCostExpenseCommencement",
+      "us-gaap:OperatingLeaseInitialDirectCostExpenseOverTerm",
+      "us-gaap:GainLossOnSaleOfLeasedAssetsNetOperatingLeases",
+      "us-gaap:GainsLossesOnSalesOfOtherRealEstate",
+      "us-gaap:BankOwnedLifeInsuranceIncome",
+      "us-gaap:RealEstateInvestmentPartnershipRevenue",
+      "us-gaap:ConversionGainsAndLossesOnForeignInvestments",
+      "us-gaap:ProfitLossFromRealEstateOperations",
+      "us-gaap:MortgageServicingRightsMSRImpairmentRecovery",
+      "us-gaap:DebtInstrumentConvertibleBeneficialConversionFeature",
+      "us-gaap:PublicUtilitiesAllowanceForFundsUsedDuringConstructionCapitalizedCostOfEquity",
+      "us-gaap:NetPeriodicDefinedBenefitsExpenseReversalOfExpenseExcludingServiceCostComponent",
+      "us-gaap:GovernmentAssistanceNonoperatingIncome",
+      "us-gaap:GovernmentAssistanceNonoperatingExpense",
+      "us-gaap:OtherNonoperatingIncomeExpense",
+      "us-gaap:UnusualOrInfrequentItemNetGainLoss"
+    ]
+  },
+  "us-gaap:InterestExpenseDebt": {
+    "label": "(+1) us-gaap:InterestExpenseDebt",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestExpenseCustomerDeposits": {
+    "label": "(+1) us-gaap:InterestExpenseCustomerDeposits",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DebtRelatedCommitmentFeesAndDebtIssuanceCosts": {
+    "label": "(+1) us-gaap:DebtRelatedCommitmentFeesAndDebtIssuanceCosts",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:FinanceLeaseInterestExpense": {
+    "label": "(+1) us-gaap:FinanceLeaseInterestExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestExpenseNonoperating": {
+    "label": "(+1) us-gaap:InterestExpenseNonoperating",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:InterestExpenseDebt",
+      "us-gaap:InterestExpenseCustomerDeposits",
+      "us-gaap:DebtRelatedCommitmentFeesAndDebtIssuanceCosts",
+      "us-gaap:FinanceLeaseInterestExpense"
+    ]
+  },
+  "us-gaap:GainsLossesOnExtinguishmentOfDebtBeforeWriteOffOfDeferredDebtIssuanceCost": {
+    "label": "(+1) us-gaap:GainsLossesOnExtinguishmentOfDebtBeforeWriteOffOfDeferredDebtIssuanceCost",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:WriteOffOfDeferredDebtIssuanceCost": {
+    "label": "(-1) us-gaap:WriteOffOfDeferredDebtIssuanceCost",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainsLossesOnExtinguishmentOfDebt": {
+    "label": "(-1) us-gaap:GainsLossesOnExtinguishmentOfDebt",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": [
+      "us-gaap:GainsLossesOnExtinguishmentOfDebtBeforeWriteOffOfDeferredDebtIssuanceCost",
+      "us-gaap:WriteOffOfDeferredDebtIssuanceCost"
+    ]
+  },
+  "us-gaap:InducedConversionOfConvertibleDebtExpense": {
+    "label": "(+1) us-gaap:InducedConversionOfConvertibleDebtExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainsLossesOnRestructuringOfDebt": {
+    "label": "(-1) us-gaap:GainsLossesOnRestructuringOfDebt",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:GainLossOnRepurchaseOfDebtInstrument": {
+    "label": "(-1) us-gaap:GainLossOnRepurchaseOfDebtInstrument",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:DistributionsOnMandatorilyRedeemableSecurities": {
+    "label": "(-1) us-gaap:DistributionsOnMandatorilyRedeemableSecurities",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:InterestAndDebtExpense": {
+    "label": "(-1) us-gaap:InterestAndDebtExpense",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": [
+      "us-gaap:InterestExpenseNonoperating",
+      "us-gaap:GainsLossesOnExtinguishmentOfDebt",
+      "us-gaap:InducedConversionOfConvertibleDebtExpense",
+      "us-gaap:GainsLossesOnRestructuringOfDebt",
+      "us-gaap:GainLossOnRepurchaseOfDebtInstrument",
+      "us-gaap:DistributionsOnMandatorilyRedeemableSecurities"
+    ]
+  },
+  "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments": {
+    "label": "(+1) us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:OperatingIncomeLoss",
+      "us-gaap:NonoperatingIncomeExpense",
+      "us-gaap:InterestAndDebtExpense"
+    ]
+  },
+  "us-gaap:IncomeLossFromAffordableHousingProjectsEquityMethodInvestments": {
+    "label": "(+1) us-gaap:IncomeLossFromAffordableHousingProjectsEquityMethodInvestments",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:IncomeLossFromEquityMethodInvestments": {
+    "label": "(+1) us-gaap:IncomeLossFromEquityMethodInvestments",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:IncomeLossFromAffordableHousingProjectsEquityMethodInvestments"
+    ]
+  },
+  "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest": {
+    "label": "(+1) us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
+      "us-gaap:IncomeLossFromEquityMethodInvestments"
+    ]
+  },
+  "us-gaap:CurrentForeignTaxExpenseBenefit": {
+    "label": "(+1) us-gaap:CurrentForeignTaxExpenseBenefit",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:CurrentFederalTaxExpenseBenefit": {
+    "label": "(+1) us-gaap:CurrentFederalTaxExpenseBenefit",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:CurrentStateAndLocalTaxExpenseBenefit": {
+    "label": "(+1) us-gaap:CurrentStateAndLocalTaxExpenseBenefit",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:CurrentFederalStateAndLocalTaxExpenseBenefit": {
+    "label": "(+1) us-gaap:CurrentFederalStateAndLocalTaxExpenseBenefit",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:CurrentFederalTaxExpenseBenefit",
+      "us-gaap:CurrentStateAndLocalTaxExpenseBenefit"
+    ]
+  },
+  "us-gaap:CurrentIncomeTaxExpenseBenefit": {
+    "label": "(+1) us-gaap:CurrentIncomeTaxExpenseBenefit",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:CurrentForeignTaxExpenseBenefit",
+      "us-gaap:CurrentFederalStateAndLocalTaxExpenseBenefit"
+    ]
+  },
+  "us-gaap:DeferredForeignIncomeTaxExpenseBenefit": {
+    "label": "(+1) us-gaap:DeferredForeignIncomeTaxExpenseBenefit",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DeferredFederalIncomeTaxExpenseBenefit": {
+    "label": "(+1) us-gaap:DeferredFederalIncomeTaxExpenseBenefit",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DeferredStateAndLocalIncomeTaxExpenseBenefit": {
+    "label": "(+1) us-gaap:DeferredStateAndLocalIncomeTaxExpenseBenefit",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DeferredFederalStateAndLocalTaxExpenseBenefit": {
+    "label": "(+1) us-gaap:DeferredFederalStateAndLocalTaxExpenseBenefit",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:DeferredFederalIncomeTaxExpenseBenefit",
+      "us-gaap:DeferredStateAndLocalIncomeTaxExpenseBenefit"
+    ]
+  },
+  "us-gaap:DeferredOtherTaxExpenseBenefit": {
+    "label": "(+1) us-gaap:DeferredOtherTaxExpenseBenefit",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DeferredIncomeTaxExpenseBenefit": {
+    "label": "(+1) us-gaap:DeferredIncomeTaxExpenseBenefit",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:DeferredForeignIncomeTaxExpenseBenefit",
+      "us-gaap:DeferredFederalStateAndLocalTaxExpenseBenefit",
+      "us-gaap:DeferredOtherTaxExpenseBenefit"
+    ]
+  },
+  "us-gaap:OtherTaxExpenseBenefit": {
+    "label": "(+1) us-gaap:OtherTaxExpenseBenefit",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:EmployeeServiceShareBasedCompensationTaxBenefitFromCompensationExpense": {
+    "label": "(-1) us-gaap:EmployeeServiceShareBasedCompensationTaxBenefitFromCompensationExpense",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:IncomeTaxExpenseBenefitContinuingOperationsAdjustmentOfDeferredTaxAssetLiability": {
+    "label": "(+1) us-gaap:IncomeTaxExpenseBenefitContinuingOperationsAdjustmentOfDeferredTaxAssetLiability",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:IncomeTaxExpenseBenefitContinuingOperationsGovernmentGrants": {
+    "label": "(-1) us-gaap:IncomeTaxExpenseBenefitContinuingOperationsGovernmentGrants",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:TaxAdjustmentsSettlementsAndUnusualProvisions": {
+    "label": "(+1) us-gaap:TaxAdjustmentsSettlementsAndUnusualProvisions",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:UnrecognizedTaxBenefitsIncomeTaxPenaltiesExpense": {
+    "label": "(+1) us-gaap:UnrecognizedTaxBenefitsIncomeTaxPenaltiesExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:UnrecognizedTaxBenefitsInterestOnIncomeTaxesExpense": {
+    "label": "(+1) us-gaap:UnrecognizedTaxBenefitsInterestOnIncomeTaxesExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:UnrecognizedTaxBenefitsIncomeTaxPenaltiesAndInterestExpense": {
+    "label": "(+1) us-gaap:UnrecognizedTaxBenefitsIncomeTaxPenaltiesAndInterestExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:UnrecognizedTaxBenefitsIncomeTaxPenaltiesExpense",
+      "us-gaap:UnrecognizedTaxBenefitsInterestOnIncomeTaxesExpense"
+    ]
+  },
+  "us-gaap:IncomeTaxExpenseBenefit": {
+    "label": "(-1) us-gaap:IncomeTaxExpenseBenefit",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": [
+      "us-gaap:CurrentIncomeTaxExpenseBenefit",
+      "us-gaap:DeferredIncomeTaxExpenseBenefit",
+      "us-gaap:OtherTaxExpenseBenefit",
+      "us-gaap:EmployeeServiceShareBasedCompensationTaxBenefitFromCompensationExpense",
+      "us-gaap:IncomeTaxExpenseBenefitContinuingOperationsAdjustmentOfDeferredTaxAssetLiability",
+      "us-gaap:IncomeTaxExpenseBenefitContinuingOperationsGovernmentGrants",
+      "us-gaap:TaxAdjustmentsSettlementsAndUnusualProvisions",
+      "us-gaap:UnrecognizedTaxBenefitsIncomeTaxPenaltiesAndInterestExpense"
+    ]
+  },
+  "us-gaap:IncomeLossFromContinuingOperationsIncludingPortionAttributableToNoncontrollingInterest": {
+    "label": "(+1) us-gaap:IncomeLossFromContinuingOperationsIncludingPortionAttributableToNoncontrollingInterest",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+      "us-gaap:IncomeTaxExpenseBenefit"
+    ]
+  },
+  "us-gaap:DisposalGroupIncludingDiscontinuedOperationRentalIncome": {
+    "label": "(+1) us-gaap:DisposalGroupIncludingDiscontinuedOperationRentalIncome",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DisposalGroupIncludingDiscontinuedOperationRevenue": {
+    "label": "(+1) us-gaap:DisposalGroupIncludingDiscontinuedOperationRevenue",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:DisposalGroupIncludingDiscontinuedOperationRentalIncome"
+    ]
+  },
+  "us-gaap:DisposalGroupIncludingDiscontinuedOperationCostsOfGoodsSold": {
+    "label": "(-1) us-gaap:DisposalGroupIncludingDiscontinuedOperationCostsOfGoodsSold",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:DisposalGroupIncludingDiscontinuedOperationGrossProfitLoss": {
+    "label": "(+1) us-gaap:DisposalGroupIncludingDiscontinuedOperationGrossProfitLoss",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:DisposalGroupIncludingDiscontinuedOperationRevenue",
+      "us-gaap:DisposalGroupIncludingDiscontinuedOperationCostsOfGoodsSold"
+    ]
+  },
+  "us-gaap:DisposalGroupIncludingDiscontinuedOperationDepreciationAndAmortization": {
+    "label": "(+1) us-gaap:DisposalGroupIncludingDiscontinuedOperationDepreciationAndAmortization",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DisposalGroupIncludingDiscontinuedOperationGeneralAndAdministrativeExpense": {
+    "label": "(+1) us-gaap:DisposalGroupIncludingDiscontinuedOperationGeneralAndAdministrativeExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DisposalGroupIncludingDiscontinuedOperationOperatingExpense": {
+    "label": "(-1) us-gaap:DisposalGroupIncludingDiscontinuedOperationOperatingExpense",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": [
+      "us-gaap:DisposalGroupIncludingDiscontinuedOperationDepreciationAndAmortization",
+      "us-gaap:DisposalGroupIncludingDiscontinuedOperationGeneralAndAdministrativeExpense"
+    ]
+  },
+  "us-gaap:DisposalGroupIncludingDiscontinuedOperationForeignCurrencyTranslationGainsLosses": {
+    "label": "(+1) us-gaap:DisposalGroupIncludingDiscontinuedOperationForeignCurrencyTranslationGainsLosses",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DisposalGroupIncludingDiscontinuedOperationOperatingIncomeLoss": {
+    "label": "(+1) us-gaap:DisposalGroupIncludingDiscontinuedOperationOperatingIncomeLoss",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:DisposalGroupIncludingDiscontinuedOperationGrossProfitLoss",
+      "us-gaap:DisposalGroupIncludingDiscontinuedOperationOperatingExpense",
+      "us-gaap:DisposalGroupIncludingDiscontinuedOperationForeignCurrencyTranslationGainsLosses"
+    ]
+  },
+  "us-gaap:DisposalGroupIncludingDiscontinuedOperationInterestIncome": {
+    "label": "(+1) us-gaap:DisposalGroupIncludingDiscontinuedOperationInterestIncome",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DisposalGroupIncludingDiscontinuedOperationInterestExpense": {
+    "label": "(-1) us-gaap:DisposalGroupIncludingDiscontinuedOperationInterestExpense",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:DisposalGroupIncludingDiscontinuedOperationOtherIncome": {
+    "label": "(+1) us-gaap:DisposalGroupIncludingDiscontinuedOperationOtherIncome",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DisposalGroupIncludingDiscontinuedOperationOtherExpense": {
+    "label": "(-1) us-gaap:DisposalGroupIncludingDiscontinuedOperationOtherExpense",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationDuringPhaseOutPeriodBeforeIncomeTax": {
+    "label": "(+1) us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationDuringPhaseOutPeriodBeforeIncomeTax",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:DisposalGroupIncludingDiscontinuedOperationOperatingIncomeLoss",
+      "us-gaap:DisposalGroupIncludingDiscontinuedOperationInterestIncome",
+      "us-gaap:DisposalGroupIncludingDiscontinuedOperationInterestExpense",
+      "us-gaap:DisposalGroupIncludingDiscontinuedOperationOtherIncome",
+      "us-gaap:DisposalGroupIncludingDiscontinuedOperationOtherExpense"
+    ]
+  },
+  "us-gaap:DiscontinuedOperationGainLossFromDisposalOfDiscontinuedOperationBeforeIncomeTax": {
+    "label": "(+1) us-gaap:DiscontinuedOperationGainLossFromDisposalOfDiscontinuedOperationBeforeIncomeTax",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DiscontinuedOperationProvisionForLossGainOnDisposalBeforeIncomeTax": {
+    "label": "(-1) us-gaap:DiscontinuedOperationProvisionForLossGainOnDisposalBeforeIncomeTax",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:DiscontinuedOperationAmountOfAdjustmentToPriorPeriodGainLossOnDisposalBeforeIncomeTax": {
+    "label": "(+1) us-gaap:DiscontinuedOperationAmountOfAdjustmentToPriorPeriodGainLossOnDisposalBeforeIncomeTax",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationBeforeIncomeTax": {
+    "label": "(+1) us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationBeforeIncomeTax",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationDuringPhaseOutPeriodBeforeIncomeTax",
+      "us-gaap:DiscontinuedOperationGainLossFromDisposalOfDiscontinuedOperationBeforeIncomeTax",
+      "us-gaap:DiscontinuedOperationProvisionForLossGainOnDisposalBeforeIncomeTax",
+      "us-gaap:DiscontinuedOperationAmountOfAdjustmentToPriorPeriodGainLossOnDisposalBeforeIncomeTax"
+    ]
+  },
+  "us-gaap:DiscontinuedOperationTaxEffectOfIncomeLossFromDiscontinuedOperationDuringPhaseOutPeriod": {
+    "label": "(+1) us-gaap:DiscontinuedOperationTaxEffectOfIncomeLossFromDiscontinuedOperationDuringPhaseOutPeriod",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DiscontinuedOperationTaxEffectOfIncomeLossFromDisposalOfDiscontinuedOperation": {
+    "label": "(+1) us-gaap:DiscontinuedOperationTaxEffectOfIncomeLossFromDisposalOfDiscontinuedOperation",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DiscontinuedOperationTaxExpenseBenefitFromProvisionForGainLossOnDisposal": {
+    "label": "(-1) us-gaap:DiscontinuedOperationTaxExpenseBenefitFromProvisionForGainLossOnDisposal",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:DiscontinuedOperationTaxEffectOfAdjustmentToPriorPeriodGainLossOnDisposal": {
+    "label": "(+1) us-gaap:DiscontinuedOperationTaxEffectOfAdjustmentToPriorPeriodGainLossOnDisposal",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation": {
+    "label": "(-1) us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": [
+      "us-gaap:DiscontinuedOperationTaxEffectOfIncomeLossFromDiscontinuedOperationDuringPhaseOutPeriod",
+      "us-gaap:DiscontinuedOperationTaxEffectOfIncomeLossFromDisposalOfDiscontinuedOperation",
+      "us-gaap:DiscontinuedOperationTaxExpenseBenefitFromProvisionForGainLossOnDisposal",
+      "us-gaap:DiscontinuedOperationTaxEffectOfAdjustmentToPriorPeriodGainLossOnDisposal"
+    ]
+  },
+  "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTax": {
+    "label": "(+1) us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTax",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationBeforeIncomeTax",
+      "us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation"
+    ]
+  },
+  "us-gaap:ProfitLoss": {
+    "label": "(+1) us-gaap:ProfitLoss",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:IncomeLossFromContinuingOperationsIncludingPortionAttributableToNoncontrollingInterest",
+      "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTax"
+    ]
+  },
+  "us-gaap:NoncontrollingInterestInNetIncomeLossJointVenturePartnersRedeemable": {
+    "label": "(+1) us-gaap:NoncontrollingInterestInNetIncomeLossJointVenturePartnersRedeemable",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:NoncontrollingInterestInNetIncomeLossLimitedPartnershipsRedeemable": {
+    "label": "(+1) us-gaap:NoncontrollingInterestInNetIncomeLossLimitedPartnershipsRedeemable",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:NoncontrollingInterestInNetIncomeLossOperatingPartnershipsRedeemable": {
+    "label": "(+1) us-gaap:NoncontrollingInterestInNetIncomeLossOperatingPartnershipsRedeemable",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:NoncontrollingInterestInNetIncomeLossOtherNoncontrollingInterestsRedeemable": {
+    "label": "(+1) us-gaap:NoncontrollingInterestInNetIncomeLossOtherNoncontrollingInterestsRedeemable",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:NoncontrollingInterestInNetIncomeLossPreferredUnitHoldersRedeemable": {
+    "label": "(+1) us-gaap:NoncontrollingInterestInNetIncomeLossPreferredUnitHoldersRedeemable",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:NetIncomeLossAttributableToRedeemableNoncontrollingInterest": {
+    "label": "(+1) us-gaap:NetIncomeLossAttributableToRedeemableNoncontrollingInterest",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:NoncontrollingInterestInNetIncomeLossJointVenturePartnersRedeemable",
+      "us-gaap:NoncontrollingInterestInNetIncomeLossLimitedPartnershipsRedeemable",
+      "us-gaap:NoncontrollingInterestInNetIncomeLossOperatingPartnershipsRedeemable",
+      "us-gaap:NoncontrollingInterestInNetIncomeLossOtherNoncontrollingInterestsRedeemable",
+      "us-gaap:NoncontrollingInterestInNetIncomeLossPreferredUnitHoldersRedeemable"
+    ]
+  },
+  "us-gaap:NoncontrollingInterestInNetIncomeLossJointVenturePartnersNonredeemable": {
+    "label": "(+1) us-gaap:NoncontrollingInterestInNetIncomeLossJointVenturePartnersNonredeemable",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:NoncontrollingInterestInNetIncomeLossLimitedPartnershipsNonredeemable": {
+    "label": "(+1) us-gaap:NoncontrollingInterestInNetIncomeLossLimitedPartnershipsNonredeemable",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:NoncontrollingInterestInNetIncomeLossOperatingPartnershipsNonredeemable": {
+    "label": "(+1) us-gaap:NoncontrollingInterestInNetIncomeLossOperatingPartnershipsNonredeemable",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:NoncontrollingInterestInNetIncomeLossOtherNoncontrollingInterestsNonredeemable": {
+    "label": "(+1) us-gaap:NoncontrollingInterestInNetIncomeLossOtherNoncontrollingInterestsNonredeemable",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:NoncontrollingInterestInNetIncomeLossPreferredUnitHoldersNonredeemable": {
+    "label": "(+1) us-gaap:NoncontrollingInterestInNetIncomeLossPreferredUnitHoldersNonredeemable",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:NetIncomeLossAttributableToNonredeemableNoncontrollingInterest": {
+    "label": "(+1) us-gaap:NetIncomeLossAttributableToNonredeemableNoncontrollingInterest",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:NoncontrollingInterestInNetIncomeLossJointVenturePartnersNonredeemable",
+      "us-gaap:NoncontrollingInterestInNetIncomeLossLimitedPartnershipsNonredeemable",
+      "us-gaap:NoncontrollingInterestInNetIncomeLossOperatingPartnershipsNonredeemable",
+      "us-gaap:NoncontrollingInterestInNetIncomeLossOtherNoncontrollingInterestsNonredeemable",
+      "us-gaap:NoncontrollingInterestInNetIncomeLossPreferredUnitHoldersNonredeemable"
+    ]
+  },
+  "us-gaap:NetIncomeLossAttributableToNoncontrollingInterest": {
+    "label": "(-1) us-gaap:NetIncomeLossAttributableToNoncontrollingInterest",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": [
+      "us-gaap:NetIncomeLossAttributableToRedeemableNoncontrollingInterest",
+      "us-gaap:NetIncomeLossAttributableToNonredeemableNoncontrollingInterest"
+    ]
+  },
+  "us-gaap:NetIncomeLoss": {
+    "label": "(+1) us-gaap:NetIncomeLoss",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:ProfitLoss",
+      "us-gaap:NetIncomeLossAttributableToNoncontrollingInterest"
+    ]
+  },
+  "us-gaap:PreferredStockDividendsIncomeStatementImpact": {
+    "label": "(+1) us-gaap:PreferredStockDividendsIncomeStatementImpact",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:RedeemablePreferredStockDividends": {
+    "label": "(+1) us-gaap:RedeemablePreferredStockDividends",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ConvertiblePreferredStockConvertedToOtherSecurities": {
+    "label": "(+1) us-gaap:ConvertiblePreferredStockConvertedToOtherSecurities",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:PreferredStockRedemptionPremium": {
+    "label": "(+1) us-gaap:PreferredStockRedemptionPremium",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:PreferredStockRedemptionDiscount": {
+    "label": "(-1) us-gaap:PreferredStockRedemptionDiscount",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:PreferredStockConversionsInducements": {
+    "label": "(+1) us-gaap:PreferredStockConversionsInducements",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:TemporaryEquityDividendsAdjustment": {
+    "label": "(+1) us-gaap:TemporaryEquityDividendsAdjustment",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:TemporaryEquityAccretionToRedemptionValueAdjustment": {
+    "label": "(+1) us-gaap:TemporaryEquityAccretionToRedemptionValueAdjustment",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:GeneralPartnerDistributions": {
+    "label": "(+1) us-gaap:GeneralPartnerDistributions",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:WarrantDownRoundFeatureDecreaseInNetIncomeLossToCommonShareholderAmount": {
+    "label": "(+1) us-gaap:WarrantDownRoundFeatureDecreaseInNetIncomeLossToCommonShareholderAmount",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:StockOptionDownRoundFeatureDecreaseInNetIncomeLossToCommonShareholderAmount": {
+    "label": "(+1) us-gaap:StockOptionDownRoundFeatureDecreaseInNetIncomeLossToCommonShareholderAmount",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:PreferredStockConvertibleDownRoundFeatureDecreaseInNetIncomeLossToCommonShareholderAmount": {
+    "label": "(+1) us-gaap:PreferredStockConvertibleDownRoundFeatureDecreaseInNetIncomeLossToCommonShareholderAmount",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:EquityClassifiedWrittenCallOptionModificationDecreaseInNetIncomeLossToCommonShareholderAmount": {
+    "label": "(+1) us-gaap:EquityClassifiedWrittenCallOptionModificationDecreaseInNetIncomeLossToCommonShareholderAmount",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:OtherPreferredStockDividendsAndAdjustments": {
+    "label": "(+1) us-gaap:OtherPreferredStockDividendsAndAdjustments",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:PreferredStockDividendsAndOtherAdjustments": {
+    "label": "(-1) us-gaap:PreferredStockDividendsAndOtherAdjustments",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": [
+      "us-gaap:PreferredStockDividendsIncomeStatementImpact",
+      "us-gaap:RedeemablePreferredStockDividends",
+      "us-gaap:ConvertiblePreferredStockConvertedToOtherSecurities",
+      "us-gaap:PreferredStockRedemptionPremium",
+      "us-gaap:PreferredStockRedemptionDiscount",
+      "us-gaap:PreferredStockConversionsInducements",
+      "us-gaap:TemporaryEquityDividendsAdjustment",
+      "us-gaap:TemporaryEquityAccretionToRedemptionValueAdjustment",
+      "us-gaap:GeneralPartnerDistributions",
+      "us-gaap:WarrantDownRoundFeatureDecreaseInNetIncomeLossToCommonShareholderAmount",
+      "us-gaap:StockOptionDownRoundFeatureDecreaseInNetIncomeLossToCommonShareholderAmount",
+      "us-gaap:PreferredStockConvertibleDownRoundFeatureDecreaseInNetIncomeLossToCommonShareholderAmount",
+      "us-gaap:EquityClassifiedWrittenCallOptionModificationDecreaseInNetIncomeLossToCommonShareholderAmount",
+      "us-gaap:OtherPreferredStockDividendsAndAdjustments"
+    ]
+  },
+  "us-gaap:UndistributedContinuingOperationEarningsLossAllocationToParticipatingSecuritiesBasic": {
+    "label": "(+1) us-gaap:UndistributedContinuingOperationEarningsLossAllocationToParticipatingSecuritiesBasic",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:UndistributedDiscontinuedOperationEarningsLossAllocationToParticipatingSecuritiesBasic": {
+    "label": "(+1) us-gaap:UndistributedDiscontinuedOperationEarningsLossAllocationToParticipatingSecuritiesBasic",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:UndistributedEarningsLossAllocatedToParticipatingSecuritiesBasic": {
+    "label": "(-1) us-gaap:UndistributedEarningsLossAllocatedToParticipatingSecuritiesBasic",
+    "balance": "debit",
+    "weight": "-1",
+    "sub_concepts": [
+      "us-gaap:UndistributedContinuingOperationEarningsLossAllocationToParticipatingSecuritiesBasic",
+      "us-gaap:UndistributedDiscontinuedOperationEarningsLossAllocationToParticipatingSecuritiesBasic"
+    ]
+  },
+  "us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic": {
+    "label": "(+1) us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:NetIncomeLoss",
+      "us-gaap:PreferredStockDividendsAndOtherAdjustments",
+      "us-gaap:UndistributedEarningsLossAllocatedToParticipatingSecuritiesBasic"
+    ]
+  },
+  "us-gaap:InterestOnConvertibleDebtNetOfTax": {
+    "label": "(+1) us-gaap:InterestOnConvertibleDebtNetOfTax",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:ConvertiblePreferredDividendsNetOfTax": {
+    "label": "(+1) us-gaap:ConvertiblePreferredDividendsNetOfTax",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:AmountOfDilutiveSecuritiesStockOptionsAndRestrictiveStockUnits": {
+    "label": "(+1) us-gaap:AmountOfDilutiveSecuritiesStockOptionsAndRestrictiveStockUnits",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:AmountOfDilutiveSecuritiesESOPConvertiblePreferredStock": {
+    "label": "(+1) us-gaap:AmountOfDilutiveSecuritiesESOPConvertiblePreferredStock",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DilutiveSecuritiesEffectOnBasicEarningsPerShareOther": {
+    "label": "(+1) us-gaap:DilutiveSecuritiesEffectOnBasicEarningsPerShareOther",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DilutiveSecurities": {
+    "label": "(+1) us-gaap:DilutiveSecurities",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:AmountOfDilutiveSecuritiesStockOptionsAndRestrictiveStockUnits",
+      "us-gaap:AmountOfDilutiveSecuritiesESOPConvertiblePreferredStock",
+      "us-gaap:DilutiveSecuritiesEffectOnBasicEarningsPerShareOther"
+    ]
+  },
+  "us-gaap:NetIncomeLossAvailableToCommonStockholdersDiluted": {
+    "label": "us-gaap:NetIncomeLossAvailableToCommonStockholdersDiluted",
+    "balance": "credit",
+    "weight": "",
+    "sub_concepts": [
+      "us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic",
+      "us-gaap:InterestOnConvertibleDebtNetOfTax",
+      "us-gaap:ConvertiblePreferredDividendsNetOfTax",
+      "us-gaap:DilutiveSecurities"
+    ]
+  },
+  "us-gaap:WeightedAverageNumberOfSharesIssuedBasic": {
+    "label": "(+1) us-gaap:WeightedAverageNumberOfSharesIssuedBasic",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:WeightedAverageNumberOfSharesContingentlyIssuable": {
+    "label": "(+1) us-gaap:WeightedAverageNumberOfSharesContingentlyIssuable",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:WeightedAverageNumberOfSharesTreasuryStock": {
+    "label": "(-1) us-gaap:WeightedAverageNumberOfSharesTreasuryStock",
+    "balance": "",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:WeightedAverageNumberOfSharesCommonStockSubjectToRepurchaseOrCancellation": {
+    "label": "(-1) us-gaap:WeightedAverageNumberOfSharesCommonStockSubjectToRepurchaseOrCancellation",
+    "balance": "",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:WeightedAverageNumberOfSharesRestrictedStock": {
+    "label": "(-1) us-gaap:WeightedAverageNumberOfSharesRestrictedStock",
+    "balance": "",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:WeightedAverageNumberOfSharesEmployeeStockOwnershipPlanSharesNotCommittedToBeReleased": {
+    "label": "(-1) us-gaap:WeightedAverageNumberOfSharesEmployeeStockOwnershipPlanSharesNotCommittedToBeReleased",
+    "balance": "",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:WeightedAverageNumberOfSharesOutstandingBasic": {
+    "label": "(+1) us-gaap:WeightedAverageNumberOfSharesOutstandingBasic",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:WeightedAverageNumberOfSharesIssuedBasic",
+      "us-gaap:WeightedAverageNumberOfSharesContingentlyIssuable",
+      "us-gaap:WeightedAverageNumberOfSharesTreasuryStock",
+      "us-gaap:WeightedAverageNumberOfSharesCommonStockSubjectToRepurchaseOrCancellation",
+      "us-gaap:WeightedAverageNumberOfSharesRestrictedStock",
+      "us-gaap:WeightedAverageNumberOfSharesEmployeeStockOwnershipPlanSharesNotCommittedToBeReleased"
+    ]
+  },
+  "us-gaap:IncrementalCommonSharesAttributableToShareBasedPaymentArrangements": {
+    "label": "(+1) us-gaap:IncrementalCommonSharesAttributableToShareBasedPaymentArrangements",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:IncrementalCommonSharesAttributableToConversionOfDebtSecurities": {
+    "label": "(+1) us-gaap:IncrementalCommonSharesAttributableToConversionOfDebtSecurities",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:IncrementalCommonSharesAttributableToConversionOfPreferredStock": {
+    "label": "(+1) us-gaap:IncrementalCommonSharesAttributableToConversionOfPreferredStock",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:IncrementalCommonSharesAttributableToCallOptionsAndWarrants": {
+    "label": "(+1) us-gaap:IncrementalCommonSharesAttributableToCallOptionsAndWarrants",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:IncrementalCommonSharesAttributableToAcceleratedShareRepurchaseAgreements": {
+    "label": "(+1) us-gaap:IncrementalCommonSharesAttributableToAcceleratedShareRepurchaseAgreements",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:IncrementalCommonSharesAttributableToContingentlyIssuableShares": {
+    "label": "(+1) us-gaap:IncrementalCommonSharesAttributableToContingentlyIssuableShares",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:IncrementalCommonSharesAttributableToEquityUnitPurchaseAgreements": {
+    "label": "(+1) us-gaap:IncrementalCommonSharesAttributableToEquityUnitPurchaseAgreements",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:IncrementalCommonSharesAttributableToWrittenPutOptions": {
+    "label": "(+1) us-gaap:IncrementalCommonSharesAttributableToWrittenPutOptions",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:IncrementalCommonSharesAttributableToEquityForwardAgreements": {
+    "label": "(+1) us-gaap:IncrementalCommonSharesAttributableToEquityForwardAgreements",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:IncrementalCommonSharesAttributableToNonvestedSharesWithForfeitableDividends": {
+    "label": "(+1) us-gaap:IncrementalCommonSharesAttributableToNonvestedSharesWithForfeitableDividends",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:WeightedAverageNumberDilutedSharesOutstandingAdjustment": {
+    "label": "(+1) us-gaap:WeightedAverageNumberDilutedSharesOutstandingAdjustment",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:IncrementalCommonSharesAttributableToShareBasedPaymentArrangements",
+      "us-gaap:IncrementalCommonSharesAttributableToConversionOfDebtSecurities",
+      "us-gaap:IncrementalCommonSharesAttributableToConversionOfPreferredStock",
+      "us-gaap:IncrementalCommonSharesAttributableToCallOptionsAndWarrants",
+      "us-gaap:IncrementalCommonSharesAttributableToAcceleratedShareRepurchaseAgreements",
+      "us-gaap:IncrementalCommonSharesAttributableToContingentlyIssuableShares",
+      "us-gaap:IncrementalCommonSharesAttributableToEquityUnitPurchaseAgreements",
+      "us-gaap:IncrementalCommonSharesAttributableToWrittenPutOptions",
+      "us-gaap:IncrementalCommonSharesAttributableToEquityForwardAgreements",
+      "us-gaap:IncrementalCommonSharesAttributableToNonvestedSharesWithForfeitableDividends"
+    ]
+  },
+  "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding": {
+    "label": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
+    "balance": "",
+    "weight": "",
+    "sub_concepts": [
+      "us-gaap:WeightedAverageNumberOfSharesOutstandingBasic",
+      "us-gaap:WeightedAverageNumberDilutedSharesOutstandingAdjustment"
+    ]
+  },
+  "us-gaap:IncomeLossFromContinuingOperationsPerBasicShare": {
+    "label": "(+1) us-gaap:IncomeLossFromContinuingOperationsPerBasicShare",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerBasicShare": {
+    "label": "(+1) us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerBasicShare",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DiscontinuedOperationGainLossOnDisposalOfDiscontinuedOperationNetOfTaxPerBasicShare": {
+    "label": "(+1) us-gaap:DiscontinuedOperationGainLossOnDisposalOfDiscontinuedOperationNetOfTaxPerBasicShare",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerBasicShare": {
+    "label": "(+1) us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerBasicShare",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerBasicShare",
+      "us-gaap:DiscontinuedOperationGainLossOnDisposalOfDiscontinuedOperationNetOfTaxPerBasicShare"
+    ]
+  },
+  "us-gaap:EarningsPerShareBasic": {
+    "label": "us-gaap:EarningsPerShareBasic",
+    "balance": "",
+    "weight": "",
+    "sub_concepts": [
+      "us-gaap:IncomeLossFromContinuingOperationsPerBasicShare",
+      "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerBasicShare"
+    ]
+  },
+  "us-gaap:IncomeLossFromContinuingOperationsPerDilutedShare": {
+    "label": "(+1) us-gaap:IncomeLossFromContinuingOperationsPerDilutedShare",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerDilutedShare": {
+    "label": "(+1) us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerDilutedShare",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:DiscontinuedOperationGainLossOnDisposalOfDiscontinuedOperationNetOfTaxPerDilutedShare": {
+    "label": "(+1) us-gaap:DiscontinuedOperationGainLossOnDisposalOfDiscontinuedOperationNetOfTaxPerDilutedShare",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerDilutedShare": {
+    "label": "(+1) us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerDilutedShare",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": [
+      "us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerDilutedShare",
+      "us-gaap:DiscontinuedOperationGainLossOnDisposalOfDiscontinuedOperationNetOfTaxPerDilutedShare"
+    ]
+  },
+  "us-gaap:EarningsPerShareDiluted": {
+    "label": "us-gaap:EarningsPerShareDiluted",
+    "balance": "",
+    "weight": "",
+    "sub_concepts": [
+      "us-gaap:IncomeLossFromContinuingOperationsPerDilutedShare",
+      "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerDilutedShare"
+    ]
+  },
+  "us-gaap:IncomeLossFromContinuingOperationsNetOfTaxPerOutstandingLimitedPartnershipUnitDiluted": {
+    "label": "(+1) us-gaap:IncomeLossFromContinuingOperationsNetOfTaxPerOutstandingLimitedPartnershipUnitDiluted",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerOutstandingLimitedPartnershipUnitDiluted1": {
+    "label": "(+1) us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerOutstandingLimitedPartnershipUnitDiluted1",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:NetIncomeLossNetOfTaxPerOutstandingLimitedPartnershipUnitDiluted": {
+    "label": "us-gaap:NetIncomeLossNetOfTaxPerOutstandingLimitedPartnershipUnitDiluted",
+    "balance": "",
+    "weight": "",
+    "sub_concepts": [
+      "us-gaap:IncomeLossFromContinuingOperationsNetOfTaxPerOutstandingLimitedPartnershipUnitDiluted",
+      "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerOutstandingLimitedPartnershipUnitDiluted1"
+    ]
+  },
+  "us-gaap:IncomeLossFromContinuingOperationsPerOutstandingGeneralPartnershipUnitNetOfTax": {
+    "label": "(+1) us-gaap:IncomeLossFromContinuingOperationsPerOutstandingGeneralPartnershipUnitNetOfTax",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerOutstandingGeneralPartnershipUnit1": {
+    "label": "(+1) us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerOutstandingGeneralPartnershipUnit1",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:NetIncomeLossPerOutstandingGeneralPartnershipUnitNetOfTax": {
+    "label": "us-gaap:NetIncomeLossPerOutstandingGeneralPartnershipUnitNetOfTax",
+    "balance": "",
+    "weight": "",
+    "sub_concepts": [
+      "us-gaap:IncomeLossFromContinuingOperationsPerOutstandingGeneralPartnershipUnitNetOfTax",
+      "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerOutstandingGeneralPartnershipUnit1"
+    ]
+  },
+  "us-gaap:IncomeLossFromContinuingOperationsPerOutstandingLimitedPartnershipUnitBasicNetOfTax": {
+    "label": "(+1) us-gaap:IncomeLossFromContinuingOperationsPerOutstandingLimitedPartnershipUnitBasicNetOfTax",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerOutstandingLimitedPartnershipUnitBasic": {
+    "label": "(+1) us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerOutstandingLimitedPartnershipUnitBasic",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:NetIncomeLossPerOutstandingLimitedPartnershipUnitBasicNetOfTax": {
+    "label": "us-gaap:NetIncomeLossPerOutstandingLimitedPartnershipUnitBasicNetOfTax",
+    "balance": "",
+    "weight": "",
+    "sub_concepts": [
+      "us-gaap:IncomeLossFromContinuingOperationsPerOutstandingLimitedPartnershipUnitBasicNetOfTax",
+      "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerOutstandingLimitedPartnershipUnitBasic"
+    ]
+  },
+  "us-gaap:IncomeLossFromContinuingOperationsPerOutstandingLimitedPartnershipAndGeneralPartnershipUnitBasic": {
+    "label": "(+1) us-gaap:IncomeLossFromContinuingOperationsPerOutstandingLimitedPartnershipAndGeneralPartnershipUnitBasic",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerOutstandingLimitedPartnershipAndGeneralPartnershipUnitBasic": {
+    "label": "(+1) us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerOutstandingLimitedPartnershipAndGeneralPartnershipUnitBasic",
+    "balance": "",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:NetIncomeLossPerOutstandingLimitedPartnershipAndGeneralPartnershipUnitBasic": {
+    "label": "us-gaap:NetIncomeLossPerOutstandingLimitedPartnershipAndGeneralPartnershipUnitBasic",
+    "balance": "",
+    "weight": "",
+    "sub_concepts": [
+      "us-gaap:IncomeLossFromContinuingOperationsPerOutstandingLimitedPartnershipAndGeneralPartnershipUnitBasic",
+      "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerOutstandingLimitedPartnershipAndGeneralPartnershipUnitBasic"
+    ]
+  },
+  "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax": {
+    "label": "(+1) us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:RevenueNotFromContractWithCustomerExcludingInterestIncome": {
+    "label": "(+1) us-gaap:RevenueNotFromContractWithCustomerExcludingInterestIncome",
+    "balance": "credit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:NoninterestIncome": {
+    "label": "us-gaap:NoninterestIncome",
+    "balance": "credit",
+    "weight": "",
+    "sub_concepts": [
+      "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "us-gaap:RevenueNotFromContractWithCustomerExcludingInterestIncome"
+    ]
+  },
+  "us-gaap:FederalStateAndLocalIncomeTaxExpenseBenefitContinuingOperations": {
+    "label": "us-gaap:FederalStateAndLocalIncomeTaxExpenseBenefitContinuingOperations",
+    "balance": "debit",
+    "weight": "",
+    "sub_concepts": [
+      "us-gaap:CurrentFederalStateAndLocalTaxExpenseBenefit",
+      "us-gaap:DeferredFederalStateAndLocalTaxExpenseBenefit"
+    ]
+  },
+  "us-gaap:LiabilityForFuturePolicyBenefitExpectedNetPremiumInterestIncome": {
+    "label": "(-1) us-gaap:LiabilityForFuturePolicyBenefitExpectedNetPremiumInterestIncome",
+    "balance": "credit",
+    "weight": "-1",
+    "sub_concepts": []
+  },
+  "us-gaap:LiabilityForFuturePolicyBenefitExpectedFuturePolicyBenefitInterestExpense": {
+    "label": "(+1) us-gaap:LiabilityForFuturePolicyBenefitExpectedFuturePolicyBenefitInterestExpense",
+    "balance": "debit",
+    "weight": "1",
+    "sub_concepts": []
+  },
+  "us-gaap:LiabilityForFuturePolicyBenefitInterestExpense": {
+    "label": "us-gaap:LiabilityForFuturePolicyBenefitInterestExpense",
+    "balance": "debit",
+    "weight": "",
+    "sub_concepts": [
+      "us-gaap:LiabilityForFuturePolicyBenefitExpectedNetPremiumInterestIncome",
+      "us-gaap:LiabilityForFuturePolicyBenefitExpectedFuturePolicyBenefitInterestExpense"
+    ]
+  }
+}
