@@ -282,3 +282,37 @@ data class Dividend(
         }
     }
 }
+
+data class Price(
+    val closePrice: Double,
+) {
+    companion object {
+        fun fromJsonObject(json: JsonObject, service: AlphaVantageService): Price? {
+           return try {
+               Price(
+                   closePrice = service.safeGetAsDouble(json["4. close"]) ?: 0.0,
+               )
+           } catch (e: Exception) {
+               service.logger.error("Error parsing price data: ${e.message}")
+               null
+           }
+        }
+    }
+}
+
+data class Volume(
+    val volume: Long,
+) {
+    companion object {
+        fun fromJsonObject(json: JsonObject, service: AlphaVantageService): Volume? {
+            return try {
+                Volume(
+                    volume = service.safeGetAsLong(json["5. volume"]) ?: 0L
+                )
+            } catch (e: Exception) {
+                service.logger.error("Error parsing volume data: ${e.message}")
+                null
+            }
+        }
+    }
+}

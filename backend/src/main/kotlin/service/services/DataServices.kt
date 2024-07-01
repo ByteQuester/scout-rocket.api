@@ -17,14 +17,14 @@ class DataServices {
         }
     }
 
-    suspend fun getTickerPrice(ticker: String, date: LocalDate): Double {
+    fun getTickerPrice(ticker: String, date: LocalDate): Double {
         if (!dataAccess.tickerPrice.isTickerPriceExists(ticker)) {
             fetchTickerPriceVolume(ticker)
         }
         return dataAccess.tickerPrice.getPrice(ticker, date)
     }
 
-    suspend fun getTickerVolume(ticker: String, date: LocalDate): Double {
+    fun getTickerVolume(ticker: String, date: LocalDate): Double {
         if (!dataAccess.tickerPrice.isTickerVolumeExists(ticker)) {
             fetchTickerPriceVolume(ticker)
         }
@@ -42,33 +42,10 @@ class DataServices {
         return dataAccess.tickerPrice.getTickerList()
     }
 
-    fun getTickerData(ticker: String, startYear: Int, endYear: Int): Map<String, Any> {
-        val data = mutableMapOf<String, Any>()
-            // I assume the following is going to be moved out
-//        if (!dataAccess.tickerPrice.isTickerPriceExists(ticker)) {
-//            fetchTickerPriceVolume(ticker)
-//        }
-//
-//        data["volume"] = mapOf("volume" to "NA")
-//        val startYearDateTime = LocalDate.of(startYear, 1, 1)
-//        val endYearDateTime = LocalDate.of(endYear, 12, 30)
-//        data["price"] = dataAccess.tickerPrice.getPrices(ticker, startYearDateTime, endYearDateTime) ?: emptyList<Pair<LocalDate, Double>>()
-
-        for (year in startYear..endYear) {
-            fetchTickerFinancialsByYear(year, ticker)
-            val entry = dataAccess.tickerFinancials.getTickerFinancials(ticker, year)
-            if (entry == null) {
-                Logger.getGlobal().severe("Could not retrieve data for '$ticker $year'")
-            }
-            data[year.toString()] = entry ?: "No data"
-        }
-
-        return data
-    }
 
     fun getTickerFinancials(ticker: String, startYear: Int, endYear: Int): Map<String, Any> {
         val data = mutableMapOf<String, Any>()
-
+        // modifications to add information we can get from the both ends with SEC overriding
         for (year in startYear..endYear) {
             fetchTickerFinancialsByYear(year, ticker)
             val entry = dataAccess.tickerFinancials.getTickerFinancials(ticker, year)
@@ -81,10 +58,6 @@ class DataServices {
         return data
     }
 
-    fun getTickerVolumes(ticker: String, start: LocalDate, end: LocalDate? = null): List<Pair<LocalDate, Double>> {
-        // Implementation needed
-        return emptyList()
-    }
 
     fun fetchTickerFinancialsByYear(year: Int, ticker: String? = null) {
         if (ticker in listOf("spy", "qqq")) {
@@ -97,6 +70,5 @@ class DataServices {
         }
         secGov.fetchTickerFinancialsByYear(year, ticker)
     }
-
 
 }

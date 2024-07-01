@@ -1047,6 +1047,7 @@
   },
   "us-gaap:MerchantMarineOperatingDifferentialSubsidy": {
     "label": "(-1) us-gaap:MerchantMarineOperatingDifferentialSubsidy",
+    "label": "(-1) us-gaap:MerchantMarineOperatingDifferentialSubsidy",
     "balance": "credit",
     "weight": "-1",
     "sub_concepts": []

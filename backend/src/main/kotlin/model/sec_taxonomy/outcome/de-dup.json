@@ -1,0 +1,2378 @@
+{
+  "us-gaap:ContractuallySpecifiedServicingFeesLateFeesAndAncillaryFeesEarnedInExchangeForServicingFinancialAssets": [
+    {
+      "name": "us-gaap:ContractuallySpecifiedServicingFeesAmount",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:LateFeeIncomeGeneratedByServicingFinancialAssetsAmount",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AncillaryFeeIncomeGeneratedByServicingFinancialAssetsAmount",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:DebtSecuritiesRealizedGainLoss": [
+    {
+      "name": "us-gaap:DebtSecuritiesTradingRealizedGainLoss",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DebtSecuritiesAvailableForSaleRealizedGainLoss",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:HeldtomaturitySecuritiesSoldSecurityRealizedGainLossExcludingOtherThanTemporaryImpairments",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:DebtAndEquitySecuritiesRealizedGainLoss": [
+    {
+      "name": "us-gaap:DebtSecuritiesRealizedGainLoss",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:EquitySecuritiesFvNiRealizedGainLoss",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:GainLossOnSalesOfLoansNet": [
+    {
+      "name": "us-gaap:GainLossOnSalesOfConsumerLoans",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainLossOnSaleOfMortgageLoans",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:GainsLossesOnSalesOfAssets": [
+    {
+      "name": "us-gaap:GainLossOnSecuritizationOfFinancialAssets",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DebtAndEquitySecuritiesRealizedGainLoss",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainLossOnSalesOfLoansNet",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainLossOnSalesOfMortgageBackedSecuritiesMBS",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainLossOnSaleOfInsuranceBlock",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainLossOnSaleOfDerivatives",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainsLossesOnSalesOfCreditCardPortfolio",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainLossOnDispositionOfOtherFinancialAssets",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:InterestAndFeeIncomeLoansAndLeasesHeldForSale": [
+    {
+      "name": "us-gaap:InterestAndFeeIncomeLoansHeldForSaleMortgages",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestAndFeeIncomeNonmortgageLoansAndLeasesHeldForSale",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestAndFeeIncomeOtherLoansHeldForSale",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:InterestAndFeeIncomeLoansCommercial": [
+    {
+      "name": "us-gaap:InterestAndFeeIncomeLoansCommercialIndustrialAndAgriculturalLoans",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestAndFeeIncomeLoansCommercialAndResidentialRealEstate",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestAndFeeIncomeLoansCommercialRealEstate",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestAndFeeIncomeLoansRealEstateConstruction",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestAndFeeIncomeLoansTradeFinancing",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestAndFeeIncomeLoansLeaseFinancing",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:InterestAndFeeIncomeLoansConsumer": [
+    {
+      "name": "us-gaap:InterestAndFeeIncomeLoansConsumerRealEstate",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestAndFeeIncomeLoansConsumerHomeEquity",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestAndFeeIncomeLoansConsumerInstallmentAutomobilesMarineAndOtherVehicles",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestAndFeeIncomeLoansConsumerInstallmentCreditCard",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestAndFeeIncomeLoansOtherConsumer",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:InterestAndFeeIncomeLoansAndLeasesHeldInPortfolio": [
+    {
+      "name": "us-gaap:InterestAndFeeIncomeLoansCommercial",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestAndFeeIncomeLoansConsumer",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestAndFeeIncomeLoansForeign",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AmortizationOfDeferredLoanOriginationFeesNet",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestAndFeeIncomeOtherLoans",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:InterestAndFeeIncomeLoansAndLeases": [
+    {
+      "name": "us-gaap:InterestAndFeeIncomeLoansAndLeasesHeldForSale",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestAndFeeIncomeLoansAndLeasesHeldInPortfolio",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:InterestIncomeDomesticDeposits": [
+    {
+      "name": "us-gaap:InterestIncomeMoneyMarketDeposits",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestIncomeOtherDomesticDeposits",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:InterestIncomeDepositsWithFinancialInstitutions": [
+    {
+      "name": "us-gaap:InterestIncomeDomesticDeposits",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestIncomeForeignDeposits",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:InterestIncomeFederalFundsSoldAndSecuritiesPurchasedUnderAgreementsToResell": [
+    {
+      "name": "us-gaap:InterestIncomeFederalFundsSold",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestIncomeSecuritiesPurchasedUnderAgreementsToResell",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:InterestIncomeOperating": [
+    {
+      "name": "us-gaap:InterestIncomeSecuritiesTaxable",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestIncomeSecuritiesTaxExempt",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestIncomeSecuritiesTaxAdvantaged",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:DividendIncomeOperating": [
+    {
+      "name": "us-gaap:DividendIncomeSecuritiesOperatingTaxable",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DividendIncomeSecuritiesOperatingTaxExempt",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DividendIncomeSecuritiesOperatingTaxAdvantaged",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:NetInvestmentIncome": [
+    {
+      "name": "us-gaap:InterestAndFeeIncomeLoansAndLeases",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestIncomeAndFeesBankersAcceptancesCertificatesOfDepositAndCommercialPaper",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestIncomePurchasedReceivables",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestIncomeDepositsWithFinancialInstitutions",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestIncomeFederalFundsSoldAndSecuritiesPurchasedUnderAgreementsToResell",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestIncomeOperating",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DividendIncomeOperating",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherInterestAndDividendIncome",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InsuranceInvestmentIncome",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:TradingGainsLosses": [
+    {
+      "name": "us-gaap:TradingActivityGain",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:TradingActivityLoss",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:PrincipalTransactionsRevenue": [
+    {
+      "name": "us-gaap:TradingGainsLosses",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:PrincipalInvestmentGainsLosses",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:RevenuesExcludingInterestAndDividends": [
+    {
+      "name": "us-gaap:BrokerageCommissionsRevenue",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InvestmentBankingRevenue",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:UnderwritingIncomeLoss",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:PrincipalTransactionsRevenue",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:MarketDataRevenue",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:Revenues": [
+    {
+      "name": "us-gaap:DirectFinancingLeaseRevenue",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DirectFinancingLeaseVariableLeaseIncome",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DirectFinancingLeaseInterestIncome",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:SalesTypeLeaseRevenue",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:SalesTypeLeaseVariableLeaseIncome",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:SalesTypeLeaseInterestIncome",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OperatingLeaseLeaseIncome",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:SubleaseIncome",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:SaleOfTrustAssetsToPayExpenses",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InsuranceCommissionsAndFees",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ContractuallySpecifiedServicingFeesLateFeesAndAncillaryFeesEarnedInExchangeForServicingFinancialAssets",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InsuranceAgencyManagementFee",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainsLossesOnSalesOfAssets",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:PremiumsEarnedNet",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:NetInvestmentIncome",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:RealizedInvestmentGainsLosses",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:RevenuesExcludingInterestAndDividends",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherOperatingIncome",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:FeeIncome",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherIncome",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:DirectCommunicationsAndUtilitiesCosts": [
+    {
+      "name": "us-gaap:DirectOperatingCommunicationsCosts",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:AircraftRentalAndLandingFees": [
+    {
+      "name": "us-gaap:AircraftRental",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:LandingFeesAndOtherRentals",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:DirectOperatingCosts": [
+    {
+      "name": "us-gaap:WaterProductionCosts",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CostOfPurchasedWater",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:RecoveryOfDirectCosts",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:ManufacturingCosts",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DirectOperatingMaintenanceSuppliesCosts",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OperatingInsuranceAndClaimsCostsProduction",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:FuelCosts",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DirectCommunicationsAndUtilitiesCosts",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AircraftRentalAndLandingFees",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:ProductionRelatedImpairmentsOrCharges": [
+    {
+      "name": "us-gaap:InventoryWriteDown",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:CostOfGoodsAndServiceExcludingDepreciationDepletionAndAmortization": [
+    {
+      "name": "us-gaap:CostDirectMaterial",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CostOfGoodsSoldSalesTypeLease",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CostOfGoodsSoldDirectFinancingLease",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CostDirectLabor",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CostOfGoodsAndServicesSoldOverhead",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CostMaintenance",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DirectTaxesAndLicensesCosts",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CostOfTrustAssetsSoldToPayExpenses",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CostOfPropertyRepairsAndMaintenance",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CostOfOtherPropertyOperatingExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DirectOperatingCosts",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:LossOnContracts",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AffiliateCosts",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InventoryFirmPurchaseCommitmentLoss",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ExciseAndSalesTaxes",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ProductionRelatedImpairmentsOrCharges",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:CostOfGoodsAndServicesSoldDepreciationAndAmortization": [
+    {
+      "name": "us-gaap:CostOfGoodsAndServicesSoldDepreciation",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CostOfGoodsAndServicesSoldAmortization",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:CostDepreciationAmortizationAndDepletion": [
+    {
+      "name": "us-gaap:CostOfGoodsAndServicesSoldDepreciationAndAmortization",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CostDepletion",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:CostOfGoodsAndServicesSold": [
+    {
+      "name": "us-gaap:CostOfGoodsAndServiceExcludingDepreciationDepletionAndAmortization",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CostDepreciationAmortizationAndDepletion",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:ProvisionForLoanLeaseAndOtherLosses": [
+    {
+      "name": "us-gaap:ProvisionForOtherCreditLosses",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ProvisionForOtherLosses",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ProvisionForLoanLossesExpensed",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:NetInvestmentInLeaseCreditLossExpenseReversal",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:ReinsuranceCostsAndRecoveriesNet": [
+    {
+      "name": "us-gaap:ReinsuranceEffectOnClaimsAndBenefitsIncurredAmountAssumed",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:ReinsuranceEffectOnClaimsAndBenefitsIncurredAmountCeded",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:PolicyholderBenefitsAndClaimsIncurredNet": [
+    {
+      "name": "us-gaap:PolicyholderBenefitsAndClaimsIncurredGross",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ReinsuranceCostsAndRecoveriesNet",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:CostOfRevenue": [
+    {
+      "name": "us-gaap:CostOfGoodsAndServicesSold",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:FinancingInterestExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ProvisionForLoanLeaseAndOtherLosses",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:PolicyholderBenefitsAndClaimsIncurredNet",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:LiabilityForFuturePolicyBenefitsPeriodExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestCreditedToPolicyholdersAccountBalances",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:PolicyholderDividends",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DeferredSalesInducementsAmortizationExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:PresentValueOfFutureInsuranceProfitsAmortizationExpense1",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AmortizationOfMortgageServicingRightsMSRs",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DeferredPolicyAcquisitionCostAmortizationExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AmortizationOfValueOfBusinessAcquiredVOBA",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherCostOfOperatingRevenue",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:MerchantMarineOperatingDifferentialSubsidy",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:GrossProfit": [
+    {
+      "name": "us-gaap:Revenues",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CostOfRevenue",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:ResearchAndDevelopmentExpense": [
+    {
+      "name": "us-gaap:ResearchAndDevelopmentExpenseExcludingAcquiredInProcessCost",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ResearchAndDevelopmentExpenseSoftwareExcludingAcquiredInProcessCost",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ResearchAndDevelopmentAssetAcquiredOtherThanThroughBusinessCombinationWrittenOff",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:AmortizationOfDeferredCharges": [
+    {
+      "name": "us-gaap:AmortizationOfAcquisitionCosts",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AmortizationOfIntangibleAssets",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AmortizationOfDeferredSalesCommissions",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AmortizationOfRegulatoryAsset",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:FinanceLeaseRightOfUseAssetAmortization",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AmortizationOfPowerContractsEmissionCredits",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AmortizationOfNuclearFuelLease",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AmortizationOfAdvanceRoyalty",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AmortizationOfDeferredPropertyTaxes",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AmortizationOfRateDeferral",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AmortizationOfDeferredHedgeGains",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AmortizationAndDepreciationOfDecontaminatingAndDecommissioningAssets",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherAmortizationOfDeferredCharges",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:DepreciationAndAmortization": [
+    {
+      "name": "us-gaap:DepreciationNonproduction",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DepletionOfOilAndGasProperties",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AmortizationOfDeferredCharges",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherDepreciationAndAmortization",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:RestructuringCharges": [
+    {
+      "name": "us-gaap:BusinessExitCosts1",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:SeveranceCosts1",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherRestructuringCosts",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:EnvironmentalRemediationExpenseAfterRecovery": [
+    {
+      "name": "us-gaap:EnvironmentalRemediationExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:EnvironmentalCostsRecognizedRecoveryCreditedToExpense",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:ImpairmentOfIntangibleAssetsExcludingGoodwill": [
+    {
+      "name": "us-gaap:ImpairmentOfIntangibleAssetsFinitelived",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ImpairmentOfIntangibleAssetsIndefinitelivedExcludingGoodwill",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:GoodwillAndIntangibleAssetImpairment": [
+    {
+      "name": "us-gaap:GoodwillImpairmentLoss",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ImpairmentOfIntangibleAssetsExcludingGoodwill",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:FinanceLeaseImpairmentLoss",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OperatingLeaseImpairmentLoss",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:ImpairmentOfLongLivedAssetsHeldForUse": [
+    {
+      "name": "us-gaap:ImpairmentLessorAssetUnderOperatingLease",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ImpairmentExcludingLessorAssetUnderOperatingLease",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:TangibleAssetImpairmentCharges": [
+    {
+      "name": "us-gaap:ImpairmentOfLongLivedAssetsToBeDisposedOf",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ImpairmentOfLongLivedAssetsHeldForUse",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ImpairmentOfOngoingProject",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ImpairmentOfRealEstate",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ExplorationAbandonmentAndImpairmentExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ImpairmentOfOilAndGasProperties",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DisposalGroupNotDiscontinuedOperationLossGainOnWriteDown",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:AssetImpairmentCharges": [
+    {
+      "name": "us-gaap:GoodwillAndIntangibleAssetImpairment",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:EquityMethodInvestmentOtherThanTemporaryImpairment",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ImpairmentLossesRelatedToRealEstatePartnerships",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:SalesTypeLeaseImpairmentLoss",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DirectFinancingLeaseImpairmentLoss",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ImpairmentOfLeasehold",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:TangibleAssetImpairmentCharges",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AffordableHousingProjectInvestmentWriteDownAmount",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:RestructuringSettlementAndImpairmentProvisions": [
+    {
+      "name": "us-gaap:RestructuringCharges",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:BusinessCombinationAcquisitionRelatedCosts",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DefinedBenefitPlanRecognizedNetGainLossDueToSettlements1",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:InventoryRecallExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainOnBusinessInterruptionInsuranceRecovery",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:EnvironmentalRemediationExpenseAfterRecovery",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AssetImpairmentCharges",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:AccretionExpenseIncludingAssetRetirementObligations": [
+    {
+      "name": "us-gaap:AssetRetirementObligationAccretionExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AccretionExpense",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:LitigationSettlementExpense": [
+    {
+      "name": "us-gaap:LegalFees",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:GainLossRelatedToLitigationSettlement": [
+    {
+      "name": "us-gaap:LitigationSettlementGain",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:LitigationSettlementLoss",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:LitigationSettlementInterest",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:LitigationSettlementExpense",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:MalpracticeLossContingencyClaimsIncurredNet": [
+    {
+      "name": "us-gaap:MalpracticeLossContingencyClaimsIncurredInPeriod",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:MalpracticeLossContingencyReturnOfPremiums",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:MalpracticeLossContingencyInsuranceRecoveries",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:MalpracticeLossContingencyClaimsIncurredInPriorPeriods",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:OperatingCostsAndExpenses": [
+    {
+      "name": "us-gaap:ResearchAndDevelopmentExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DepreciationAndAmortization",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ExplorationExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CarryingCostsPropertyAndExplorationRights",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:RecapitalizationCosts",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:RestructuringSettlementAndImpairmentProvisions",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CustodyFees",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:TrusteeFees",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:SponsorFees",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:RoyaltyExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AccretionExpenseIncludingAssetRetirementObligations",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:LoanPortfolioExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:PreOpeningCosts",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainLossRelatedToLitigationSettlement",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:MalpracticeLossContingencyClaimsIncurredNet",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InsuranceRecoveries",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:OtherCostAndExpenseOperating",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:BusinessCombinationIntegrationRelatedCosts",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:UnsolicitedTenderOfferCosts",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ProfessionalAndContractServicesExpense",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:MarketingAndAdvertisingExpense": [
+    {
+      "name": "us-gaap:MarketingExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AdvertisingExpense",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:FranchisorCosts": [
+    {
+      "name": "us-gaap:CostsOfFranchisorOwnedOutlets",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CostsOfFranchisedOutlets",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:SellingAndMarketingExpense": [
+    {
+      "name": "us-gaap:SellingExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:SalesCommissionsAndFees",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:MarketingAndAdvertisingExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:FranchisorCosts",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ProductWarrantyExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherSellingAndMarketingExpense",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:SalariesWagesAndOfficersCompensation": [
+    {
+      "name": "us-gaap:SalariesAndWages",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OfficersCompensation",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:CommunicationsAndInformationTechnology": [
+    {
+      "name": "us-gaap:Communication",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InformationTechnologyAndDataProcessing",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:CommunicationsInformationTechnologyAndOccupancy": [
+    {
+      "name": "us-gaap:CommunicationsAndInformationTechnology",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OccupancyNet",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:SuppliesAndPostageExpense": [
+    {
+      "name": "us-gaap:SuppliesExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:PostageExpense",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:TaxesExcludingIncomeAndExciseTaxes": [
+    {
+      "name": "us-gaap:RealEstateTaxExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ProductionTaxExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:PumpTaxes",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:TaxesOther",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:GeneralAndAdministrativeExpense": [
+    {
+      "name": "us-gaap:AllocatedShareBasedCompensationExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:SalariesWagesAndOfficersCompensation",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherLaborRelatedExpenses",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ProfessionalFees",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:BusinessDevelopment",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GeneralInsuranceExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:RealEstateInsurance",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CommunicationsInformationTechnologyAndOccupancy",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OperatingLeaseExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:TravelAndEntertainmentExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:SuppliesAndPostageExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InsuranceTax",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:TaxesExcludingIncomeAndExciseTaxes",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherGeneralAndAdministrativeExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:LossContingencyLossInPeriod",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:SellingGeneralAndAdministrativeExpense": [
+    {
+      "name": "us-gaap:SellingAndMarketingExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GeneralAndAdministrativeExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherSellingGeneralAndAdministrativeExpense",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:GainLossOnSaleOfOilAndGasProperty": [
+    {
+      "name": "us-gaap:GainLossOnSaleOfProvedProperty",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainLossOnSaleOfUnprovedProperty",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:GainLossOnSaleOfProperty": [
+    {
+      "name": "us-gaap:GainLossOnSaleOfOilAndGasProperty",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainLossOnSaleOfTimberProperty",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:GainLossOnSaleOfPropertyPlantEquipment": [
+    {
+      "name": "us-gaap:GainLossOnSaleOfProperty",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainLossOnDispositionOfAssets",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:GainLossOnDispositionOfAssets1": [
+    {
+      "name": "us-gaap:GainLossOnSaleOfPropertyPlantEquipment",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainLossOnSaleOfBusiness",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:SaleAndLeasebackTransactionGainLossNet",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainLossOnDispositionOfIntangibleAssets",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainLossOnTerminationOfLease",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainLossOnSaleOfOtherAssets",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:FloorBrokerageExchangeAndClearanceFees": [
+    {
+      "name": "us-gaap:FloorBrokerage",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ExchangeFees",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OrderFlowFees",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ClearanceFees",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:OperatingExpenses": [
+    {
+      "name": "us-gaap:OperatingCostsAndExpenses",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:SellingGeneralAndAdministrativeExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ProvisionForDoubtfulAccounts",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherGeneralExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainLossOnDispositionOfAssets1",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:SalesTypeLeaseSellingProfitLoss",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:DirectFinancingLeaseSellingLoss",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherUnderwritingExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DemutualizationCostAndExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InsuranceCommissions",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:FloorBrokerageExchangeAndClearanceFees",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AdministrativeFeesExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncentiveFeeExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ManagementFeeExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GovernmentAssistanceOperatingExpense",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:OtherNonrecurringIncomeExpense": [
+    {
+      "name": "us-gaap:OtherNonrecurringIncome",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:OtherNonrecurringExpense",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:OtherOperatingIncomeExpenseNet": [
+    {
+      "name": "us-gaap:NoninterestIncomeOtherOperatingIncome",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherExpenses",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:OtherNonrecurringIncomeExpense",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:PhaseInPlanAmountOfCapitalizedCostsRecovered",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:OperatingIncomeLoss": [
+    {
+      "name": "us-gaap:GrossProfit",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OperatingExpenses",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:GovernmentAssistanceOperatingIncome",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherOperatingIncomeExpenseNet",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee": [
+    {
+      "name": "us-gaap:EquityMethodInvestmentRealizedGainLossOnDisposal",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainOrLossOnSaleOfStockInSubsidiary",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:GainLossOnSaleOfPreviouslyUnissuedStockBySubsidiaryOrEquityInvesteeNonoperatingIncome": [
+    {
+      "name": "us-gaap:GainOrLossOnSaleOfPreviouslyUnissuedStockBySubsidiary",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainOrLossOnSaleOfPreviouslyUnissuedStockByEquityInvestee",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:DerivativeInstrumentsNotDesignatedAsHedgingInstrumentsGainLossNet": [
+    {
+      "name": "us-gaap:GainLossOnInterestRateDerivativeInstrumentsNotDesignatedAsHedgingInstruments",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainLossOnDerivativeInstrumentsHeldForTradingPurposesNet",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:GainLossOnDerivativeInstrumentsNetPretax": [
+    {
+      "name": "us-gaap:GainLossFromPriceRiskManagementActivity",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainLossOnOilAndGasHedgingActivity",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DerivativeInstrumentsNotDesignatedAsHedgingInstrumentsGainLossNet",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:NonoperatingGainsLosses": [
+    {
+      "name": "us-gaap:GainLossOnInvestments",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:VentureCapitalGainsLossesNet",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DisposalGroupNotDiscontinuedOperationGainLossOnDisposal",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainLossOnSaleOfStockInSubsidiaryOrEquityMethodInvestee",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DeconsolidationGainOrLossAmount",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainLossOnSaleOfPreviouslyUnissuedStockBySubsidiaryOrEquityInvesteeNonoperatingIncome",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainLossOnSaleOfInterestInProjects",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainLossOnDerivativeInstrumentsNetPretax",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:BusinessCombinationBargainPurchaseGainRecognizedAmount",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherNonoperatingGainsLosses",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:LeveragedLeasesIncomeStatementNetIncomeFromLeveragedLeases": [
+    {
+      "name": "us-gaap:LeveragedLeasesIncomeStatementIncomeFromLeveragedLeases",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:LeveragedLeasesIncomeStatementIncomeTaxExpenseOnLeveragedLeases",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:LeveragedLeasesIncomeStatementInvestmentTaxCreditRecognizedOnLeveragedLeases",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:InvestmentIncomeInterest": [
+    {
+      "name": "us-gaap:InterestIncomeHedgeBasisAdjustmentPortfolioLayerMethod",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:InvestmentIncomeInterestAndDividend": [
+    {
+      "name": "us-gaap:InvestmentIncomeInterest",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InvestmentIncomeDividend",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:InvestmentIncomeNetAmortizationOfDiscountAndPremium": [
+    {
+      "name": "us-gaap:InvestmentIncomeAmortizationOfDiscount",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InvestmentIncomeAmortizationOfPremium",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:InvestmentIncomeNet": [
+    {
+      "name": "us-gaap:InvestmentIncomeInterestAndDividend",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InvestmentIncomeNetAmortizationOfDiscountAndPremium",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InvestmentIncomeInvestmentExpense",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:InvestmentIncomeNonoperating": [
+    {
+      "name": "us-gaap:NonoperatingGainsLosses",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:RoyaltyIncomeNonoperating",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:RentalIncomeNonoperating",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DevelopmentProfitsNonoperating",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:RecoveryStrandedCosts",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:LeveragedLeasesIncomeStatementNetIncomeFromLeveragedLeases",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InvestmentIncomeNet",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:ForeignCurrencyTransactionGainLossBeforeTax": [
+    {
+      "name": "us-gaap:ForeignCurrencyTransactionGainLossRealized",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ForeignCurrencyTransactionGainLossUnrealized",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:OtherNonoperatingIncome": [
+    {
+      "name": "us-gaap:OtherNonoperatingAssetRelatedIncome",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:OtherNonoperatingIncomeExpense": [
+    {
+      "name": "us-gaap:OtherNonoperatingIncome",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherNonoperatingExpense",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:UnusualOrInfrequentItemNetOfInsuranceProceeds": [
+    {
+      "name": "us-gaap:UnusualOrInfrequentItemInsuranceProceeds",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:UnusualOrInfrequentItemLossGross",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:UnusualOrInfrequentItemNetGainLoss": [
+    {
+      "name": "us-gaap:DiscontinuedApplicationOfSpecializedAccountingForRegulatedOperations",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:UnusualOrInfrequentItemGainGross",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:UnusualOrInfrequentItemNetOfInsuranceProceeds",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:NonoperatingIncomeExpense": [
+    {
+      "name": "us-gaap:InvestmentIncomeNonoperating",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainLossOnContractTermination",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainLossOnCondemnation",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:LossFromCatastrophes",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:PublicUtilitiesAllowanceForFundsUsedDuringConstructionAdditions",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ForeignCurrencyTransactionGainLossBeforeTax",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:SalesTypeLeaseInitialDirectCostExpenseCommencement",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:OperatingLeaseInitialDirectCostExpenseOverTerm",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:GainLossOnSaleOfLeasedAssetsNetOperatingLeases",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainsLossesOnSalesOfOtherRealEstate",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:BankOwnedLifeInsuranceIncome",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:RealEstateInvestmentPartnershipRevenue",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ConversionGainsAndLossesOnForeignInvestments",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ProfitLossFromRealEstateOperations",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:MortgageServicingRightsMSRImpairmentRecovery",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:DebtInstrumentConvertibleBeneficialConversionFeature",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:PublicUtilitiesAllowanceForFundsUsedDuringConstructionCapitalizedCostOfEquity",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:NetPeriodicDefinedBenefitsExpenseReversalOfExpenseExcludingServiceCostComponent",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:GovernmentAssistanceNonoperatingIncome",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GovernmentAssistanceNonoperatingExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherNonoperatingIncomeExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:UnusualOrInfrequentItemNetGainLoss",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:InterestExpenseNonoperating": [
+    {
+      "name": "us-gaap:InterestExpenseDebt",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestExpenseCustomerDeposits",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DebtRelatedCommitmentFeesAndDebtIssuanceCosts",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:FinanceLeaseInterestExpense",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:GainsLossesOnExtinguishmentOfDebt": [
+    {
+      "name": "us-gaap:GainsLossesOnExtinguishmentOfDebtBeforeWriteOffOfDeferredDebtIssuanceCost",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:WriteOffOfDeferredDebtIssuanceCost",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:InterestAndDebtExpense": [
+    {
+      "name": "us-gaap:InterestExpenseNonoperating",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainsLossesOnExtinguishmentOfDebt",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:InducedConversionOfConvertibleDebtExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainsLossesOnRestructuringOfDebt",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:GainLossOnRepurchaseOfDebtInstrument",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:DistributionsOnMandatorilyRedeemableSecurities",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments": [
+    {
+      "name": "us-gaap:OperatingIncomeLoss",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:NonoperatingIncomeExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestAndDebtExpense",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:IncomeLossFromEquityMethodInvestments": [
+    {
+      "name": "us-gaap:IncomeLossFromAffordableHousingProjectsEquityMethodInvestments",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest": [
+    {
+      "name": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncomeLossFromEquityMethodInvestments",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:CurrentFederalStateAndLocalTaxExpenseBenefit": [
+    {
+      "name": "us-gaap:CurrentFederalTaxExpenseBenefit",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CurrentStateAndLocalTaxExpenseBenefit",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:CurrentIncomeTaxExpenseBenefit": [
+    {
+      "name": "us-gaap:CurrentForeignTaxExpenseBenefit",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CurrentFederalStateAndLocalTaxExpenseBenefit",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:DeferredFederalStateAndLocalTaxExpenseBenefit": [
+    {
+      "name": "us-gaap:DeferredFederalIncomeTaxExpenseBenefit",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DeferredStateAndLocalIncomeTaxExpenseBenefit",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:DeferredIncomeTaxExpenseBenefit": [
+    {
+      "name": "us-gaap:DeferredForeignIncomeTaxExpenseBenefit",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DeferredFederalStateAndLocalTaxExpenseBenefit",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DeferredOtherTaxExpenseBenefit",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:UnrecognizedTaxBenefitsIncomeTaxPenaltiesAndInterestExpense": [
+    {
+      "name": "us-gaap:UnrecognizedTaxBenefitsIncomeTaxPenaltiesExpense",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:UnrecognizedTaxBenefitsInterestOnIncomeTaxesExpense",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:IncomeTaxExpenseBenefit": [
+    {
+      "name": "us-gaap:CurrentIncomeTaxExpenseBenefit",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DeferredIncomeTaxExpenseBenefit",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherTaxExpenseBenefit",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:EmployeeServiceShareBasedCompensationTaxBenefitFromCompensationExpense",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:IncomeTaxExpenseBenefitContinuingOperationsAdjustmentOfDeferredTaxAssetLiability",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncomeTaxExpenseBenefitContinuingOperationsGovernmentGrants",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:TaxAdjustmentsSettlementsAndUnusualProvisions",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:UnrecognizedTaxBenefitsIncomeTaxPenaltiesAndInterestExpense",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:IncomeLossFromContinuingOperationsIncludingPortionAttributableToNoncontrollingInterest": [
+    {
+      "name": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncomeTaxExpenseBenefit",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:DisposalGroupIncludingDiscontinuedOperationRevenue": [
+    {
+      "name": "us-gaap:DisposalGroupIncludingDiscontinuedOperationRentalIncome",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:DisposalGroupIncludingDiscontinuedOperationGrossProfitLoss": [
+    {
+      "name": "us-gaap:DisposalGroupIncludingDiscontinuedOperationRevenue",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DisposalGroupIncludingDiscontinuedOperationCostsOfGoodsSold",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:DisposalGroupIncludingDiscontinuedOperationOperatingExpense": [
+    {
+      "name": "us-gaap:DisposalGroupIncludingDiscontinuedOperationDepreciationAndAmortization",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DisposalGroupIncludingDiscontinuedOperationGeneralAndAdministrativeExpense",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:DisposalGroupIncludingDiscontinuedOperationOperatingIncomeLoss": [
+    {
+      "name": "us-gaap:DisposalGroupIncludingDiscontinuedOperationGrossProfitLoss",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DisposalGroupIncludingDiscontinuedOperationOperatingExpense",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:DisposalGroupIncludingDiscontinuedOperationForeignCurrencyTranslationGainsLosses",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationDuringPhaseOutPeriodBeforeIncomeTax": [
+    {
+      "name": "us-gaap:DisposalGroupIncludingDiscontinuedOperationOperatingIncomeLoss",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DisposalGroupIncludingDiscontinuedOperationInterestIncome",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DisposalGroupIncludingDiscontinuedOperationInterestExpense",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:DisposalGroupIncludingDiscontinuedOperationOtherIncome",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DisposalGroupIncludingDiscontinuedOperationOtherExpense",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationBeforeIncomeTax": [
+    {
+      "name": "us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationDuringPhaseOutPeriodBeforeIncomeTax",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DiscontinuedOperationGainLossFromDisposalOfDiscontinuedOperationBeforeIncomeTax",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DiscontinuedOperationProvisionForLossGainOnDisposalBeforeIncomeTax",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:DiscontinuedOperationAmountOfAdjustmentToPriorPeriodGainLossOnDisposalBeforeIncomeTax",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation": [
+    {
+      "name": "us-gaap:DiscontinuedOperationTaxEffectOfIncomeLossFromDiscontinuedOperationDuringPhaseOutPeriod",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DiscontinuedOperationTaxEffectOfIncomeLossFromDisposalOfDiscontinuedOperation",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DiscontinuedOperationTaxExpenseBenefitFromProvisionForGainLossOnDisposal",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:DiscontinuedOperationTaxEffectOfAdjustmentToPriorPeriodGainLossOnDisposal",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTax": [
+    {
+      "name": "us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationBeforeIncomeTax",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DiscontinuedOperationTaxEffectOfDiscontinuedOperation",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:ProfitLoss": [
+    {
+      "name": "us-gaap:IncomeLossFromContinuingOperationsIncludingPortionAttributableToNoncontrollingInterest",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTax",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:NetIncomeLossAttributableToRedeemableNoncontrollingInterest": [
+    {
+      "name": "us-gaap:NoncontrollingInterestInNetIncomeLossJointVenturePartnersRedeemable",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:NoncontrollingInterestInNetIncomeLossLimitedPartnershipsRedeemable",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:NoncontrollingInterestInNetIncomeLossOperatingPartnershipsRedeemable",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:NoncontrollingInterestInNetIncomeLossOtherNoncontrollingInterestsRedeemable",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:NoncontrollingInterestInNetIncomeLossPreferredUnitHoldersRedeemable",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:NetIncomeLossAttributableToNonredeemableNoncontrollingInterest": [
+    {
+      "name": "us-gaap:NoncontrollingInterestInNetIncomeLossJointVenturePartnersNonredeemable",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:NoncontrollingInterestInNetIncomeLossLimitedPartnershipsNonredeemable",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:NoncontrollingInterestInNetIncomeLossOperatingPartnershipsNonredeemable",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:NoncontrollingInterestInNetIncomeLossOtherNoncontrollingInterestsNonredeemable",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:NoncontrollingInterestInNetIncomeLossPreferredUnitHoldersNonredeemable",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:NetIncomeLossAttributableToNoncontrollingInterest": [
+    {
+      "name": "us-gaap:NetIncomeLossAttributableToRedeemableNoncontrollingInterest",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:NetIncomeLossAttributableToNonredeemableNoncontrollingInterest",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:NetIncomeLoss": [
+    {
+      "name": "us-gaap:ProfitLoss",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:NetIncomeLossAttributableToNoncontrollingInterest",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:PreferredStockDividendsAndOtherAdjustments": [
+    {
+      "name": "us-gaap:PreferredStockDividendsIncomeStatementImpact",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:RedeemablePreferredStockDividends",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ConvertiblePreferredStockConvertedToOtherSecurities",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:PreferredStockRedemptionPremium",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:PreferredStockRedemptionDiscount",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:PreferredStockConversionsInducements",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:TemporaryEquityDividendsAdjustment",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:TemporaryEquityAccretionToRedemptionValueAdjustment",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GeneralPartnerDistributions",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:WarrantDownRoundFeatureDecreaseInNetIncomeLossToCommonShareholderAmount",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:StockOptionDownRoundFeatureDecreaseInNetIncomeLossToCommonShareholderAmount",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:PreferredStockConvertibleDownRoundFeatureDecreaseInNetIncomeLossToCommonShareholderAmount",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:EquityClassifiedWrittenCallOptionModificationDecreaseInNetIncomeLossToCommonShareholderAmount",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherPreferredStockDividendsAndAdjustments",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:UndistributedEarningsLossAllocatedToParticipatingSecuritiesBasic": [
+    {
+      "name": "us-gaap:UndistributedContinuingOperationEarningsLossAllocationToParticipatingSecuritiesBasic",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:UndistributedDiscontinuedOperationEarningsLossAllocationToParticipatingSecuritiesBasic",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic": [
+    {
+      "name": "us-gaap:NetIncomeLoss",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:PreferredStockDividendsAndOtherAdjustments",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:UndistributedEarningsLossAllocatedToParticipatingSecuritiesBasic",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:DilutiveSecurities": [
+    {
+      "name": "us-gaap:AmountOfDilutiveSecuritiesStockOptionsAndRestrictiveStockUnits",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AmountOfDilutiveSecuritiesESOPConvertiblePreferredStock",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DilutiveSecuritiesEffectOnBasicEarningsPerShareOther",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:NetIncomeLossAvailableToCommonStockholdersDiluted": [
+    {
+      "name": "us-gaap:NetIncomeLossAvailableToCommonStockholdersBasic",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InterestOnConvertibleDebtNetOfTax",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ConvertiblePreferredDividendsNetOfTax",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DilutiveSecurities",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:WeightedAverageNumberOfSharesOutstandingBasic": [
+    {
+      "name": "us-gaap:WeightedAverageNumberOfSharesIssuedBasic",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:WeightedAverageNumberOfSharesContingentlyIssuable",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:WeightedAverageNumberOfSharesTreasuryStock",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:WeightedAverageNumberOfSharesCommonStockSubjectToRepurchaseOrCancellation",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:WeightedAverageNumberOfSharesRestrictedStock",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:WeightedAverageNumberOfSharesEmployeeStockOwnershipPlanSharesNotCommittedToBeReleased",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:WeightedAverageNumberDilutedSharesOutstandingAdjustment": [
+    {
+      "name": "us-gaap:IncrementalCommonSharesAttributableToShareBasedPaymentArrangements",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncrementalCommonSharesAttributableToConversionOfDebtSecurities",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncrementalCommonSharesAttributableToConversionOfPreferredStock",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncrementalCommonSharesAttributableToCallOptionsAndWarrants",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncrementalCommonSharesAttributableToAcceleratedShareRepurchaseAgreements",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncrementalCommonSharesAttributableToContingentlyIssuableShares",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncrementalCommonSharesAttributableToEquityUnitPurchaseAgreements",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncrementalCommonSharesAttributableToWrittenPutOptions",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncrementalCommonSharesAttributableToEquityForwardAgreements",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncrementalCommonSharesAttributableToNonvestedSharesWithForfeitableDividends",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding": [
+    {
+      "name": "us-gaap:WeightedAverageNumberOfSharesOutstandingBasic",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:WeightedAverageNumberDilutedSharesOutstandingAdjustment",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerBasicShare": [
+    {
+      "name": "us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerBasicShare",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DiscontinuedOperationGainLossOnDisposalOfDiscontinuedOperationNetOfTaxPerBasicShare",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:EarningsPerShareBasic": [
+    {
+      "name": "us-gaap:IncomeLossFromContinuingOperationsPerBasicShare",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerBasicShare",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerDilutedShare": [
+    {
+      "name": "us-gaap:DiscontinuedOperationIncomeLossFromDiscontinuedOperationNetOfTaxPerDilutedShare",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DiscontinuedOperationGainLossOnDisposalOfDiscontinuedOperationNetOfTaxPerDilutedShare",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:EarningsPerShareDiluted": [
+    {
+      "name": "us-gaap:IncomeLossFromContinuingOperationsPerDilutedShare",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerDilutedShare",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:NetIncomeLossNetOfTaxPerOutstandingLimitedPartnershipUnitDiluted": [
+    {
+      "name": "us-gaap:IncomeLossFromContinuingOperationsNetOfTaxPerOutstandingLimitedPartnershipUnitDiluted",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerOutstandingLimitedPartnershipUnitDiluted1",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:NetIncomeLossPerOutstandingGeneralPartnershipUnitNetOfTax": [
+    {
+      "name": "us-gaap:IncomeLossFromContinuingOperationsPerOutstandingGeneralPartnershipUnitNetOfTax",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerOutstandingGeneralPartnershipUnit1",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:NetIncomeLossPerOutstandingLimitedPartnershipUnitBasicNetOfTax": [
+    {
+      "name": "us-gaap:IncomeLossFromContinuingOperationsPerOutstandingLimitedPartnershipUnitBasicNetOfTax",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerOutstandingLimitedPartnershipUnitBasic",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:NetIncomeLossPerOutstandingLimitedPartnershipAndGeneralPartnershipUnitBasic": [
+    {
+      "name": "us-gaap:IncomeLossFromContinuingOperationsPerOutstandingLimitedPartnershipAndGeneralPartnershipUnitBasic",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncomeLossFromDiscontinuedOperationsNetOfTaxPerOutstandingLimitedPartnershipAndGeneralPartnershipUnitBasic",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:NoninterestIncome": [
+    {
+      "name": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:RevenueNotFromContractWithCustomerExcludingInterestIncome",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:FederalStateAndLocalIncomeTaxExpenseBenefitContinuingOperations": [
+    {
+      "name": "us-gaap:CurrentFederalStateAndLocalTaxExpenseBenefit",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DeferredFederalStateAndLocalTaxExpenseBenefit",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:LiabilityForFuturePolicyBenefitInterestExpense": [
+    {
+      "name": "us-gaap:LiabilityForFuturePolicyBenefitExpectedNetPremiumInterestIncome",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:LiabilityForFuturePolicyBenefitExpectedFuturePolicyBenefitInterestExpense",
+      "weight": "1"
+    }
+  ]
+}

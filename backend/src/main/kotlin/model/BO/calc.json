@@ -1,0 +1,948 @@
+{
+  "us-gaap:GrossProfit": [
+    {
+      "name": "us-gaap:Revenues",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CostOfRevenue",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:OperatingIncomeLoss": [
+    {
+      "name": "us-gaap:GrossProfit",
+      "weight": "1"
+    },
+    {
+      "name": "ba:IncomeLossfromInvestments",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GeneralAndAdministrativeExpense",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:ResearchAndDevelopmentExpense",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:GainLossOnDispositionOfAssets",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest": [
+    {
+      "name": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesDomestic",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesForeign",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:IncomeTaxExpenseBenefit": [
+    {
+      "name": "us-gaap:IncomeTaxReconciliationIncomeTaxExpenseBenefitAtFederalStatutoryIncomeTaxRate",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:IncomeTaxReconciliationTaxCreditsResearch",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:IncomeTaxReconciliationNondeductibleExpenseShareBasedCompensationCost",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncomeTaxReconciliationOtherAdjustments",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncomeTaxReconciliationDeductionsDividends",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:IncomeTaxReconciliationForeignIncomeTaxRateDifferential",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncomeTaxReconciliationStateAndLocalIncomeTaxes",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:EffectiveIncomeTaxRateReconciliationTaxCutsAndJobsActOf2017Amount",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncomeTaxReconciliationDeductionsQualifiedProductionActivities",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:IncomeTaxReconciliationTaxSettlements",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:EffectiveIncomeTaxRateReconciliationTaxCutsAndJobsActOf2017TransitionTaxOnAccumulatedForeignEarningsAmount",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:OtherComprehensiveIncomeLossDerivativesQualifyingAsHedgesNetOfTax": [
+    {
+      "name": "us-gaap:OtherComprehensiveIncomeUnrealizedGainLossOnDerivativesArisingDuringPeriodNetOfTax",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherComprehensiveIncomeLossReclassificationAdjustmentFromAOCIOnDerivativesNetOfTax",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansAdjustmentNetOfTax": [
+    {
+      "name": "us-gaap:OtherComprehensiveIncomeDefinedBenefitPlansNetUnamortizedGainLossArisingDuringPeriodNetOfTax",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:OtherComprehensiveIncomeLossReclassificationAdjustmentFromAOCIPensionAndOtherPostretirementBenefitPlansForNetGainLossNetOfTax",
+      "weight": "1"
+    },
+    {
+      "name": "ba:OtherComprehensiveIncomeSettlementsAndCurtailmentsIncludedInNetIncomeNetOfTax",
+      "weight": "-1"
+    },
+    {
+      "name": "ba:PensionAndPostretirementBenefitsRelatedToEquityMethodInvestmentsNetOfTax",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherComprehensiveIncomeLossAmortizationAdjustmentFromAOCIPensionAndOtherPostretirementBenefitPlansForNetPriorServiceCostCreditNetOfTax",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:OtherComprehensiveIncomeDefinedBenefitPlanNetPriorServiceCostsCreditArisingDuringPeriodNetOfTax",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParent": [
+    {
+      "name": "us-gaap:OtherComprehensiveIncomeLossForeignCurrencyTransactionAndTranslationAdjustmentNetOfTax",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherComprehensiveIncomeLossAvailableForSaleSecuritiesAdjustmentNetOfTax",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherComprehensiveIncomeLossDerivativesQualifyingAsHedgesNetOfTax",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansAdjustmentNetOfTax",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:AccruedLiabilitiesCurrent": [
+    {
+      "name": "us-gaap:EmployeeRelatedLiabilitiesCurrent",
+      "weight": "1"
+    },
+    {
+      "name": "ba:A737MAXcustomerconcessionsandotherconsiderationsliability",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AccrualForEnvironmentalLossContingencies",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ProductWarrantyAccrual",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ProvisionForLossOnContracts",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DividendsPayableCurrent",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:TaxesPayableCurrentAndNoncurrent",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherAccruedLiabilitiesCurrent",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:DebtCurrent": [
+    {
+      "name": "us-gaap:UnsecuredDebtCurrent",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:SecuredDebtCurrent",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CapitalLeaseObligationsCurrent",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CommercialPaper",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherNotesPayableCurrent",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:LiabilitiesCurrent": [
+    {
+      "name": "us-gaap:AccountsPayableCurrent",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AccruedLiabilitiesCurrent",
+      "weight": ""
+    },
+    {
+      "name": "us-gaap:ContractWithCustomerLiabilityCurrent",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DebtCurrent",
+      "weight": ""
+    }
+  ],
+  "us-gaap:StockholdersEquity": [
+    {
+      "name": "us-gaap:CommonStockValue",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AdditionalPaidInCapital",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:TreasuryStockValue",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:RetainedEarningsAccumulatedDeficit",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AccumulatedOtherComprehensiveIncomeLossNetOfTax",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest": [
+    {
+      "name": "us-gaap:StockholdersEquity",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:MinorityInterest",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:LiabilitiesAndStockholdersEquity": [
+    {
+      "name": "us-gaap:LiabilitiesCurrent",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DeferredTaxLiabilitiesNoncurrent",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherPostretirementDefinedBenefitPlanLiabilitiesNoncurrent",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DefinedBenefitPensionPlanLiabilitiesNoncurrent",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:OtherLiabilitiesNoncurrent",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:LongTermDebtAndCapitalLeaseObligations",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:InventoryNetOfAllowancesCustomerAdvancesAndProgressBillings": [
+    {
+      "name": "us-gaap:InventoryForLongTermContractsOrPrograms",
+      "weight": "1"
+    },
+    {
+      "name": "ba:InventoryCommercialAircraftPrograms",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherInventory",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:AssetsCurrent": [
+    {
+      "name": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ShortTermInvestments",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AccountsReceivableNetCurrent",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:UnbilledContractsReceivable",
+      "weight": "1"
+    },
+    {
+      "name": "ba:CustomerFinancingCurrent",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:InventoryNetOfAllowancesCustomerAdvancesAndProgressBillings",
+      "weight": ""
+    },
+    {
+      "name": "us-gaap:OtherAssetsCurrent",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:PropertyPlantAndEquipmentNet": [
+    {
+      "name": "us-gaap:PropertyPlantAndEquipmentGross",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:PropertyPlantAndEquipmentGross": [
+    {
+      "name": "us-gaap:Land",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:BuildingsAndImprovementsGross",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:MachineryAndEquipmentGross",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ConstructionInProgressGross",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:Assets": [
+    {
+      "name": "us-gaap:AssetsCurrent",
+      "weight": "1"
+    },
+    {
+      "name": "ba:CustomerFinancingNoncurrent",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:PropertyPlantAndEquipmentNet",
+      "weight": ""
+    },
+    {
+      "name": "us-gaap:Goodwill",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IntangibleAssetsNetExcludingGoodwill",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DeferredTaxAssetsNetNoncurrent",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:LongTermInvestments",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherAssetsNoncurrent",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:NetCashProvidedByUsedInOperatingActivities": [
+    {
+      "name": "us-gaap:NetIncomeLoss",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ShareBasedCompensation",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DepreciationDepletionAndAmortization",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AssetImpairmentCharges",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ProvisionForLoanAndLeaseLosses",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:GainLossOnDispositionOfAssets",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:OtherNoncashIncomeExpense",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:IncreaseDecreaseInAccountsReceivable",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:IncreaseDecreaseInUnbilledReceivables",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:IncreaseDecreaseInDeferredRevenueAndCustomerAdvancesAndDeposits",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncreaseDecreaseInInventories",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:IncreaseDecreaseInOtherCurrentAssets",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:IncreaseDecreaseInAccountsPayable",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncreaseDecreaseInOtherAccruedLiabilities",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncreaseDecreaseInIncomeTaxes",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncreaseDecreaseInOtherNoncurrentLiabilities",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncreaseDecreaseInPensionAndPostretirementObligations",
+      "weight": "1"
+    },
+    {
+      "name": "ba:IncreaseOrDecreaseinCustomerFinancing1",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:IncreaseDecreaseInOtherOperatingCapitalNet",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:NetCashProvidedByUsedInInvestingActivities": [
+    {
+      "name": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:ProceedsFromSaleOfPropertyPlantAndEquipment",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:PaymentsToAcquireBusinessesNetOfCashAcquired",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:ProceedsFromDivestitureOfBusinesses",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:PaymentsToAcquireInvestments",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:ProceedsFromSaleMaturityAndCollectionsOfInvestments",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:PaymentsToAcquireIntangibleAssets",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:PaymentsForProceedsFromOtherInvestingActivities",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:NetCashProvidedByUsedInFinancingActivities": [
+    {
+      "name": "us-gaap:ProceedsFromIssuanceOfDebt",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:RepaymentsOfDebt",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:ProceedsFromContributionsFromAffiliates",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ProceedsFromStockOptionsExercised",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:PaymentsRelatedToTaxWithholdingForShareBasedCompensation",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:PaymentsForRepurchaseOfCommonStock",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:PaymentsOfDividendsCommonStock",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:ProceedsFromPaymentsForOtherFinancingActivities",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:CashAndCashEquivalentsPeriodIncreaseDecrease": [
+    {
+      "name": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:NetCashProvidedByUsedInInvestingActivities",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:NetCashProvidedByUsedInFinancingActivities",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:EffectOfExchangeRateOnCashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+      "weight": "1"
+    }
+  ],
+  "ba:DilutedWeightedAverageSharesOutstanding": [
+    {
+      "name": "us-gaap:WeightedAverageNumberOfShareOutstandingBasicAndDiluted",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:WeightedAverageNumberDilutedSharesOutstandingAdjustment",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding": [
+    {
+      "name": "ba:DilutedWeightedAverageSharesOutstanding",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncrementalCommonSharesAttributableToParticipatingNonvestedSharesWithNonForfeitableDividendRights",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:WeightedAverageNumberOfSharesOutstandingBasic": [
+    {
+      "name": "us-gaap:WeightedAverageNumberOfShareOutstandingBasicAndDiluted",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:IncrementalCommonSharesAttributableToParticipatingNonvestedSharesWithNonForfeitableDividendRights",
+      "weight": "-1"
+    }
+  ],
+  "ba:NetIncomeLossAvailableToCommonStockholdersBasicAndDiluted": [
+    {
+      "name": "us-gaap:NetIncomeLoss",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:UndistributedEarningsLossAllocatedToParticipatingSecuritiesBasic",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:CurrentIncomeTaxExpenseBenefit": [
+    {
+      "name": "us-gaap:CurrentFederalTaxExpenseBenefit",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CurrentForeignTaxExpenseBenefit",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CurrentStateAndLocalTaxExpenseBenefit",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:DeferredIncomeTaxExpenseBenefit": [
+    {
+      "name": "us-gaap:DeferredFederalIncomeTaxExpenseBenefit",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DeferredForeignIncomeTaxExpenseBenefit",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DeferredStateAndLocalIncomeTaxExpenseBenefit",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:EffectiveIncomeTaxRateContinuingOperations": [
+    {
+      "name": "us-gaap:EffectiveIncomeTaxRateReconciliationAtFederalStatutoryIncomeTaxRate",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:EffectiveIncomeTaxRateReconciliationTaxCreditsResearch",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:EffectiveIncomeTaxRateReconciliationNondeductibleExpenseShareBasedCompensationCost",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:EffectiveIncomeTaxRateReconciliationOtherAdjustments",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:EffectiveIncomeTaxRateReconciliationDeductionsDividends",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:EffectiveIncomeTaxRateReconciliationForeignIncomeTaxRateDifferential",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:EffectiveIncomeTaxRateReconciliationStateAndLocalIncomeTaxes",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:EffectiveIncomeTaxRateReconciliationTaxCutsAndJobsActOf2017Percent",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:EffectiveIncomeTaxRateReconciliationTaxSettlements",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:EffectiveIncomeTaxRateReconciliationTaxCutsAndJobsActOf2017TransitionTaxOnAccumulatedForeignEarningsPercent",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:EffectiveIncomeTaxRateReconciliationDeductionsQualifiedProductionActivities",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:DeferredTaxLiabilities": [
+    {
+      "name": "us-gaap:DeferredTaxAssetsGross",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:DeferredIncomeTaxLiabilities",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DeferredTaxAssetsValuationAllowance",
+      "weight": "1"
+    }
+  ],
+  "ba:TotalFinancingReceivables": [
+    {
+      "name": "us-gaap:FinancingReceivableIndividuallyEvaluatedForImpairment",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:FinancingReceivableCollectivelyEvaluatedForImpairment",
+      "weight": "1"
+    }
+  ],
+  "ba:GrossCustomerFinancingAssets": [
+    {
+      "name": "ba:TotalFinancingReceivables",
+      "weight": ""
+    },
+    {
+      "name": "us-gaap:PropertySubjectToOrAvailableForOperatingLeaseNet",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:LeaseIncentiveReceivable",
+      "weight": "1"
+    }
+  ],
+  "ba:CustomerFinancingBalance": [
+    {
+      "name": "ba:GrossCustomerFinancingAssets",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:FinancingReceivableAllowanceForCreditLosses",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:SalesTypeAndDirectFinancingLeasesLeaseReceivablePaymentsToBeReceived": [
+    {
+      "name": "us-gaap:SalesTypeAndDirectFinancingLeasesLeaseReceivablePaymentsToBeReceivedNextRollingTwelveMonths",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:SalesTypeAndDirectFinancingLeasesLeaseReceivableLeasePaymentsToBeReceivedRollingYearTwo",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:SalesTypeAndDirectFinancingLeasesLeaseReceivableLeasePaymentsToBeReceivedRollingYearThree",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:SalesTypeAndDirectFinancingLeasesLeaseReceivablePaymentsToBeReceivedRollingYearFour",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:SalesTypeAndDirectFinancingLeasesLeaseReceivableLeasePaymentsToBeReceivedRollingYearFive",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:SalesTypeAndDirectFinancingLeasesLeaseReceivableLeasePaymentsToBeReceivedAfterRollingYearFive",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:NetInvestmentInDirectFinancingAndSalesTypeLeases": [
+    {
+      "name": "us-gaap:SalesTypeAndDirectFinancingLeasesLeaseReceivablePaymentsToBeReceived",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:SalesTypeAndDirectFinancingLeasesLeaseReceivableUndiscountedExcessAmount",
+      "weight": "1"
+    },
+    {
+      "name": "ba:SalestypeDirectFinancingLeasesResidualValueofLeasedAsset",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CapitalLeasesFutureMinimumPaymentsReceivable",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CapitalLeasesNetInvestmentInSalesTypeLeasesUnguaranteedResidualValuesOfLeasedProperty",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:CapitalLeasesNetInvestmentInSalesTypeLeasesDeferredIncome",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:LessorOperatingLeasePaymentsToBeReceived": [
+    {
+      "name": "us-gaap:LessorOperatingLeasePaymentsToBeReceivedNextRollingTwelveMonths",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:LessorOperatingLeasePaymentsToBeReceivedRollingYearTwo",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:LessorOperatingLeasePaymentsToBeReceivedRollingYearThree",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:LessorOperatingLeasePaymentsToBeReceivedRollingYearFour",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:LessorOperatingLeasePaymentsToBeReceivedRollingYearFive",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:LessorOperatingLeasePaymentsToBeReceivedAfterRollingYearFive",
+      "weight": "1"
+    }
+  ],
+  "ba:NotesReceivableFuturePaymentsReceivable": [
+    {
+      "name": "ba:NotesReceivableFuturePaymentsReceivableNextRollingTwelveMonths",
+      "weight": "1"
+    },
+    {
+      "name": "ba:NotesReceivableFuturePaymentsReceivableDueInRollingYearTwo",
+      "weight": "1"
+    },
+    {
+      "name": "ba:NotesReceivableFuturePaymentsReceivableDueInRollingYearThree",
+      "weight": "1"
+    },
+    {
+      "name": "ba:NotesReceivableFuturePaymentsReceivableDueInRollingYearFour",
+      "weight": "1"
+    },
+    {
+      "name": "ba:NotesReceivableFuturePaymentsReceivableDueInRollingYearFive",
+      "weight": "1"
+    },
+    {
+      "name": "ba:NotesReceivableFuturePaymentsReceivableDueInRollingAfterYearFive",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:SalesTypeAndDirectFinancingLeasesLeaseReceivable": [
+    {
+      "name": "us-gaap:SalesTypeAndDirectFinancingLeasesLeaseReceivablePaymentsToBeReceived",
+      "weight": "1"
+    },
+    {
+      "name": "ba:SalestypeDirectFinancingLeasesResidualValueofLeasedAsset",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:SalesTypeAndDirectFinancingLeasesLeaseReceivableUndiscountedExcessAmount",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:Investments": [
+    {
+      "name": "us-gaap:EquityMethodInvestments",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherShortTermInvestments",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:AvailableForSaleSecurities",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherInvestments",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:RestrictedCashAndCashEquivalents",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:OtherCommitment": [
+    {
+      "name": "us-gaap:OtherCommitmentDueInNextTwelveMonths",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherCommitmentDueInSecondYear",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherCommitmentDueInThirdYear",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherCommitmentDueInFourthYear",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherCommitmentDueInFifthYear",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:OtherCommitmentDueAfterFifthYear",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:DefinedBenefitPlanNetPeriodicBenefitCost": [
+    {
+      "name": "us-gaap:DefinedBenefitPlanServiceCost",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DefinedBenefitPlanInterestCost",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DefinedBenefitPlanExpectedReturnOnPlanAssets",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:DefinedBenefitPlanAmortizationOfPriorServiceCostCredit",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:DefinedBenefitPlanAmortizationOfGainsLosses",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:DefinedBenefitPlanRecognizedNetGainLossDueToSettlementsAndCurtailments1",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:DefinedBenefitPlanAmountsRecognizedInBalanceSheet": [
+    {
+      "name": "us-gaap:DefinedBenefitPlanAssetsForPlanBenefitsNoncurrent",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:PensionAndOtherPostretirementDefinedBenefitPlansCurrentLiabilities",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:OtherPostretirementBenefitsPayableNoncurrent",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:DefinedBenefitPensionPlanLiabilitiesNoncurrent",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:DefinedBenefitPlanAccumulatedOtherComprehensiveIncomeBeforeTax": [
+    {
+      "name": "us-gaap:DefinedBenefitPlanAccumulatedOtherComprehensiveIncomeNetGainsLossesBeforeTax",
+      "weight": "-1"
+    },
+    {
+      "name": "us-gaap:DefinedBenefitPlanAccumulatedOtherComprehensiveIncomeNetPriorServiceCostCreditBeforeTax",
+      "weight": "1"
+    }
+  ],
+  "us-gaap:OtherComprehensiveIncomeLossNetOfTax": [
+    {
+      "name": "us-gaap:OtherComprehensiveIncomeLossBeforeReclassificationsNetOfTax",
+      "weight": "1"
+    },
+    {
+      "name": "us-gaap:ReclassificationFromAccumulatedOtherComprehensiveIncomeCurrentPeriodNetOfTax",
+      "weight": "-1"
+    }
+  ],
+  "us-gaap:LiabilitiesFairValueDisclosure": [
+    {
+      "name": "us-gaap:DerivativeLiabilities",
+      "weight": "1"
+    }
+  ]
+}

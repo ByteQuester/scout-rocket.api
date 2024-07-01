@@ -6,17 +6,18 @@ import service.dataAccess.DataAccess
 import java.net.HttpURLConnection
 import java.net.URL
 import service.common.LoggerSetup
-import kotlin.math.log
+import org.slf4j.LoggerFactory
 
 class SecGov {
-    private val logger = LoggerSetup.logger
+    //private val logger = LoggerSetup.logger
+    val logger = LoggerFactory.getLogger("SecGov")
     private val dataAccess = DataAccess()
     private val financialDataRetriever = FinancialDataRetriever()
 
     companion object {
         const val SEC_ARCHIVE_URL = "https://www.sec.gov/Archives/"
         const val TICKER_CIK_LIST_URL = "https://www.sec.gov/include/ticker.txt"
-        const val MAX_RETRIES = 2
+        const val MAX_RETRIES = 1
     }
 
 //    fun fetchTickerFinancialsByYear(year: Int, ticker: String?) {
@@ -91,15 +92,15 @@ class SecGov {
         val isIdxStored = dataAccess.indexDataAccess.isIndexStored(year)
         logger.info("Idx is stored in DB: $isIdxStored ")
         if (!isIdxStored) {
-            logger.warning("Index file for year $year not found, fetching from web")
+            //logger.warn("Index file for year $year not found, fetching from web")
             for (q in 1..4) {
                 financialDataRetriever.prepareIndex(year, q)
             }
         }
 
+
         if (ticker != null) {
-            val tickerCikStr = dataAccess.tickerInfo.getTickerCik(ticker)
-            val tickerCik = tickerCikStr?.toIntOrNull()
+            val tickerCik = dataAccess.tickerInfo.getTickerCik(ticker)?.toIntOrNull()
             logger.info("CIK for $ticker is $tickerCik")
 
             if (tickerCik != null) {
@@ -107,20 +108,12 @@ class SecGov {
                     val result = dataAccess.indexDataAccess.getIndexRowByCik(tickerCik, year)
                     if (result != null) {
                         val tickerInfoHash = mapOf("company_name" to result[0], "txt_url:$year" to result[1])
-                        dataAccess.tickerInfo.storeTickerInfo(ticker, tickerInfoHash)
-                        financialDataRetriever.fetchCompanyData(ticker, year)
-                        dataAccess.tickerFinancials.commitTickerData()
-                        logger.info("Fetched index row for CIK: $tickerCik, Result: $result")
-                        logger.info("Stored tickerInfo for $year: $tickerInfoHash")
-                        logger.info("Fetched companyData for $year: $tickerInfoHash")
-                        logger.info("Completed fetching financial data for $year: $tickerInfoHash")
+                        storeTickerData(ticker, tickerInfoHash, year)
                     } else {
-                        logger.warning("Could not fetch data for $year: $ticker")
+                        logger.error("Could not fetch data for $year: $ticker")
                     }
                 } catch (e: Exception) {
-                    logger.severe("Error fetching index row by CIK: ${e.message}")
-
-                    // Continue to fetch data from the index even if there was an error with the specific ticker
+                    logger.error("Error fetching index row by CIK: ${e.message}")
                     fetchFromIndex(year) // Call the helper function to fetch from index
                 }
             } else {
@@ -132,57 +125,32 @@ class SecGov {
         }
     }
 
-//    private fun fetchFromIndex(year: Int) {
-//        try {
-//            val idx = dataAccess.indexDataAccess.getIndexByYear(year)
-//            logger.info("Index file for $year is $idx")
-//
-//            for (result in idx) {
-//                val currentTicker = dataAccess.tickerPrice.getTickerByCik(result[2])
-//                if (currentTicker != null) {
-//                    val tickerInfoHash = mapOf("company_name" to result[0], "txt_url:$year" to result[1])
-//                    dataAccess.tickerInfo.storeTickerInfo(currentTicker, tickerInfoHash)
-//                    financialDataRetriever.fetchCompanyData(currentTicker, year)
-//                    logger.info("Ticker InfoHash: $tickerInfoHash")
-//                    logger.info("Current ticker: $currentTicker for result: $result")
-//                } else {
-//                    logger.warning("Could not fetch data for ticker for year $year")
-//                }
-//            }
-//            dataAccess.tickerFinancials.commitTickerData()
-//        } catch (e: Exception) {
-//            logger.severe("Error fetching index by year: ${e.message}")
-//            return
-//        }
-//    }
-
     private fun fetchFromIndex(year: Int) {
         try {
             val idx = dataAccess.indexDataAccess.getIndexByYear(year)
-            logger.info("Index file for $year is $idx")
-
+            //logger.info("Index file for $year is $idx")
             for (result in idx) {
                 val currentTicker = dataAccess.tickerPrice.getTickerByCik(result[2])
                 if (currentTicker != null) {
                     val tickerInfoHash = mapOf("company_name" to result[0], "txt_url:$year" to result[1])
-                    dataAccess.tickerInfo.storeTickerInfo(currentTicker, tickerInfoHash)
-
-                    try {
-                        financialDataRetriever.fetchCompanyData(currentTicker, year)
-                        logger.info("Ticker InfoHash: $tickerInfoHash")
-                        logger.info("Current ticker: $currentTicker for result: $result")
-                    } catch (e: Exception) {
-                        logger.severe("Error fetching company data for ticker: $currentTicker in year $year: ${e.message}")
-                    }
+                    storeTickerData(currentTicker, tickerInfoHash, year)
                 } else {
-                    logger.warning("Could not fetch data for ticker with CIK: ${result[2]} for year $year")
+                    logger.warn("Could not fetch data for ticker for year $year")
                 }
             }
-
             dataAccess.tickerFinancials.commitTickerData()
         } catch (e: Exception) {
-            logger.severe("Error fetching index by year: ${e.message}")
+            logger.error("Error fetching index by year: ${e.message}")
         }
+    }
+
+    private fun storeTickerData(ticker: String, tickerInfoHash: Map<String, String>, year: Int) {
+        dataAccess.tickerInfo.storeTickerInfo(ticker, tickerInfoHash)
+        financialDataRetriever.fetchCompanyData(ticker, year)
+        logger.info("Ticker InfoHash: $tickerInfoHash")
+        logger.info("Stored tickerInfo for $year: $tickerInfoHash")
+        logger.info("Fetched companyData for $year: $tickerInfoHash")
+        logger.info("Completed fetching financial data for $year: $tickerInfoHash")
     }
 
 

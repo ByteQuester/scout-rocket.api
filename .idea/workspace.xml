@@ -5,7 +5,165 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f12c241e-6f22-4c93-8a96-a0af136880d9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/model/BO/output_presentation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/model/sec_taxonomy/notebook/taxonomy_breakdown.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/model/sec_taxonomy/outcome/calc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/model/sec_taxonomy/outcome/rel.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/service/import.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/kotlin/service/sec/testing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_5_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__com_google_code_gson_gson_2_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_27_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__com_google_protobuf_protobuf_java_3_21_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__com_mysql_mysql_connector_j_8_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_4_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__com_squareup_okio_okio_2_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__com_typesafe_config_1_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__com_zaxxer_HikariCP_5_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_github_mainstringargs_alphavantagescraper_alpha_vantage_scraper_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_github_mainstringargs_stock_data_spi_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_ktor_ktor_events_jvm_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_ktor_ktor_http_cio_jvm_2_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_ktor_ktor_http_jvm_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_ktor_ktor_io_jvm_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_ktor_ktor_network_jvm_2_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_ktor_ktor_serialization_jvm_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_ktor_ktor_server_core_jvm_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_ktor_ktor_server_host_common_jvm_2_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_ktor_ktor_server_netty_jvm_2_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_ktor_ktor_utils_jvm_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_ktor_ktor_websockets_jvm_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_mockk_mockk_agent_api_jvm_1_13_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_mockk_mockk_agent_jvm_1_13_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_mockk_mockk_core_jvm_1_13_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_mockk_mockk_dsl_jvm_1_13_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_mockk_mockk_jvm_1_13_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_netty_netty_buffer_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_netty_netty_codec_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_netty_netty_codec_http2_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_netty_netty_codec_http_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_netty_netty_common_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_netty_netty_handler_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_netty_netty_resolver_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_netty_netty_transport_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_netty_netty_transport_classes_epoll_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_netty_netty_transport_classes_kqueue_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_netty_netty_transport_native_epoll_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_netty_netty_transport_native_kqueue_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__io_netty_netty_transport_native_unix_common_4_1_78_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__junit_junit_4_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_14_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_14_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_apache_commons_commons_pool2_2_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_eclipse_jetty_alpn_alpn_api_1_1_3_v20160715.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_fusesource_jansi_jansi_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_jetbrains_annotations_23_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_8_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_9_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_8_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_8_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_1_5_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_junit_1_5_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_cli_jvm_0_3_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_jvm_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_jdk8_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_json_json_20231013.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_jsoup_jsoup_1_17_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_mockito_mockito_core_5_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_objenesis_objenesis_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_slf4j_slf4j_api_2_0_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_slf4j_slf4j_log4j12_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__org_slf4j_slf4j_simple_2_0_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/libraries/Gradle__redis_clients_jedis_5_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/modules/backend.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/modules/backend.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/algorithm/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/model/BO/calc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/algorithm/algo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/algorithm/scores/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/model/BO/rel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/algorithm/scores/score.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/algorithm/scores/score_functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/algorithm/scores/stock_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/algorithm/scores/test_score_functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/algorithm/scores/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/.gradle/8.5/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/.gradle/8.5/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/.gradle/8.5/dependencies-accessors/gc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/model/sec_taxonomy/outcome/de-dup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/.gradle/8.5/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/.gradle/8.5/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/.gradle/8.5/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/.gradle/8.5/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/src/main/kotlin/Application.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/src/main/kotlin/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/src/main/kotlin/assets/mysql/init.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/src/main/kotlin/assets/redis/dump.rdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/src/main/kotlin/config/DatabaseConnection.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/src/main/kotlin/config/RedisConnection.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/src/main/kotlin/config/config.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/src/main/kotlin/controllers/FinancialDataController.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/src/main/kotlin/controllers/TickerController.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/src/main/kotlin/service/common/logger.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/src/main/kotlin/service/dataAccess/DataAccess.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/src/main/kotlin/service/dataAccess/IndexDataAccess.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/src/main/kotlin/service/dataAccess/TickerFinancials.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/src/main/kotlin/service/dataAccess/TickerInfo.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/src/main/kotlin/service/dataAccess/TickerPrice.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/src/main/kotlin/service/dataAccess/summary_code.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/src/main/kotlin/service/sec/ElementParser.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/src/main/kotlin/service/sec/FinancialDataRetriever.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/src/main/kotlin/service/sec/SecGov.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/src/main/kotlin/service/sec/summary_code.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/src/main/kotlin/service/services/DataServices.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/backend/src/main/kotlin/service/services/TickerVolume.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_/scouts-rockets/scouts-rockets.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/assets/mysql/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/assets/mysql/init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/config/config.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/config/config.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/model/AlphaVantageModels.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/model/AlphaVantageModels.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/model/SecFinancialMetrics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/model/SecFinancialMetrics.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/service/alphavantage/AlphaVantageService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/service/alphavantage/AlphaVantageService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/service/dataAccess/IndexDataAccess.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/service/dataAccess/IndexDataAccess.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/service/sec/ElementParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/service/sec/ElementParser.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/service/sec/SecGov.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/service/sec/SecGov.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/service/services/DataServices.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/service/services/DataServices.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/kotlin/service/services/TickerVolume.kt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/kotlin/service/services/TickerVolume.kt" afterDir="false" />
@@ -44,14 +202,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Jupyter Notebook" />
+        <option value="Kotlin Class" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -63,44 +226,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mpo/IdeaProjects/scout-rocket-api&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mpo/IdeaProjects/scout-rocket-api/backend/src/main/kotlin/model/BO",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ],
-    &quot;kotlin-gradle-user-dirs&quot;: [
-      &quot;/Users/mpo/.gradle&quot;
+    "kotlin-gradle-user-dirs": [
+      "/Users/mpo/.gradle"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/src/main/kotlin/model/BO" />
+      <recent name="$PROJECT_DIR$/backend/src/main/kotlin/service/sec" />
+      <recent name="$PROJECT_DIR$/backend/src/main/kotlin/service" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/backend/src/main/kotlin" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/src/main/kotlin/model/sec_taxonomy/analysis" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/backend/src/main/kotlin" />
       <recent name="$PROJECT_DIR$/backend/src/main/kotlin/model" />
     </key>
@@ -131,7 +299,19 @@
       <workItem from="1718533136281" duration="242000" />
       <workItem from="1718539047950" duration="881000" />
       <workItem from="1718622167721" duration="7078000" />
-      <workItem from="1718704536107" duration="9078000" />
+      <workItem from="1718704536107" duration="41797000" />
+      <workItem from="1718873095597" duration="80000" />
+      <workItem from="1718873184515" duration="9000" />
+      <workItem from="1718873205378" duration="65000" />
+      <workItem from="1718880446920" duration="411000" />
+      <workItem from="1719069581536" duration="131000" />
+      <workItem from="1719134719615" duration="192000" />
+      <workItem from="1719146221300" duration="813000" />
+      <workItem from="1719403275633" duration="164000" />
+      <workItem from="1719484189589" duration="10964000" />
+      <workItem from="1719575219262" duration="2078000" />
+      <workItem from="1719646114798" duration="1100000" />
+      <workItem from="1719678798235" duration="13316000" />
     </task>
     <servers />
   </component>
@@ -152,10 +332,14 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
+        <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/backend/src/main/kotlin/model/AlphaVantageModels.kt</url>
-          <line>150</line>
-          <option name="timeStamp" value="1" />
+          <line>114</line>
+          <properties class="model.IncomeStatement" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
